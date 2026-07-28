@@ -1,0 +1,359 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GenesisL1 — Aroma Molecule Index (v2 prototype)</title><style>
+ :root{--paper:#f5f7f9;--card:#fff;--ink:#07111d;--mut:#687383;--faint:#718196;--line:#dce4ee;--line-strong:rgba(29,52,78,.3);
+   --blue:#245cff;--blue-deep:#1647d9;--blue-pale:#eef3ff;--amber:#9a6a14;--amber-pale:#fdf6e9;
+   --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+   --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;--shadow:0 18px 50px rgba(28,60,98,.067)}
+ *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+ .topbar{position:sticky;top:0;z-index:5;min-height:72px;border-bottom:1px solid rgba(7,17,29,.1);background:rgba(255,255,255,.94);backdrop-filter:blur(6px)}
+ .topbar-in{max-width:1280px;margin:0 auto;padding:10px 28px;min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+ .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+ .glyph{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:#fff;border:1px solid var(--line-strong);overflow:hidden}
+ .glyph img{width:23px;height:23px} .wordmark b{font-size:16px;font-weight:700;letter-spacing:-.01em;display:block}
+ .wordmark span{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--mut);text-transform:uppercase}
+ .badge{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border:1px solid var(--line-strong);color:var(--mut);background:#fff}
+ .badge.proto{color:var(--amber);border-color:rgba(154,106,20,.45);background:var(--amber-pale)}
+ .wrap{max-width:1280px;margin:0 auto;padding:0 28px 64px} .hero{margin:26px 0}
+ .lab{display:flex;align-items:center;gap:10px;color:var(--mut);font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.14em}
+ .dash{width:18px;height:2px;background:var(--blue)} h1{font-size:34px;letter-spacing:-.02em;margin:10px 0 6px;font-weight:700}
+ .sub{color:var(--mut);font-size:15px;max-width:82ch}
+ .stats{display:grid;grid-template-columns:repeat(3,1fr);margin:22px 0;background:#fff;border:1px solid var(--line-strong);box-shadow:var(--shadow)}
+ .stat{padding:15px 18px}.stat+.stat{border-left:1px solid var(--line)}
+ .stat .k{color:var(--mut);font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em}
+ .stat .v{font-family:var(--mono);font-size:20px;font-weight:500;margin-top:5px}
+ .note{background:var(--blue-pale);border:1px solid rgba(36,92,255,.25);padding:12px 16px;font-size:13.5px;color:#243a63;margin-bottom:24px}
+ .tier{background:#fff;border:1px solid var(--line-strong);box-shadow:var(--shadow);margin-bottom:20px;overflow:hidden;border-top:3px solid var(--tc)}
+ .tier-head{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);flex-wrap:wrap;background:var(--tbg)}
+ .pill{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.08em;color:var(--tc);border:1px solid var(--tc);padding:3px 10px;border-radius:999px}
+ .tier-meta{color:var(--mut);font-family:var(--mono);font-size:11px} .scroll{overflow-x:auto}
+ table{width:100%;border-collapse:collapse;min-width:780px} th,td{text-align:left;padding:9px 18px;font-size:13.5px;vertical-align:top}
+ th{color:var(--mut);font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.09em;font-weight:500;border-bottom:1px solid var(--line)}
+ th:nth-child(4){text-align:right} tbody tr{border-top:1px solid var(--line)} tbody tr:first-child{border-top:0} tbody tr:hover{background:#f5f8fc}
+ td.nm{font-weight:600} .mono{font-family:var(--mono)} .num{text-align:right} td.desc{color:#42506a}
+ .verify{font-family:var(--mono);font-size:10px;color:var(--amber);background:var(--amber-pale);border:1px solid rgba(154,106,20,.35);padding:1px 6px}
+ .foot{color:var(--mut);font-size:12.5px;margin-top:26px;line-height:1.8;border-top:1px solid var(--line);padding-top:16px} .foot a{color:var(--blue);text-decoration:none}
+ @media(max-width:640px){.stats{grid-template-columns:1fr}.stat+.stat{border-left:0;border-top:1px solid var(--line)}.topbar-in,.wrap{padding-left:16px;padding-right:16px}h1{font-size:26px}}
+</style></head><body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="https://genesisl1.com" target="_blank" rel="noopener">
+    <span class="glyph"><img src="https://genesisl1.com/logo.svg" alt="GenesisL1" onerror="this.parentNode.textContent='L1';this.parentNode.style.font='700 12px var(--mono)'"></span>
+    <span class="wordmark"><b>GenesisL1</b><span>Aroma Molecule Index</span></span></a>
+  <span class="badge proto">◐ v2 prototype · 99 molecules</span></div></header>
+<div class="wrap"><div class="hero">
+  <div class="lab"><span class="dash"></span> DeSci · MOLNFT domain concept</div>
+  <h1>The common aroma molecules, by volatility</h1>
+  <div class="sub">A curated, open index of widely-used fragrance chemicals — grouped into <b>top</b>, <b>heart</b> and <b>base</b> notes by how fast they evaporate. Smaller/lighter molecules flash off first (top); the largest linger for hours (base). Naturals are represented by their signature molecule (e.g. black pepper → rotundone, vetiver → khusimol). Proposed as a public-good extension of GenesisL1's <b>MOLNFT</b> molecular corpus.</div></div>
+  <div class="stats">
+    <div class="stat"><div class="k">Molecules (v2)</div><div class="v">99</div></div>
+    <div class="stat"><div class="k">Note tiers</div><div class="v">top · heart · base</div></div>
+    <div class="stat"><div class="k">Avg MW rises with tier</div><div class="v">139 → 170 → 208</div></div></div>
+  <div class="note"><b>The volatility principle, visible in the data:</b> average molecular weight climbs from top to base notes — the physical basis of the perfumer's pyramid. (True driver: <b>vapor pressure</b>; MW is a strong proxy. A production index would compute the tier from measured/estimated vapor pressure.)</div>
+  <div class="tier" style="--tc:#0f8f7f;--tbg:rgba(15,143,127,.10)"><div class="tier-head">
+    <span class="pill">TOP NOTES</span>
+    <span class="tier-meta">19 molecules · MW 88–156 (avg 139) · most volatile — first impression, minutes</span></div>
+    <div class="scroll"><table><thead><tr><th>Molecule</th><th>CAS</th><th>Formula</th><th>MW</th><th>Family</th><th>Odor descriptors · source</th></tr></thead>
+    <tbody><tr><td class="nm">Ethyl acetate</td><td class="mono">141-78-6</td>
+      <td class="mono">C4H8O2</td><td class="mono num">88.11</td>
+      <td>fruity/solvent</td><td class="desc">fruity, ethereal, glue-like</td></tr>
+<tr><td class="nm">cis-3-Hexen-1-ol</td><td class="mono">928-96-1</td>
+      <td class="mono">C6H12O</td><td class="mono num">100.16</td>
+      <td>green</td><td class="desc">cut grass, leafy, fresh green</td></tr>
+<tr><td class="nm">Benzaldehyde</td><td class="mono">100-52-7</td>
+      <td class="mono">C7H6O</td><td class="mono num">106.12</td>
+      <td>almond</td><td class="desc">bitter almond, cherry, marzipan</td></tr>
+<tr><td class="nm">Octanal (Aldehyde C-8)</td><td class="mono">124-13-0</td>
+      <td class="mono">C8H16O</td><td class="mono num">128.22</td>
+      <td>aldehydic</td><td class="desc">orange, citrus, fatty aldehydic</td></tr>
+<tr><td class="nm">Isoamyl acetate</td><td class="mono">123-92-2</td>
+      <td class="mono">C7H14O2</td><td class="mono num">130.19</td>
+      <td>fruity</td><td class="desc">banana, pear, ripe fruit</td></tr>
+<tr><td class="nm">p-Cymene</td><td class="mono">99-87-6</td>
+      <td class="mono">C10H14</td><td class="mono num">134.22</td>
+      <td>terpenic</td><td class="desc">citrus, solvent, terpene</td></tr>
+<tr><td class="nm">Limonene</td><td class="mono">138-86-3</td>
+      <td class="mono">C10H16</td><td class="mono num">136.24</td>
+      <td>citrus</td><td class="desc">orange peel, fresh, sweet · in orange/lemon</td></tr>
+<tr><td class="nm">alpha-Pinene</td><td class="mono">80-56-8</td>
+      <td class="mono">C10H16</td><td class="mono num">136.24</td>
+      <td>terpenic</td><td class="desc">pine, resinous, fresh</td></tr>
+<tr><td class="nm">Ligustral</td><td class="mono">68039-49-6</td>
+      <td class="mono">C9H14O</td><td class="mono num">138.21</td>
+      <td>green</td><td class="desc">foliage, leafy, green, cucumber</td></tr>
+<tr><td class="nm">Camphor</td><td class="mono">76-22-2</td>
+      <td class="mono">C10H16O</td><td class="mono num">152.24</td>
+      <td>camphoraceous</td><td class="desc">camphor, medicinal, cooling · in lavandin</td></tr>
+<tr><td class="nm">Citral</td><td class="mono">5392-40-5</td>
+      <td class="mono">C10H16O</td><td class="mono num">152.24</td>
+      <td>citrus</td><td class="desc">lemon, intense, zesty · in lemon</td></tr>
+<tr><td class="nm">Melonal</td><td class="mono">106-72-9</td>
+      <td class="mono">C10H18O</td><td class="mono num">154.25</td>
+      <td>green</td><td class="desc">melon, cucumber, watery green</td></tr>
+<tr><td class="nm">Citronellal</td><td class="mono">106-23-0</td>
+      <td class="mono">C10H18O</td><td class="mono num">154.25</td>
+      <td>citrus</td><td class="desc">citronella, lemon, green, fresh</td></tr>
+<tr><td class="nm">Eucalyptol (1,8-cineole)</td><td class="mono">470-82-6</td>
+      <td class="mono">C10H18O</td><td class="mono num">154.25</td>
+      <td>fresh/camphor</td><td class="desc">eucalyptus, minty, cooling</td></tr>
+<tr><td class="nm">Linalool</td><td class="mono">78-70-6</td>
+      <td class="mono">C10H18O</td><td class="mono num">154.25</td>
+      <td>floral</td><td class="desc">fresh, floral, lavender, citrus · in lavandin/bergamot</td></tr>
+<tr><td class="nm">Allyl hexanoate</td><td class="mono">123-68-2</td>
+      <td class="mono">C9H16O2</td><td class="mono num">156.22</td>
+      <td>fruity</td><td class="desc">pineapple, fruity, juicy</td></tr>
+<tr><td class="nm">Decanal (Aldehyde C-10)</td><td class="mono">112-31-2</td>
+      <td class="mono">C10H20O</td><td class="mono num">156.27</td>
+      <td>aldehydic</td><td class="desc">orange peel, waxy, aldehydic</td></tr>
+<tr><td class="nm">Dihydromyrcenol</td><td class="mono">18479-58-8</td>
+      <td class="mono">C10H20O</td><td class="mono num">156.27</td>
+      <td>fresh</td><td class="desc">lime, citrus, fresh, soapy</td></tr>
+<tr><td class="nm">Menthol</td><td class="mono">89-78-1</td>
+      <td class="mono">C10H20O</td><td class="mono num">156.27</td>
+      <td>mint</td><td class="desc">peppermint, cooling, fresh</td></tr></tbody></table></div></div><div class="tier" style="--tc:#b0446e;--tbg:rgba(176,68,110,.10)"><div class="tier-head">
+    <span class="pill">HEART NOTES</span>
+    <span class="tier-meta">37 molecules · MW 117–226 (avg 170) · the core — floral & spice, ~1h</span></div>
+    <div class="scroll"><table><thead><tr><th>Molecule</th><th>CAS</th><th>Formula</th><th>MW</th><th>Family</th><th>Odor descriptors · source</th></tr></thead>
+    <tbody><tr><td class="nm">Indole</td><td class="mono">120-72-9</td>
+      <td class="mono">C8H7N</td><td class="mono num">117.15</td>
+      <td>animalic/floral</td><td class="desc">jasmine, mothball, animalic</td></tr>
+<tr><td class="nm">2-Phenylethanol</td><td class="mono">60-12-8</td>
+      <td class="mono">C8H10O</td><td class="mono num">122.17</td>
+      <td>rose</td><td class="desc">rose, honey, soft floral</td></tr>
+<tr><td class="nm">p-Cresyl methyl ether</td><td class="mono">104-93-8</td>
+      <td class="mono">C8H10O</td><td class="mono num">122.17</td>
+      <td>floral</td><td class="desc">narcissus, animalic floral · in ylang ylang</td></tr>
+<tr><td class="nm">Cinnamaldehyde</td><td class="mono">104-55-2</td>
+      <td class="mono">C9H8O</td><td class="mono num">132.16</td>
+      <td>spice</td><td class="desc">cinnamon, warm, sweet spice</td></tr>
+<tr><td class="nm">p-Anisaldehyde</td><td class="mono">123-11-5</td>
+      <td class="mono">C8H8O2</td><td class="mono num">136.15</td>
+      <td>sweet floral</td><td class="desc">hawthorn, mimosa, sweet, powdery</td></tr>
+<tr><td class="nm">trans-Anethole</td><td class="mono">4180-23-8</td>
+      <td class="mono">C10H12O</td><td class="mono num">148.20</td>
+      <td>anise</td><td class="desc">anise, licorice, sweet</td></tr>
+<tr><td class="nm">Piperonal (heliotropin)</td><td class="mono">120-57-0</td>
+      <td class="mono">C8H6O3</td><td class="mono num">150.13</td>
+      <td>powdery</td><td class="desc">heliotrope, almond, vanilla · ~Heliotropex</td></tr>
+<tr><td class="nm">Benzyl acetate</td><td class="mono">140-11-4</td>
+      <td class="mono">C9H10O2</td><td class="mono num">150.18</td>
+      <td>white floral</td><td class="desc">jasmine, sweet, fruity · in ylang ylang</td></tr>
+<tr><td class="nm">Methyl anthranilate</td><td class="mono">134-20-3</td>
+      <td class="mono">C8H9NO2</td><td class="mono num">151.16</td>
+      <td>floral</td><td class="desc">orange blossom, grape, fruity</td></tr>
+<tr><td class="nm">Methyl salicylate</td><td class="mono">119-36-8</td>
+      <td class="mono">C8H8O3</td><td class="mono num">152.15</td>
+      <td>wintergreen</td><td class="desc">wintergreen, minty, medicinal</td></tr>
+<tr><td class="nm">Geraniol</td><td class="mono">106-24-1</td>
+      <td class="mono">C10H18O</td><td class="mono num">154.25</td>
+      <td>rose</td><td class="desc">rose, floral, sweet, geranium</td></tr>
+<tr><td class="nm">Nerol</td><td class="mono">106-25-2</td>
+      <td class="mono">C10H18O</td><td class="mono num">154.25</td>
+      <td>rose</td><td class="desc">fresh rose, sweet, magnolia</td></tr>
+<tr><td class="nm">alpha-Terpineol</td><td class="mono">98-55-5</td>
+      <td class="mono">C10H18O</td><td class="mono num">154.25</td>
+      <td>floral</td><td class="desc">lilac, pine, sweet floral</td></tr>
+<tr><td class="nm">Rose oxide</td><td class="mono">16409-43-1</td>
+      <td class="mono">C10H18O</td><td class="mono num">154.25</td>
+      <td>rose</td><td class="desc">green rose, metallic, fresh</td></tr>
+<tr><td class="nm">Citronellol</td><td class="mono">106-22-9</td>
+      <td class="mono">C10H20O</td><td class="mono num">156.27</td>
+      <td>rose</td><td class="desc">rose, citrus, fresh floral</td></tr>
+<tr><td class="nm">Bourgeonal</td><td class="mono">18127-01-0</td>
+      <td class="mono">C11H14O</td><td class="mono num">162.23</td>
+      <td>muguet</td><td class="desc">lily, muguet, green marine</td></tr>
+<tr><td class="nm">Eugenol</td><td class="mono">97-53-0</td>
+      <td class="mono">C10H12O2</td><td class="mono num">164.20</td>
+      <td>spice</td><td class="desc">clove, warm, spicy, sweet · in clove</td></tr>
+<tr><td class="nm">Isoeugenol</td><td class="mono">97-54-1</td>
+      <td class="mono">C10H12O2</td><td class="mono num">164.20</td>
+      <td>spice</td><td class="desc">clove, carnation, spicy sweet</td></tr>
+<tr><td class="nm">cis-Jasmone</td><td class="mono">488-10-8</td>
+      <td class="mono">C11H16O</td><td class="mono num">164.25</td>
+      <td>jasmine</td><td class="desc">jasmine, floral, celery</td></tr>
+<tr><td class="nm">Dihydrojasmone</td><td class="mono">1128-08-1</td>
+      <td class="mono">C11H18O</td><td class="mono num">166.26</td>
+      <td>jasmine</td><td class="desc">jasmine, herbal, spicy fruity</td></tr>
+<tr><td class="nm">Undecavertol</td><td class="mono">81782-77-6</td>
+      <td class="mono">C11H22O</td><td class="mono num">170.30</td>
+      <td>green floral</td><td class="desc">green, violet leaf, cucumber (incoming)</td></tr>
+<tr><td class="nm">Hydroxycitronellal</td><td class="mono">107-75-5</td>
+      <td class="mono">C10H20O2</td><td class="mono num">172.27</td>
+      <td>muguet</td><td class="desc">lily of the valley, sweet floral, melon</td></tr>
+<tr><td class="nm">Cyclamen aldehyde</td><td class="mono">103-95-7</td>
+      <td class="mono">C13H18O</td><td class="mono num">190.29</td>
+      <td>muguet</td><td class="desc">cyclamen, green floral, fresh</td></tr>
+<tr><td class="nm">beta-Damascenone</td><td class="mono">23696-85-7</td>
+      <td class="mono">C13H18O</td><td class="mono num">190.29</td>
+      <td>rose</td><td class="desc">rose, apple, honey, powerful</td></tr>
+<tr><td class="nm">Calone</td><td class="mono">28940-11-6</td>
+      <td class="mono">C11H12O3</td><td class="mono num">192.21</td>
+      <td>marine</td><td class="desc">watermelon, sea breeze, ozonic</td></tr>
+<tr><td class="nm">alpha-Ionone</td><td class="mono">127-41-3</td>
+      <td class="mono">C13H20O</td><td class="mono num">192.30</td>
+      <td>violet</td><td class="desc">violet, woody, orris, soft floral</td></tr>
+<tr><td class="nm">beta-Ionone</td><td class="mono">14901-07-6</td>
+      <td class="mono">C13H20O</td><td class="mono num">192.30</td>
+      <td>violet</td><td class="desc">violet, woody, floral</td></tr>
+<tr><td class="nm">beta-Damascone</td><td class="mono">23726-92-3</td>
+      <td class="mono">C13H20O</td><td class="mono num">192.30</td>
+      <td>rose</td><td class="desc">rose, fruity, tobacco, plum</td></tr>
+<tr><td class="nm">Helional</td><td class="mono">1205-17-0</td>
+      <td class="mono">C11H14O3</td><td class="mono num">194.23</td>
+      <td>marine floral</td><td class="desc">watery floral, muguet, ozonic</td></tr>
+<tr><td class="nm">Linalyl acetate</td><td class="mono">115-95-7</td>
+      <td class="mono">C12H20O2</td><td class="mono num">196.29</td>
+      <td>floral</td><td class="desc">bergamot, lavender, fruity floral · in bergamot</td></tr>
+<tr><td class="nm">Geranyl acetate</td><td class="mono">105-87-3</td>
+      <td class="mono">C12H20O2</td><td class="mono num">196.29</td>
+      <td>rose</td><td class="desc">rose, fruity, floral</td></tr>
+<tr><td class="nm">alpha-Isomethyl ionone</td><td class="mono">127-51-5</td>
+      <td class="mono">C14H22O</td><td class="mono num">206.33</td>
+      <td>orris/violet</td><td class="desc">violet, orris, powdery woody</td></tr>
+<tr><td class="nm">Nerolidol</td><td class="mono">7212-44-4</td>
+      <td class="mono">C15H26O</td><td class="mono num">222.37</td>
+      <td>woody floral</td><td class="desc">woody, floral, apple, bark</td></tr>
+<tr><td class="nm">Farnesol</td><td class="mono">4602-84-0</td>
+      <td class="mono">C15H26O</td><td class="mono num">222.37</td>
+      <td>floral</td><td class="desc">delicate floral, sweet, lily, linden</td></tr>
+<tr><td class="nm">Hedione (methyl dihydrojasmonate)</td><td class="mono">24851-98-7</td>
+      <td class="mono">C13H22O3</td><td class="mono num">226.32</td>
+      <td>jasmine</td><td class="desc">jasmine, radiant, magnolia, airy</td></tr>
+<tr><td class="nm">Lindenol</td><td class="mono"><span class="verify">verify</span></td>
+      <td class="mono">—</td><td class="mono num"><span class="verify">—</span></td>
+      <td>floral</td><td class="desc">linden blossom, honey, soft floral (verify)</td></tr>
+<tr><td class="nm">Mayol</td><td class="mono"><span class="verify">verify</span></td>
+      <td class="mono">—</td><td class="mono num"><span class="verify">—</span></td>
+      <td>muguet</td><td class="desc">lily of the valley, fresh muguet, watery (verify)</td></tr></tbody></table></div></div><div class="tier" style="--tc:#9a6a14;--tbg:rgba(154,106,20,.10)"><div class="tier-head">
+    <span class="pill">BASE NOTES</span>
+    <span class="tier-meta">43 molecules · MW 126–270 (avg 208) · least volatile — the drydown, hours</span></div>
+    <div class="scroll"><table><thead><tr><th>Molecule</th><th>CAS</th><th>Formula</th><th>MW</th><th>Family</th><th>Odor descriptors · source</th></tr></thead>
+    <tbody><tr><td class="nm">Maltol</td><td class="mono">118-71-8</td>
+      <td class="mono">C6H6O3</td><td class="mono num">126.11</td>
+      <td>gourmand</td><td class="desc">caramel, malty, cotton candy</td></tr>
+<tr><td class="nm">Furaneol</td><td class="mono">3658-77-3</td>
+      <td class="mono">C6H8O3</td><td class="mono num">128.13</td>
+      <td>gourmand</td><td class="desc">strawberry, caramel, jammy</td></tr>
+<tr><td class="nm">Skatole</td><td class="mono">83-34-1</td>
+      <td class="mono">C9H9N</td><td class="mono num">131.18</td>
+      <td>animalic</td><td class="desc">fecal in trace, animalic, floral in dilution</td></tr>
+<tr><td class="nm">Ethyl maltol</td><td class="mono">4940-11-8</td>
+      <td class="mono">C7H8O3</td><td class="mono num">140.14</td>
+      <td>gourmand</td><td class="desc">cotton candy, caramel, sweet</td></tr>
+<tr><td class="nm">Coumarin</td><td class="mono">91-64-5</td>
+      <td class="mono">C9H6O2</td><td class="mono num">146.14</td>
+      <td>tonka</td><td class="desc">hay, almond, tonka, warm sweet</td></tr>
+<tr><td class="nm">Dihydrocoumarin</td><td class="mono">119-84-6</td>
+      <td class="mono">C9H8O2</td><td class="mono num">148.16</td>
+      <td>tonka</td><td class="desc">tonka, coumarinic, sweet, hay</td></tr>
+<tr><td class="nm">Vanillin</td><td class="mono">121-33-5</td>
+      <td class="mono">C8H8O3</td><td class="mono num">152.15</td>
+      <td>gourmand</td><td class="desc">vanilla, sweet, creamy, balsamic</td></tr>
+<tr><td class="nm">gamma-Nonalactone</td><td class="mono">104-61-0</td>
+      <td class="mono">C9H16O2</td><td class="mono num">156.22</td>
+      <td>coconut</td><td class="desc">coconut, creamy, waxy</td></tr>
+<tr><td class="nm">Ethyl vanillin</td><td class="mono">121-32-4</td>
+      <td class="mono">C9H10O3</td><td class="mono num">166.18</td>
+      <td>gourmand</td><td class="desc">vanilla, intense, sweet</td></tr>
+<tr><td class="nm">gamma-Decalactone</td><td class="mono">706-14-9</td>
+      <td class="mono">C10H18O2</td><td class="mono num">170.25</td>
+      <td>fruity</td><td class="desc">peach, fruity, creamy</td></tr>
+<tr><td class="nm">delta-Decalactone</td><td class="mono">705-86-2</td>
+      <td class="mono">C10H18O2</td><td class="mono num">170.25</td>
+      <td>creamy</td><td class="desc">creamy, coconut, milky</td></tr>
+<tr><td class="nm">gamma-Undecalactone</td><td class="mono">104-67-6</td>
+      <td class="mono">C11H20O2</td><td class="mono num">184.28</td>
+      <td>fruity</td><td class="desc">peach, creamy, coconut</td></tr>
+<tr><td class="nm">Evernyl (Veramoss)</td><td class="mono">4707-47-5</td>
+      <td class="mono">C10H12O4</td><td class="mono num">196.20</td>
+      <td>mossy</td><td class="desc">oakmoss, mossy, earthy, phenolic (incoming)</td></tr>
+<tr><td class="nm">Cashmeran</td><td class="mono">33704-61-9</td>
+      <td class="mono">C14H22O</td><td class="mono num">206.33</td>
+      <td>musk</td><td class="desc">musky, woody, spicy, pine</td></tr>
+<tr><td class="nm">Amyl salicylate</td><td class="mono">87-20-7</td>
+      <td class="mono">C12H16O3</td><td class="mono num">208.26</td>
+      <td>balsamic</td><td class="desc">green, clover, herbal floral</td></tr>
+<tr><td class="nm">Sandalore</td><td class="mono">65113-99-7</td>
+      <td class="mono">C14H26O</td><td class="mono num">210.36</td>
+      <td>sandalwood</td><td class="desc">sandalwood, creamy, woody, musky</td></tr>
+<tr><td class="nm">Benzyl benzoate</td><td class="mono">120-51-4</td>
+      <td class="mono">C14H12O2</td><td class="mono num">212.25</td>
+      <td>balsamic</td><td class="desc">balsamic, faint sweet, fixative</td></tr>
+<tr><td class="nm">Rotundone</td><td class="mono">18374-76-0</td>
+      <td class="mono">C15H22O</td><td class="mono num">218.34</td>
+      <td>spice</td><td class="desc">black pepper, peppery, spicy</td></tr>
+<tr><td class="nm">Khusimol</td><td class="mono">16223-63-5</td>
+      <td class="mono">C15H24O</td><td class="mono num">220.36</td>
+      <td>woody/earthy</td><td class="desc">vetiver, woody, earthy (verify)</td></tr>
+<tr><td class="nm">Ebanol</td><td class="mono">67801-20-1</td>
+      <td class="mono">C15H24O</td><td class="mono num">220.36</td>
+      <td>sandalwood</td><td class="desc">sandalwood, creamy, rich (verify)</td></tr>
+<tr><td class="nm">Hexyl salicylate</td><td class="mono">6259-76-3</td>
+      <td class="mono">C13H18O3</td><td class="mono num">222.28</td>
+      <td>balsamic</td><td class="desc">green, floral, orris, soft</td></tr>
+<tr><td class="nm">Cedrol</td><td class="mono">77-53-2</td>
+      <td class="mono">C15H26O</td><td class="mono num">222.37</td>
+      <td>woody</td><td class="desc">cedarwood, dry, soft woody</td></tr>
+<tr><td class="nm">Patchoulol</td><td class="mono">5986-55-0</td>
+      <td class="mono">C15H26O</td><td class="mono num">222.37</td>
+      <td>woody/earthy</td><td class="desc">patchouli, earthy, woody, camphor</td></tr>
+<tr><td class="nm">Javanol</td><td class="mono">198404-98-7</td>
+      <td class="mono">C15H26O</td><td class="mono num">222.37</td>
+      <td>sandalwood</td><td class="desc">sandalwood, rich, creamy, musky</td></tr>
+<tr><td class="nm">Agarospirol</td><td class="mono">1460-73-7</td>
+      <td class="mono">C15H26O</td><td class="mono num">222.37</td>
+      <td>woody/oud</td><td class="desc">agarwood, woody, oud, warm balsamic (verify)</td></tr>
+<tr><td class="nm">Benzyl salicylate</td><td class="mono">118-58-1</td>
+      <td class="mono">C14H12O3</td><td class="mono num">228.25</td>
+      <td>balsamic</td><td class="desc">soft floral, balsamic, powdery</td></tr>
+<tr><td class="nm">Iso E Super</td><td class="mono">54464-57-2</td>
+      <td class="mono">C16H26O</td><td class="mono num">234.38</td>
+      <td>woody amber</td><td class="desc">cedar, velvety, ambergris, smooth</td></tr>
+<tr><td class="nm">Ambroxide (Ambroxan)</td><td class="mono">6790-58-5</td>
+      <td class="mono">C16H28O</td><td class="mono num">236.40</td>
+      <td>amber</td><td class="desc">ambergris, woody, warm, dry</td></tr>
+<tr><td class="nm">Habanolide</td><td class="mono">111879-80-2</td>
+      <td class="mono">C15H26O2</td><td class="mono num">238.37</td>
+      <td>musk</td><td class="desc">musk, clean, metallic, floral</td></tr>
+<tr><td class="nm">Muscone</td><td class="mono">541-91-3</td>
+      <td class="mono">C16H30O</td><td class="mono num">238.41</td>
+      <td>musk</td><td class="desc">musk, warm, animalic, powdery</td></tr>
+<tr><td class="nm">Exaltolide (pentadecanolide)</td><td class="mono">106-02-5</td>
+      <td class="mono">C15H28O2</td><td class="mono num">240.39</td>
+      <td>musk</td><td class="desc">clean musk, sweet, powdery</td></tr>
+<tr><td class="nm">Vertofix (methyl cedryl ketone)</td><td class="mono">32388-55-9</td>
+      <td class="mono">C17H26O</td><td class="mono num">246.39</td>
+      <td>woody amber</td><td class="desc">cedarwood, amber, ionone woody</td></tr>
+<tr><td class="nm">Cedramber</td><td class="mono">67874-81-1</td>
+      <td class="mono">C17H30O</td><td class="mono num">250.43</td>
+      <td>woody amber</td><td class="desc">amber, cedar, dry, woody</td></tr>
+<tr><td class="nm">Civetone</td><td class="mono">542-46-1</td>
+      <td class="mono">C17H30O</td><td class="mono num">250.43</td>
+      <td>animalic</td><td class="desc">civet, animalic, warm musk</td></tr>
+<tr><td class="nm">Ambrettolide</td><td class="mono">7779-50-2</td>
+      <td class="mono">C16H28O2</td><td class="mono num">252.40</td>
+      <td>musk</td><td class="desc">musk, soft, sweet, natural</td></tr>
+<tr><td class="nm">Galaxolide (HHCB)</td><td class="mono">1222-05-5</td>
+      <td class="mono">C18H26O</td><td class="mono num">258.40</td>
+      <td>musk</td><td class="desc">clean musk, sweet, floral, soft</td></tr>
+<tr><td class="nm">Tonalide (AHTN)</td><td class="mono">1506-02-1</td>
+      <td class="mono">C18H26O</td><td class="mono num">258.40</td>
+      <td>musk</td><td class="desc">clean musk, sweet, woody</td></tr>
+<tr><td class="nm">Cedryl acetate</td><td class="mono">77-54-3</td>
+      <td class="mono">C17H28O2</td><td class="mono num">264.41</td>
+      <td>woody</td><td class="desc">cedar, woody, soft, dry</td></tr>
+<tr><td class="nm">Ethylene brassylate</td><td class="mono">105-95-3</td>
+      <td class="mono">C15H26O4</td><td class="mono num">270.37</td>
+      <td>musk</td><td class="desc">musk, sweet, soft, powdery</td></tr>
+<tr><td class="nm">Aurantiol</td><td class="mono">89-43-0</td>
+      <td class="mono">—</td><td class="mono num"><span class="verify">—</span></td>
+      <td>floral</td><td class="desc">orange blossom, powdery, tenacious (Schiff base; verify)</td></tr>
+<tr><td class="nm">Norlimbanol</td><td class="mono"><span class="verify">verify</span></td>
+      <td class="mono">—</td><td class="mono num"><span class="verify">—</span></td>
+      <td>woody amber</td><td class="desc">dry woody, ambergris, cedar, powerful (verify)</td></tr>
+<tr><td class="nm">Amber Xtreme</td><td class="mono"><span class="verify">verify</span></td>
+      <td class="mono">—</td><td class="mono num"><span class="verify">—</span></td>
+      <td>amber</td><td class="desc">amber, woody, dry, extremely powerful (verify)</td></tr>
+<tr><td class="nm">Santaliff</td><td class="mono"><span class="verify">verify</span></td>
+      <td class="mono">—</td><td class="mono num"><span class="verify">—</span></td>
+      <td>sandalwood</td><td class="desc">sandalwood, creamy, woody (verify)</td></tr></tbody></table></div></div>
+  <div class="foot"><b>Prototype disclaimer:</b> hand-curated v2 proof-of-concept from public perfumery knowledge. All identifiers (CAS/SMILES) and note assignments must be verified against open sources — <a href="https://pubchem.ncbi.nlm.nih.gov" target="_blank" rel="noopener">PubChem</a> (public domain), <a href="https://pyrfume.org" target="_blank" rel="noopener">Pyrfume</a>, Leffingwell/Good-Scents — before any on-chain minting; entries tagged <span class="verify">verify</span> (often proprietary trade-name captives) especially. Proprietary "captive" molecules held by houses are excluded; this indexes the shared public palette. Curation by <b>vanpe</b> — independent GenesisL1 validator — for the community. Not affiliated with IFRA. Not financial or formulation advice.</div>
+</div></body></html>
