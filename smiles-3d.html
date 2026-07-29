@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GenesisL1 — SMILES → 3D</title><style>
+ :root{--paper:#f5f7f9;--card:#fff;--ink:#07111d;--mut:#687383;--faint:#718196;--line:#dce4ee;--line-strong:rgba(29,52,78,.3);
+   --blue:#245cff;--blue-deep:#1647d9;--blue-pale:#eef3ff;--amber:#9a6a14;--amber-pale:#fdf6e9;--teal:#0f8f7f;
+   --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+   --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;--shadow:0 18px 50px rgba(28,60,98,.067)}
+ *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+ .topbar{position:sticky;top:0;z-index:5;min-height:72px;border-bottom:1px solid rgba(7,17,29,.1);background:rgba(255,255,255,.94);backdrop-filter:blur(6px)}
+ .topbar-in{max-width:1160px;margin:0 auto;padding:10px 28px;min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+ .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+ .glyph{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:#fff;border:1px solid var(--line-strong);overflow:hidden}
+ .glyph img{width:23px;height:23px} .wordmark b{font-size:16px;font-weight:700;letter-spacing:-.01em;display:block}
+ .wordmark span{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--mut);text-transform:uppercase}
+ .nav{display:flex;gap:4px;margin-left:6px} .nav a{font:600 12px var(--mono);text-decoration:none;color:var(--mut);padding:6px 12px;border-radius:999px;letter-spacing:.02em}
+ .nav a:hover{background:rgba(7,17,29,.05);color:var(--ink)} .nav a.active{background:var(--blue);color:#fff}
+ .badge{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border:1px solid rgba(15,143,127,.45);color:var(--teal);background:rgba(15,143,127,.07)}
+ .wrap{max-width:1160px;margin:0 auto;padding:0 28px 64px} .hero{margin:24px 0 12px}
+ .lab{display:flex;align-items:center;gap:10px;color:var(--mut);font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.14em}
+ .dash{width:18px;height:2px;background:var(--teal)} h1{font-size:31px;letter-spacing:-.02em;margin:10px 0 6px;font-weight:700}
+ .sub{color:var(--mut);font-size:14.5px;max-width:92ch}
+ .note{background:rgba(15,143,127,.06);border:1px solid rgba(15,143,127,.25);padding:11px 15px;font-size:13px;color:#155e54;margin:14px 0 18px}
+ .panelwrap{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:start}
+ .card{background:#fff;border:1px solid var(--line-strong);box-shadow:var(--shadow);border-top:3px solid var(--teal)}
+ .card-head{padding:12px 16px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+ .card-head h3{margin:0;font-size:15px} .card-head .why{color:var(--mut);font-family:var(--mono);font-size:10.5px}
+ #view{width:100%;aspect-ratio:1/.92;position:relative;background:linear-gradient(180deg,#fdfefe,#f3f8f7)}
+ #view .load{position:absolute;inset:0;display:grid;place-items:center;color:var(--mut);font-family:var(--mono);font-size:12px;text-align:center;padding:20px}
+ .ctrl{padding:16px}
+ .field{display:flex;gap:8px;align-items:stretch} .field input{flex:1;min-width:0;font:13px var(--mono);padding:11px 12px;border:1px solid var(--line-strong);border-radius:9px;background:#fff;color:var(--ink);outline:none}
+ .field input:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(15,143,127,.12)}
+ .field button{font:600 12px var(--mono);border:1px solid var(--teal);background:var(--teal);color:#fff;padding:0 16px;border-radius:9px;cursor:pointer;white-space:nowrap}
+ .field button:hover{background:#0c7a6c}
+ .lbl{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin:14px 0 7px}
+ .chips{display:flex;flex-wrap:wrap;gap:6px} .chip{font:12px var(--sans);border:1px solid var(--line-strong);background:#fff;padding:5px 11px;border-radius:999px;cursor:pointer}
+ .chip:hover{border-color:var(--teal);color:var(--teal)} .chip.on{background:var(--teal);color:#fff;border-color:var(--teal)}
+ .err{color:#8b2626;background:#fff4f4;border:1px solid rgba(170,40,40,.3);padding:9px 12px;font-size:12.5px;margin-top:10px;display:none} .err.show{display:block}
+ .kv{display:grid;grid-template-columns:96px 1fr;gap:6px 12px;font-size:13px;margin:2px 0 4px}
+ .kv .k{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);padding-top:2px}
+ .kv .v{font-family:var(--mono);font-size:12.5px;word-break:break-all} .kv .v b{color:var(--teal)}
+ .hint{color:var(--faint);font-size:11.5px;margin-top:8px;line-height:1.55}
+ .foot{color:var(--mut);font-size:12px;margin-top:24px;line-height:1.75;border-top:1px solid var(--line);padding-top:14px} .foot a{color:var(--blue);text-decoration:none} .foot b{color:var(--ink)}
+ @media(max-width:820px){.panelwrap{grid-template-columns:1fr}.topbar-in,.wrap{padding-left:16px;padding-right:16px}h1{font-size:24px}}
+</style></head><body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="https://genesisl1.com" target="_blank" rel="noopener">
+    <span class="glyph"><img src="https://genesisl1.com/logo.svg" alt="GenesisL1" onerror="this.parentNode.textContent='L1';this.parentNode.style.font='700 12px var(--mono)'"></span>
+    <span class="wordmark"><b>GenesisL1</b><span>SMILES &rarr; 3D</span></span></a>
+  <nav class="nav"><a href="./">Molecule index</a><a href="./scent-map.html">Scent map</a><a href="./smiles-3d.html" class="active" aria-current="page">SMILES &rarr; 3D</a></nav>
+  <span class="badge">&#9680; prototype &middot; client-side 3D</span></div></header>
+<div class="wrap"><div class="hero">
+  <div class="lab"><span class="dash"></span> MOLNFT &middot; efficient on-chain target</div>
+  <h1>A molecule&rsquo;s 3D structure, built live from its SMILES</h1>
+  <div class="sub">No stored 3D file, no IPFS, no server. The <b>SMILES string</b> alone &mdash; a few dozen characters &mdash; goes in, and the 3D structure is generated <b>entirely in your browser</b> (OpenChemLib builds a conformer; 3Dmol renders it). For small molecules this is the most efficient thing you can put on-chain: store the SMILES (often <i>shorter</i> than an IPFS CID) and rebuild the molecule on demand.</div>
+  <div class="note"><b>Why this matters for MolNFT:</b> a ligand&rsquo;s SMILES is ~20&ndash;60 bytes and self-contained &mdash; commit it on-chain and every client can regenerate the 3D with zero external dependencies. (Proteins still need their PDB file on IPFS &mdash; you can&rsquo;t fold a structure from data &mdash; but ligands don&rsquo;t.)</div>
+  <div class="panelwrap">
+    <div class="card"><div class="card-head"><h3 id="molName">Limonene</h3><span class="why">drag to rotate &middot; scroll to zoom</span></div>
+      <div id="view"><div class="load">Loading chemistry engine&hellip;</div></div></div>
+    <div class="card"><div class="ctrl">
+      <div class="lbl">SMILES input</div>
+      <div class="field"><input id="smi" type="text" spellcheck="false" autocomplete="off" value="CC1=CCC(CC1)C(=C)C" placeholder="e.g. CC(=O)OC1=CC=CC=C1C(=O)O"><button id="go" type="button">Build 3D</button></div>
+      <div class="err" id="err"></div>
+      <div class="lbl">Try one from the index</div>
+      <div class="chips" id="chips"></div>
+      <div class="lbl" style="margin-top:16px">Resolved</div>
+      <div class="kv" id="kv"><span class="k">status</span><span class="v">&hellip;</span></div>
+      <div class="hint">The 3D shown is a generated low-energy conformer &mdash; chemically reasonable and fine for viewing, not necessarily the exact experimental geometry. Everything here runs locally; nothing is uploaded.</div>
+    </div></div>
+  </div>
+  <div class="foot"><b>How it works:</b> <a href="https://github.com/cheminfo/openchemlib-js" target="_blank" rel="noopener">OpenChemLib</a> (pure JS) parses the SMILES, adds hydrogens and generates a 3D conformer via distance geometry; <a href="https://3dmol.org" target="_blank" rel="noopener">3Dmol.js</a> renders it. Both load once from a CDN, then it&rsquo;s all local. Prototype extension of the GenesisL1 aroma index &mdash; the client-side SMILES&rarr;3D path proposed for MolNFT small-molecule integration.</div>
+</div>
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/openchemlib/dist/openchemlib-full.js"></script>
+<script>
+(function(){
+  var EX=[{"name":"Limonene","smiles":"CC1=CCC(CC1)C(=C)C"},{"name":"Vanillin","smiles":"COC1=C(C=CC(=C1)C=O)O"},{"name":"Linalool","smiles":"CC(=CCCC(C)(C=C)O)C"},{"name":"Menthol","smiles":"CC1CCC(C(C1)O)C(C)C"},{"name":"Coumarin","smiles":"C1=CC=C2C(=C1)C=CC(=O)O2"},{"name":"Geraniol","smiles":"CC(=CCC/C(=C/CO)/C)C"},{"name":"Eugenol","smiles":"COC1=C(C=CC(=C1)CC=C)O"},{"name":"Indole","smiles":"C1=CC=C2C(=C1)C=CN2"},{"name":"Muscone","smiles":"CC1CCCCCCCCCCCCC(=O)C1"},{"name":"Ethyl acetate","smiles":"CCOC(=O)C"},{"name":"Cinnamaldehyde","smiles":"C1=CC=C(C=C1)/C=C/C=O"},{"name":"beta-Ionone","smiles":"CC1=C(C(CCC1)(C)C)/C=C/C(=O)C"}];
+  var host=document.getElementById('view'), kv=document.getElementById('kv'), errEl=document.getElementById('err'),
+      smiIn=document.getElementById('smi'), nameEl=document.getElementById('molName');
+  var viewer=null, ready=false;
+  function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+  function setKv(o){var h='';for(var k in o)h+='<span class="k">'+esc(k)+'</span><span class="v">'+o[k]+'</span>';kv.innerHTML=h;}
+  function showErr(m){errEl.textContent=m;errEl.classList.add('show');}
+  function clearErr(){errEl.classList.remove('show');}
+  function chips(){
+    var c=document.getElementById('chips');
+    c.innerHTML=EX.map(function(e){return '<span class="chip" data-s="'+esc(e.smiles)+'" data-n="'+esc(e.name)+'">'+esc(e.name)+'</span>';}).join('');
+    c.addEventListener('click',function(ev){var b=ev.target.closest('.chip');if(!b)return;
+      smiIn.value=b.getAttribute('data-s');build(b.getAttribute('data-n'));});
+  }
+  function markChip(sm){document.querySelectorAll('.chip').forEach(function(ch){ch.classList.toggle('on',ch.getAttribute('data-s')===sm);});}
+  function build(name){
+    clearErr();
+    var smiles=smiIn.value.trim(); if(!smiles){showErr('Enter a SMILES string.');return;}
+    if(!ready){showErr('Chemistry engine still loading — one moment.');return;}
+    var mol;
+    try{ mol=OCL.Molecule.fromSmiles(smiles); }catch(e){ showErr('Could not parse that SMILES.'); return; }
+    if(!mol || mol.getAllAtoms()===0){ showErr('That SMILES has no atoms — check the syntax.'); return; }
+    var mf, molfile;
+    try{
+      var cg=new OCL.ConformerGenerator(42);
+      var conf=cg.getOneConformerAsMolecule(mol);
+      if(!conf){ showErr('Could not generate a 3D conformer for this molecule.'); return; }
+      molfile=conf.toMolfile();
+      mf=mol.getMolecularFormula();
+    }catch(e){ showErr('3D generation failed: '+e.message); return; }
+    try{
+      if(!viewer){ host.innerHTML=''; viewer=$3Dmol.createViewer(host,{backgroundColor:'white'}); }
+      viewer.removeAllModels();
+      viewer.addModel(molfile,'sdf');
+      viewer.setStyle({},{stick:{radius:0.13},sphere:{scale:0.27}});
+      viewer.zoomTo(); viewer.render(); viewer.spin('y',0.4);
+    }catch(e){ showErr('Render failed: '+e.message); return; }
+    nameEl.textContent=name||'Molecule';
+    var bytes=new Blob([smiles]).size;
+    setKv({
+      'molecule': name?'<b>'+esc(name)+'</b>':'(custom SMILES)',
+      'formula': esc(mf.formula),
+      'mol. weight': (Math.round(mf.absoluteWeight*100)/100)+' Da',
+      'heavy atoms': mol.getAllAtoms(),
+      'smiles': esc(smiles),
+      'on-chain cost': '<b>'+bytes+' bytes</b> of SMILES &rarr; full 3D, no file stored'
+    });
+    markChip(smiles);
+  }
+  function boot(){
+    if(!window.OCL || !window.$3Dmol){ setTimeout(boot,150); return; }
+    ready=true; chips(); build('Limonene');
+  }
+  document.getElementById('go').addEventListener('click',function(){build();});
+  smiIn.addEventListener('keydown',function(e){if(e.key==='Enter')build();});
+  boot();
+})();
+</script>
+</body></html>
