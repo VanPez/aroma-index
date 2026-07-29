@@ -94,6 +94,7 @@
     var mol;
     try{ mol=OCL.Molecule.fromSmiles(smiles); }catch(e){ showErr('Could not parse that SMILES.'); return; }
     if(!mol || mol.getAllAtoms()===0){ showErr('That SMILES has no atoms — check the syntax.'); return; }
+    var heavy=mol.getAllAtoms(); // capture before conformer gen (it adds explicit H in-place)
     var mf, molfile;
     try{
       var cg=new OCL.ConformerGenerator(42);
@@ -115,7 +116,7 @@
       'molecule': name?'<b>'+esc(name)+'</b>':'(custom SMILES)',
       'formula': esc(mf.formula),
       'mol. weight': (Math.round(mf.absoluteWeight*100)/100)+' Da',
-      'heavy atoms': mol.getAllAtoms(),
+      'heavy atoms': heavy,
       'smiles': esc(smiles),
       'on-chain cost': '<b>'+bytes+' bytes</b> of SMILES &rarr; full 3D, no file stored'
     });
