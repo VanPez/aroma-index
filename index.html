@@ -11,6 +11,8 @@
  .glyph{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:#fff;border:1px solid var(--line-strong);overflow:hidden}
  .glyph img{width:23px;height:23px} .wordmark b{font-size:16px;font-weight:700;letter-spacing:-.01em;display:block}
  .wordmark span{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--mut);text-transform:uppercase}
+ .nav{display:flex;gap:4px;margin-left:6px} .nav a{font:600 12px var(--mono);text-decoration:none;color:var(--mut);padding:6px 12px;border-radius:999px;letter-spacing:.02em}
+ .nav a:hover{background:rgba(7,17,29,.05);color:var(--ink)} .nav a.active{background:var(--blue);color:#fff}
  .badge{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border:1px solid var(--line-strong);color:var(--mut);background:#fff}
  .badge.proto{color:var(--amber);border-color:rgba(154,106,20,.45);background:var(--amber-pale)}
  .wrap{max-width:1280px;margin:0 auto;padding:0 28px 64px} .hero{margin:26px 0}
@@ -57,6 +59,7 @@
   <a class="brand" href="https://genesisl1.com" target="_blank" rel="noopener">
     <span class="glyph"><img src="https://genesisl1.com/logo.svg" alt="GenesisL1" onerror="this.parentNode.textContent='L1';this.parentNode.style.font='700 12px var(--mono)'"></span>
     <span class="wordmark"><b>GenesisL1</b><span>Aroma Molecule Index</span></span></a>
+  <nav class="nav"><a href="./" class="active" aria-current="page">Molecule index</a><a href="./scent-map.html">Scent map</a></nav>
   <span class="badge proto">◐ v2 prototype · 99 molecules</span></div></header>
 <div class="wrap"><div class="hero">
   <div class="lab"><span class="dash"></span> DeSci · MOLNFT domain concept</div>
