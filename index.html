@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GenesisL1 — Aroma Molecule Index (v2 prototype)</title><style>
+<title>GenesisL1 — Aroma Molecule Index (v3 MolNFT prototype)</title><style>
  :root{--paper:#f5f7f9;--card:#fff;--ink:#07111d;--mut:#687383;--faint:#718196;--line:#dce4ee;--line-strong:rgba(29,52,78,.3);
    --blue:#245cff;--blue-deep:#1647d9;--blue-pale:#eef3ff;--amber:#9a6a14;--amber-pale:#fdf6e9;
    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -54,22 +54,89 @@
  .verify{font-family:var(--mono);font-size:10px;color:var(--amber);background:var(--amber-pale);border:1px solid rgba(154,106,20,.35);padding:1px 6px}
  .foot{color:var(--mut);font-size:12.5px;margin-top:26px;line-height:1.8;border-top:1px solid var(--line);padding-top:16px} .foot a{color:var(--blue);text-decoration:none}
  @media(max-width:640px){.stats{grid-template-columns:1fr}.stat+.stat{border-left:0;border-top:1px solid var(--line)}.topbar-in,.wrap{padding-left:16px;padding-right:16px}h1{font-size:26px}.search{position:static;flex-wrap:wrap}}
+ .resolver{background:#fff;border:1px solid var(--line-strong);box-shadow:var(--shadow);margin:0 0 24px;overflow:hidden;border-top:3px solid var(--blue)}
+ .resolver-head{padding:15px 18px;border-bottom:1px solid var(--line);background:var(--blue-pale);display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap}
+ .resolver-head h2{font-size:17px;margin:0 0 3px}.resolver-head p{margin:0;color:#42506a;font-size:13px;max-width:90ch}
+ .resolver-badge{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.08em;border:1px solid rgba(36,92,255,.4);color:var(--blue);padding:4px 8px;background:#fff;white-space:nowrap}
+ .resolver-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}.resolver-pane{padding:17px 18px}.resolver-pane+.resolver-pane{border-left:1px solid var(--line)}
+ .resolver-pane h3{font-size:14px;margin:0 0 10px}.resolver-pane .lead{font-size:12.5px;color:var(--mut);margin:-4px 0 12px}
+ .resolver-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px}.resolver-field{display:flex;flex-direction:column;gap:4px;min-width:0}.resolver-field.wide{grid-column:1/-1}
+ .resolver-field label{font-family:var(--mono);font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--mut)}
+ .resolver input[type=text],.resolver input[type=url],.resolver input[type=number]{width:100%;font:12px var(--mono);padding:9px 10px;border:1px solid var(--line-strong);border-radius:7px;background:#fff;color:var(--ink);outline:none}
+ .resolver input:focus{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-pale)}
+ .resolver-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:11px}.resolver button,.resolver-btn{font:600 11px var(--mono);border:1px solid var(--blue);background:var(--blue);color:#fff;padding:8px 11px;border-radius:7px;cursor:pointer}
+ .resolver button.secondary,.resolver-btn.secondary{background:#fff;color:var(--blue)}.resolver button:disabled{opacity:.55;cursor:wait}
+ .resolver-check{display:flex;align-items:flex-start;gap:8px;font-size:12px;color:#42506a;margin-top:10px}.resolver-check input{margin-top:3px}
+ .resolver-status{margin:14px 18px 0;padding:10px 12px;border:1px solid var(--line);background:#f8fafc;font:11.5px/1.55 var(--mono);color:var(--mut);white-space:pre-wrap;word-break:break-word}
+ .resolver-status.ok{border-color:rgba(15,143,127,.35);background:rgba(15,143,127,.07);color:#17675d}.resolver-status.err{border-color:rgba(170,40,40,.35);background:#fff4f4;color:#8b2626}
+ .resolver-output{display:grid;grid-template-columns:minmax(280px,390px) 1fr;gap:16px;padding:16px 18px 18px}.resolver-view{height:320px;background:#fff;border:1px solid var(--line-strong);border-radius:9px;position:relative;overflow:hidden}
+ .resolver-view .load{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;color:var(--mut);font:12px/1.5 var(--mono)}
+ .resolver-data{min-width:0}.resolver-data h3{font-size:14px;margin:0 0 8px}.resolver-kv{display:grid;grid-template-columns:110px 1fr;gap:5px 10px;font-size:12px;margin-bottom:10px}
+ .resolver-kv .k{font:10px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--mut)}.resolver-kv .v{font:12px var(--mono);word-break:break-all}
+ .resolver-links{display:flex;flex-direction:column;gap:6px;margin:8px 0 12px}.resolver-link{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--line);padding:7px 9px;background:#fbfcfe;font:11px/1.45 var(--mono);word-break:break-all}
+ .resolver-link a{color:var(--blue);text-decoration:none}.mocktag{flex:0 0 auto;color:var(--amber);background:var(--amber-pale);border:1px solid rgba(154,106,20,.3);padding:0 4px;font-size:9px;text-transform:uppercase}
+ .resolver-json{max-height:250px;overflow:auto;background:#07111d;color:#dbe8ff;border-radius:7px;padding:10px 12px;font:10.5px/1.55 var(--mono);white-space:pre-wrap;word-break:break-word;margin:8px 0 0}
+ .resolver-download{display:inline-block;font:11px var(--mono);color:var(--blue);text-decoration:none;border:1px solid var(--line-strong);padding:6px 9px;border-radius:6px;margin-right:6px;margin-top:6px}
+ @media(max-width:850px){.resolver-grid,.resolver-output{grid-template-columns:1fr}.resolver-pane+.resolver-pane{border-left:0;border-top:1px solid var(--line)}}
 </style></head><body>
 <header class="topbar"><div class="topbar-in">
   <a class="brand" href="https://genesisl1.com" target="_blank" rel="noopener">
     <span class="glyph"><img src="https://genesisl1.com/logo.svg" alt="GenesisL1" onerror="this.parentNode.textContent='L1';this.parentNode.style.font='700 12px var(--mono)'"></span>
     <span class="wordmark"><b>GenesisL1</b><span>Aroma Molecule Index</span></span></a>
   <nav class="nav"><a href="./" class="active" aria-current="page">Molecule index</a><a href="./scent-map.html">Scent map</a><a href="./smiles-3d.html">SMILES &rarr; 3D</a></nav>
-  <span class="badge proto">◐ v2 prototype · 99 molecules</span></div></header>
+  <span class="badge proto">◐ v3 prototype · 99 molecules · MolNFT resolver</span></div></header>
 <div class="wrap"><div class="hero">
   <div class="lab"><span class="dash"></span> DeSci · MOLNFT domain concept</div>
   <h1>The common aroma molecules, by volatility</h1>
-  <div class="sub">A curated, open index of widely-used fragrance chemicals — grouped into <b>top</b>, <b>heart</b> and <b>base</b> notes by how fast they evaporate. Smaller/lighter molecules flash off first (top); the largest linger for hours (base). Naturals are represented by their signature molecule (e.g. black pepper → rotundone, vetiver → khusimol). Proposed as a public-good extension of GenesisL1's <b>MOLNFT</b> molecular corpus. Each row shows boiling point and vapor pressure at 25°C — the physical measures of volatility behind the note tiers (they fall as you go down the list). <b>Click any molecule</b> for its interactive 3D structure and public-domain identifiers (PubChem CID · InChIKey · SMILES).</div></div>
+  <div class="sub">A curated, open index of widely-used fragrance chemicals — grouped into <b>top</b>, <b>heart</b> and <b>base</b> notes by how fast they evaporate. Smaller/lighter molecules flash off first (top); the largest linger for hours (base). Naturals are represented by their signature molecule (e.g. black pepper → rotundone, vetiver → khusimol). Proposed as a public-good extension of GenesisL1's <b>MOLNFT</b> molecular corpus. Each row shows boiling point and vapor pressure at 25°C — the physical measures of volatility behind the note tiers (they fall as you go down the list). <b>Click any molecule</b> for its interactive 3D structure and public-domain identifiers (PubChem CID · InChIKey · SMILES). The optional <b>MolNFT resolver</b> below can prepare mock IPFS/on-chain links or read an existing token directly from a GenesisL1 EVM JSON-RPC endpoint.</div></div>
   <div class="stats">
     <div class="stat"><div class="k">Molecules (v2)</div><div class="v">99</div></div>
     <div class="stat"><div class="k">Note tiers</div><div class="v">top · heart · base</div></div>
     <div class="stat"><div class="k">Avg MW rises with tier</div><div class="v">138 → 170 → 207</div></div></div>
   <div class="note"><b>The volatility principle, visible in the data:</b> vapor pressure (the <b>VP · 25°C</b> column) falls steeply from top to base notes — median roughly 200 Pa → 18 Pa → 4 Pa — while boiling point and molecular weight climb. Vapor pressure is the true physical driver of the perfumer's pyramid; MW is a convenient proxy for it.</div>
+  <section class="resolver" id="molnftResolver">
+    <div class="resolver-head">
+      <div><h2>MolNFT / IPFS structure resolver</h2><p>Read-only prototype. Mock mode produces link shapes only; live mode uses <code>eth_call</code> against a GenesisL1-compatible EVM RPC. No wallet or private key is requested.</p></div>
+      <span class="resolver-badge">small-data first</span>
+    </div>
+    <div class="resolver-grid">
+      <div class="resolver-pane">
+        <h3>1 · Mock link interface</h3>
+        <p class="lead">Select a molecule, then generate clearly labelled placeholder links for a future mint or index record.</p>
+        <div class="resolver-fields">
+          <div class="resolver-field wide"><label>Selected molecule</label><input id="mockMolecule" type="text" value="Limonene · PubChem CID 22311"></div>
+          <div class="resolver-field"><label>Potential token ID</label><input id="mockToken" type="number" min="0" value="22311"></div>
+          <div class="resolver-field"><label>Potential IPFS CID</label><input id="mockCid" type="text" placeholder="bafy… or Qm…"></div>
+        </div>
+        <div class="resolver-actions"><button id="makeMock" class="secondary" type="button">Generate mock links</button></div>
+        <div class="resolver-links" id="mockLinks"></div>
+      </div>
+      <div class="resolver-pane">
+        <h3>2 · Live GenesisL1 / IPFS read</h3>
+        <p class="lead">Supply an existing deployment. Values are kept only in this browser’s local storage.</p>
+        <div class="resolver-fields">
+          <div class="resolver-field wide"><label>GenesisL1 EVM JSON-RPC URL</label><input id="rpcUrl" type="url" placeholder="https://your-genesisl1-rpc.example"></div>
+          <div class="resolver-field wide"><label>MolNFT contract address</label><input id="contractAddress" type="text" placeholder="0x…"></div>
+          <div class="resolver-field"><label>Token / parent ID</label><input id="liveToken" type="number" min="0" placeholder="e.g. 1234"></div>
+          <div class="resolver-field"><label>IPFS gateway</label><input id="ipfsGateway" type="url" value="https://ipfs.io/ipfs/"></div>
+          <div class="resolver-field wide"><label>IPFS URI, CID, or HTTPS structure/metadata link</label><input id="ipfsUri" type="text" placeholder="ipfs://bafy…/structure.sdf"></div>
+        </div>
+        <label class="resolver-check"><input id="fetchPayload" type="checkbox"><span>Also request the full on-chain structure through <code>getEntireNFT(uint256)</code>, falling back to <code>getCombinedData(uint256)</code>. This can be large and is intentionally off by default.</span></label>
+        <div class="resolver-actions"><button id="resolveChain" type="button">Resolve MolNFT</button><button id="resolveIpfs" class="secondary" type="button">Resolve IPFS/link</button><button id="clearResolver" class="secondary" type="button">Clear</button></div>
+      </div>
+    </div>
+    <div class="resolver-status" id="resolverStatus">Ready. Choose mock mode, enter an IPFS link, or configure a live GenesisL1 deployment.</div>
+    <div class="resolver-output">
+      <div class="resolver-view" id="resolverViewer"><div class="load">No molecular payload loaded.</div></div>
+      <div class="resolver-data">
+        <h3>Resolved record</h3>
+        <div class="resolver-kv" id="resolverKv"><span class="k">Mode</span><span class="v">idle</span></div>
+        <div id="resolvedLinks" class="resolver-links"></div>
+        <div id="resolverDownloads"></div>
+        <pre id="resolverJson" class="resolver-json">No metadata yet.</pre>
+      </div>
+    </div>
+  </section>
   <div class="search"><span class="field"><span class="ico">⌕</span><input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search molecule, family, or odour — e.g. rose, woody, citrus, C10H16…"></span><span class="count" id="count"></span></div>
   <div class="tier" style="--tc:#0f8f7f;--tbg:rgba(15,143,127,.10)"><div class="tier-head">
     <span class="pill">TOP NOTES</span>
@@ -526,6 +593,7 @@
         '<div class="row"><span class="kk">InChIKey</span><span class="vv">'+esc(ikey)+'</span></div>'+
         '<div class="row"><span class="kk">SMILES</span><span class="vv">'+esc(smi)+'</span></div>'+
         '<a class="pc" href="'+pc+'" target="_blank" rel="noopener">View on PubChem →</a>'+
+        '<button class="resolver-btn secondary resolver-pick" type="button" data-cid="'+cid+'" data-name="'+encodeURIComponent(name)+'">Prepare MolNFT link</button>'+
         '<div class="hint">Drag to rotate · scroll to zoom. 3D conformer &amp; identifiers from PubChem (public domain).</div>'+
         '</div></div>';
       vrow.appendChild(td2);
@@ -547,5 +615,279 @@
     });
   })();
   </script>
-  <div class="foot"><b>Prototype disclaimer:</b> hand-curated v2 proof-of-concept from public perfumery knowledge. Structural identifiers (PubChem CID · InChIKey · SMILES) and 3D conformers are resolved from <a href="https://pubchem.ncbi.nlm.nih.gov" target="_blank" rel="noopener">PubChem</a> (public domain) by CAS; note-tier assignments remain hand-curated and should be verified against open sources (<a href="https://pyrfume.org" target="_blank" rel="noopener">Pyrfume</a>, Leffingwell/Good-Scents) before any on-chain minting. Entries tagged <span class="verify">verify</span> are proprietary trade-name captives with no public structure. Boiling points and vapor pressures (@25°C) are experimental values from PubChem where available; a <span class="vpest">grey italic</span> vapor pressure is <b>estimated</b> from the boiling point (Clausius–Clapeyron with a Kistiakowsky enthalpy) and is indicative of the gradient only — absolute values for hydrogen-bonding and solid compounds can be off by an order of magnitude. A "~" boiling point is extrapolated from a reduced-pressure measurement. Proprietary "captive" molecules held by houses are excluded; this indexes the shared public palette. Curation by <b>vanpe</b> — independent GenesisL1 validator — for the community. Not affiliated with IFRA. Not financial or formulation advice.</div>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.5/dist/ethers.umd.min.js"></script>
+  <script>
+  (function(){
+    "use strict";
+    var $=function(id){return document.getElementById(id);};
+    var statusEl=$("resolverStatus"), kvEl=$("resolverKv"), jsonEl=$("resolverJson"), linksEl=$("resolvedLinks"), downloadsEl=$("resolverDownloads");
+    var viewerHost=$("resolverViewer"), activeViewer=null, activeObjectUrls=[];
+    var MAX_AUTO_BYTES=12*1024*1024;
+    var MOL_FIELDS=["IDCODE","HEADER","ACCESSION_DATE","COMPOUND","SOURCE","AUTHOR_LIST","RESOLUTION","EXPERIMENT_TYPE","SEQUENCE","imageBase64","fileBase64 / combined structure"];
+    function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+    function setStatus(text,type){statusEl.textContent=text;statusEl.className="resolver-status"+(type?" "+type:"");}
+    function setKv(obj){
+      var h="";
+      Object.keys(obj).forEach(function(k){h+='<span class="k">'+esc(k)+'</span><span class="v">'+esc(obj[k])+'</span>';});
+      kvEl.innerHTML=h||'<span class="k">Mode</span><span class="v">idle</span>';
+    }
+    function pretty(value){
+      try{return JSON.stringify(value,function(k,v){return typeof v==="bigint"?v.toString():v;},2);}catch(e){return String(value);}
+    }
+    function remember(){
+      ["rpcUrl","contractAddress","liveToken","ipfsGateway"].forEach(function(id){try{localStorage.setItem("aroma."+id,$(id).value);}catch(e){}});
+    }
+    ["rpcUrl","contractAddress","liveToken","ipfsGateway"].forEach(function(id){
+      try{var v=localStorage.getItem("aroma."+id);if(v)$(id).value=v;}catch(e){}
+      $(id).addEventListener("change",remember);
+    });
+    function clearUrls(){activeObjectUrls.forEach(function(u){URL.revokeObjectURL(u);});activeObjectUrls=[];}
+    function clearViewer(message){
+      viewerHost.innerHTML='<div class="load">'+esc(message||"No molecular payload loaded.")+'</div>';
+      activeViewer=null;
+    }
+    function clearOutput(){
+      clearUrls();linksEl.innerHTML="";downloadsEl.innerHTML="";jsonEl.textContent="No metadata yet.";
+      setKv({Mode:"idle"});clearViewer();
+    }
+    function safeUrl(url){
+      try{var u=new URL(url);return (u.protocol==="https:"||u.protocol==="http:")?u.href:"";}catch(e){return "";}
+    }
+    function gatewayUrl(value){
+      var raw=String(value||"").trim(), gateway=$("ipfsGateway").value.trim()||"https://ipfs.io/ipfs/";
+      if(/^ipfs:\/\//i.test(raw)){
+        var path=raw.replace(/^ipfs:\/\/(ipfs\/)?/i,"");
+        return gateway.replace(/\/+$/,"/")+path.replace(/^\/+/,"");
+      }
+      if(/^(Qm[1-9A-HJ-NP-Za-km-z]{40,}|bafy[a-z0-9]{20,})(\/.*)?$/i.test(raw)){
+        return gateway.replace(/\/+$/,"/")+raw.replace(/^\/+/,"");
+      }
+      return safeUrl(raw);
+    }
+    function slug(s){return String(s||"molecule").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,70)||"molecule";}
+    function renderMock(){
+      var label=$("mockMolecule").value||"Selected molecule", token=$("mockToken").value||"<tokenId>", cid=$("mockCid").value.trim()||"<CID>";
+      var contract=$("contractAddress").value.trim()||"0x<contract>";
+      var rpc=$("rpcUrl").value.trim()||"https://<genesisl1-rpc>";
+      var name=label.split("·")[0].trim(), file=slug(name)+".sdf";
+      var ipfs="ipfs://"+cid+"/"+file, gateway=($("ipfsGateway").value||"https://ipfs.io/ipfs/").replace(/\/+$/,"/")+cid+"/"+file;
+      var rows=[
+        ["IPFS URI",ipfs,""],
+        ["Gateway URL",gateway,gateway.indexOf("<")<0?gateway:""],
+        ["MolNFT deep link","genesisl1://molnft/"+contract+"/"+token,""],
+        ["RPC read",rpc+" → eth_call tokenURI("+token+")",""]
+      ];
+      $("mockLinks").innerHTML=rows.map(function(r){return '<div class="resolver-link"><span class="mocktag">mock</span><span><b>'+esc(r[0])+':</b> '+(r[2]?'<a href="'+esc(r[2])+'" target="_blank" rel="noopener">'+esc(r[1])+'</a>':esc(r[1]))+'</span></div>';}).join("");
+      setStatus("Mock links generated. They are interface placeholders and have not been checked on GenesisL1 or IPFS.","ok");
+      setKv({Mode:"mock only",Molecule:label,"Potential token":token,"Potential CID":cid});
+      jsonEl.textContent=pretty({mock:true,molecule:label,tokenId:token,ipfsURI:ipfs,contract:contract,rpc:rpc});
+    }
+    $("makeMock").addEventListener("click",renderMock);
+    document.addEventListener("click",function(e){
+      var b=e.target.closest&&e.target.closest(".resolver-pick");if(!b)return;
+      var cid=b.getAttribute("data-cid")||"", name=decodeURIComponent(b.getAttribute("data-name")||"Molecule");
+      $("mockMolecule").value=name+" · PubChem CID "+cid;$("mockToken").value=cid;renderMock();
+      $("molnftResolver").scrollIntoView({behavior:"smooth",block:"start"});
+    });
+    async function rpc(method,params){
+      var url=$("rpcUrl").value.trim();
+      if(!/^https?:\/\//i.test(url))throw new Error("Enter an HTTP(S) JSON-RPC URL.");
+      var ctl=new AbortController(), timer=setTimeout(function(){ctl.abort();},30000);
+      try{
+        var res=await fetch(url,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({jsonrpc:"2.0",id:Date.now(),method:method,params:params||[]}),signal:ctl.signal});
+        if(!res.ok)throw new Error("RPC HTTP "+res.status);
+        var body=await res.json();if(body.error)throw new Error(body.error.message||pretty(body.error));return body.result;
+      }finally{clearTimeout(timer);}
+    }
+    function requireEthers(){
+      if(!window.ethers)throw new Error("The ABI helper did not load. Check access to cdn.jsdelivr.net, then reload.");
+      return window.ethers;
+    }
+    function encodeCall(signature,tokenId){
+      var E=requireEthers(), selector=E.id(signature).slice(0,10), id=BigInt(tokenId);
+      if(id<0n)throw new Error("Token ID must be non-negative.");
+      return selector+id.toString(16).padStart(64,"0");
+    }
+    async function ethCall(signature,tokenId){
+      var address=$("contractAddress").value.trim();
+      if(!/^0x[0-9a-fA-F]{40}$/.test(address))throw new Error("Enter a valid 20-byte contract address.");
+      return rpc("eth_call",[{to:address,data:encodeCall(signature,tokenId)},"latest"]);
+    }
+    function bytesFromHex(hex){var E=requireEthers();return E.getBytes(hex);}
+    function word(bytes,at){
+      if(at<0||at+32>bytes.length)throw new Error("ABI word out of bounds.");
+      var h="0x";for(var i=at;i<at+32;i++)h+=bytes[i].toString(16).padStart(2,"0");return BigInt(h);
+    }
+    function decodeSingleString(hex){
+      var b=bytesFromHex(hex), off=Number(word(b,0)), len=Number(word(b,off));
+      if(!Number.isSafeInteger(len)||off+32+len>b.length)throw new Error("Invalid ABI string.");
+      return new TextDecoder().decode(b.slice(off+32,off+32+len));
+    }
+    function validStringTuple(b,base){
+      try{
+        var first=Number(word(b,base)), n=first/32;
+        if(!Number.isInteger(n)||n<1||n>32)return null;
+        var arr=[];
+        for(var i=0;i<n;i++){
+          var rel=Number(word(b,base+i*32)), pos=base+rel, len=Number(word(b,pos));
+          if(!Number.isSafeInteger(len)||pos+32+len>b.length)return null;
+          arr.push(new TextDecoder().decode(b.slice(pos+32,pos+32+len)));
+        }
+        return arr;
+      }catch(e){return null;}
+    }
+    function decodeStringTuple(hex){
+      var b=bytesFromHex(hex), top=validStringTuple(b,0), outer=null;
+      try{var o=Number(word(b,0));if(o>=32&&o<b.length)outer=validStringTuple(b,o);}catch(e){}
+      if(outer&&outer.length>1)return outer;if(top)return top;
+      return [decodeSingleString(hex)];
+    }
+    function decodeBool(hex){return BigInt(hex)!==0n;}
+    function decodeAddress(hex){return "0x"+String(hex).replace(/^0x/,"").slice(-40);}
+    function addResolvedLink(label,value){
+      if(!value)return;
+      var href=gatewayUrl(value), shown=String(value);
+      linksEl.insertAdjacentHTML("beforeend",'<div class="resolver-link"><span><b>'+esc(label)+':</b> '+(href?'<a href="'+esc(href)+'" target="_blank" rel="noopener">'+esc(shown)+'</a>':esc(shown))+'</span></div>');
+    }
+    function collectLinks(value,path,out,seen){
+      out=out||[];seen=seen||new Set();if(out.length>30)return out;
+      if(typeof value==="string"){
+        if(/^(ipfs:\/\/|https?:\/\/|ar:\/\/)/i.test(value)&&!seen.has(value)){seen.add(value);out.push({path:path||"link",value:value});}
+      }else if(Array.isArray(value)){value.forEach(function(v,i){collectLinks(v,(path||"root")+"["+i+"]",out,seen);});}
+      else if(value&&typeof value==="object"){Object.keys(value).forEach(function(k){collectLinks(value[k],path?path+"."+k:k,out,seen);});}
+      return out;
+    }
+    function decodeDataJson(uri){
+      if(!/^data:application\/json/i.test(uri))return null;
+      var comma=uri.indexOf(","), head=uri.slice(0,comma), data=uri.slice(comma+1);
+      var txt=/;base64/i.test(head)?decodeURIComponent(escape(atob(data))):decodeURIComponent(data);
+      return JSON.parse(txt);
+    }
+    function looksBase64(s){
+      var x=String(s||"").replace(/\s+/g,"");return x.length>80&&x.length%4===0&&/^[A-Za-z0-9+/]+={0,2}$/.test(x);
+    }
+    function base64Bytes(s){
+      var clean=String(s).replace(/^data:[^,]*;base64,/i,"").replace(/\s+/g,"");
+      var approx=Math.floor(clean.length*3/4);if(approx>MAX_AUTO_BYTES)throw new Error("Payload is larger than the 12 MB browser safety limit.");
+      var bin=atob(clean), bytes=new Uint8Array(bin.length);for(var i=0;i<bin.length;i++)bytes[i]=bin.charCodeAt(i);return bytes;
+    }
+    function detectFormat(bytes,name,type){
+      var lower=String(name||"").toLowerCase(), ct=String(type||"").toLowerCase();
+      if(/\.bcif$/.test(lower)||ct.indexOf("binarycif")>=0)return "bcif";
+      if(/\.sdf$|\.mol$/.test(lower))return "sdf";
+      if(/\.mol2$/.test(lower))return "mol2";
+      if(/\.pdb$|\.ent$/.test(lower))return "pdb";
+      if(/\.cif$|\.mmcif$/.test(lower))return "cif";
+      if(/\.xyz$/.test(lower))return "xyz";
+      var sample=new TextDecoder().decode(bytes.slice(0,Math.min(bytes.length,5000)));
+      if(/\$\$\$\$|V2000|V3000/.test(sample))return "sdf";
+      if(/^@<TRIPOS>/m.test(sample))return "mol2";
+      if(/^(ATOM  |HETATM|HEADER|MODEL )/m.test(sample))return "pdb";
+      if(/^data_/m.test(sample)||/_atom_site\./.test(sample))return "cif";
+      return "unknown";
+    }
+    function makeDownload(bytes,name,type){
+      var blob=new Blob([bytes],{type:type||"application/octet-stream"}), url=URL.createObjectURL(blob);activeObjectUrls.push(url);
+      var a=document.createElement("a");a.className="resolver-download";a.href=url;a.download=name||"molnft-structure.bin";a.textContent="Download retrieved payload";downloadsEl.appendChild(a);
+    }
+    function renderBytes(bytes,name,type){
+      clearUrls();downloadsEl.innerHTML="";makeDownload(bytes,name,type);
+      var fmt=detectFormat(bytes,name,type);
+      if(fmt==="bcif"){clearViewer("BCIF payload retrieved. Download is available; this lightweight 3Dmol panel does not guarantee BinaryCIF decoding.");return fmt;}
+      if(fmt==="unknown"){clearViewer("Payload retrieved, but its molecular format was not recognised. Download is available.");return fmt;}
+      try{
+        viewerHost.innerHTML="";activeViewer=$3Dmol.createViewer(viewerHost,{backgroundColor:"white"});
+        var data=new TextDecoder().decode(bytes);activeViewer.addModel(data,fmt);
+        if(fmt==="pdb"||fmt==="cif")activeViewer.setStyle({},{cartoon:{},stick:{radius:0.12}});
+        else activeViewer.setStyle({},{stick:{radius:0.14},sphere:{scale:0.28}});
+        activeViewer.zoomTo();activeViewer.render();return fmt;
+      }catch(e){clearViewer("Payload retrieved, but rendering failed: "+e.message);return fmt;}
+    }
+    async function fetchResource(input,label){
+      var url=gatewayUrl(input);if(!url)throw new Error("Enter a valid IPFS URI/CID or HTTP(S) URL.");
+      setStatus("Fetching "+url+" …");
+      var res=await fetch(url,{headers:{accept:"application/json,text/plain,chemical/*,application/octet-stream;q=0.9,*/*;q=0.5"}});
+      if(!res.ok)throw new Error("Fetch failed: HTTP "+res.status);
+      var declared=Number(res.headers.get("content-length")||0);if(declared>MAX_AUTO_BYTES)throw new Error("Remote payload exceeds the 12 MB browser safety limit.");
+      var buf=await res.arrayBuffer();if(buf.byteLength>MAX_AUTO_BYTES)throw new Error("Remote payload exceeds the 12 MB browser safety limit.");
+      var bytes=new Uint8Array(buf), type=res.headers.get("content-type")||"", name=(new URL(url)).pathname.split("/").pop()||"ipfs-payload";
+      if(type.indexOf("json")>=0||/\.json$/i.test(name)){
+        var obj=JSON.parse(new TextDecoder().decode(bytes));jsonEl.textContent=pretty(obj);
+        collectLinks(obj).forEach(function(x){addResolvedLink(x.path,x.value);});
+        setKv({Mode:"IPFS / URL",Source:label||input,Bytes:bytes.length,Type:type||"JSON"});
+        var candidates=collectLinks(obj).filter(function(x){return /\.(sdf|mol2?|pdb|ent|cif|mmcif|bcif|xyz)(\?|$)/i.test(x.value)||/(structure|file|animation_url|content)/i.test(x.path);});
+        if(candidates[0]){addResolvedLink("Suggested structure",candidates[0].value);clearViewer("Metadata resolved. Use the IPFS/link field to load the suggested structure payload.");}
+        else clearViewer("Metadata resolved; no obvious molecular structure link was detected.");
+      }else{
+        var fmt=renderBytes(bytes,name,type);jsonEl.textContent=pretty({source:input,resolvedURL:url,bytes:bytes.length,contentType:type||null,detectedFormat:fmt});
+        setKv({Mode:"IPFS / URL",Source:label||input,Bytes:bytes.length,Format:fmt});
+      }
+      addResolvedLink("Resolved URL",url);setStatus("Resource resolved successfully.","ok");return {bytes:bytes,type:type,name:name,url:url};
+    }
+    $("resolveIpfs").addEventListener("click",async function(){
+      var b=this;b.disabled=true;try{clearOutput();await fetchResource($("ipfsUri").value.trim(),"manual link");}catch(e){setStatus(e.name==="AbortError"?"Request timed out.":e.message,"err");clearViewer("Could not load the resource.");}finally{b.disabled=false;}
+    });
+    function stringsToObject(arr,labels){
+      var o={};arr.forEach(function(v,i){o[(labels&&labels[i])||("field_"+i)]=v;});return o;
+    }
+    async function optionalCall(signature,id,decoder){
+      try{var raw=await ethCall(signature,id);if(!raw||raw==="0x")return null;return decoder(raw);}catch(e){return null;}
+    }
+    async function resolveChain(){
+      var id=$("liveToken").value.trim();if(id==="")throw new Error("Enter a token or parent ID.");remember();clearOutput();
+      setStatus("Connecting to GenesisL1 JSON-RPC …");
+      var chainId=await rpc("eth_chainId",[]);
+      var address=$("contractAddress").value.trim();
+      var exists=await optionalCall("tokenExists(uint256)",id,decodeBool);
+      var owner=await optionalCall("ownerOf(uint256)",id,decodeAddress);
+      var tokenUri=await optionalCall("tokenURI(uint256)",id,decodeSingleString);
+      var record={chainId:chainId,contract:address,tokenId:id,tokenExists:exists,owner:owner,tokenURI:tokenUri};
+      setKv({Mode:"GenesisL1 RPC","Chain ID":chainId,Contract:address,"Token ID":id,Exists:exists===null?"method unavailable":String(exists),Owner:owner||"unavailable"});
+      if(tokenUri){
+        addResolvedLink("tokenURI",tokenUri);
+        try{
+          var embedded=decodeDataJson(tokenUri);
+          if(embedded){record.tokenMetadata=embedded;collectLinks(embedded).forEach(function(x){addResolvedLink("tokenURI."+x.path,x.value);});}
+          else if(/^ipfs:\/\/|^https?:\/\//i.test(tokenUri)){
+            setStatus("Token found. Resolving tokenURI metadata …");
+            try{
+              var metaUrl=gatewayUrl(tokenUri), r=await fetch(metaUrl), ct=r.headers.get("content-type")||"";
+              if(r.ok&&(ct.indexOf("json")>=0||/\.json(\?|$)/i.test(metaUrl))){record.tokenMetadata=await r.json();collectLinks(record.tokenMetadata).forEach(function(x){addResolvedLink("metadata."+x.path,x.value);});}
+            }catch(e){record.tokenUriFetchWarning=e.message;}
+          }
+        }catch(e){record.tokenUriParseWarning=e.message;}
+      }
+      if($("fetchPayload").checked){
+        setStatus("Basic token data resolved. Requesting the optional full MolNFT payload …");
+        var entire=await optionalCall("getEntireNFT(uint256)",id,decodeStringTuple), payload=null, payloadSource="";
+        if(entire&&entire.length){
+          record.getEntireNFT=stringsToObject(entire,MOL_FIELDS);
+          payload=entire[entire.length-1];payloadSource="getEntireNFT";
+        }else{
+          var combined=await optionalCall("getCombinedData(uint256)",id,decodeSingleString);
+          if(combined!=null){record.getCombinedData={characters:combined.length};payload=combined;payloadSource="getCombinedData";}
+        }
+        if(payload){
+          try{
+            var bytes;
+            if(/^data:[^,]*;base64,/i.test(payload)||looksBase64(payload))bytes=base64Bytes(payload);
+            else bytes=new TextEncoder().encode(payload);
+            var fmt=renderBytes(bytes,"molnft-"+id+".bcif","application/octet-stream");
+            record.payload={source:payloadSource,characters:payload.length,bytes:bytes.length,detectedFormat:fmt};
+          }catch(e){record.payload={source:payloadSource,characters:payload.length,notDecoded:e.message};clearViewer(e.message);}
+        }else clearViewer("No full payload was returned by getEntireNFT or getCombinedData.");
+      }else{
+        clearViewer(tokenUri?"Token metadata linked. Enable the full-payload checkbox only when structure reconstruction is required.":"Token queried; no tokenURI was returned.");
+      }
+      jsonEl.textContent=pretty(record);setStatus("MolNFT read completed. Unavailable contract methods were skipped without failing the whole request.","ok");
+    }
+    $("resolveChain").addEventListener("click",async function(){
+      var b=this;b.disabled=true;try{await resolveChain();}catch(e){setStatus(e.name==="AbortError"?"RPC request timed out.":e.message,"err");clearViewer("MolNFT resolution failed.");}finally{b.disabled=false;}
+    });
+    $("clearResolver").addEventListener("click",function(){clearOutput();setStatus("Cleared. Configuration fields were preserved.");});
+    renderMock();
+  })();
+  </script>
+
+  <div class="foot"><b>Prototype disclaimer:</b> hand-curated v2 proof-of-concept from public perfumery knowledge. Structural identifiers (PubChem CID · InChIKey · SMILES) and 3D conformers are resolved from <a href="https://pubchem.ncbi.nlm.nih.gov" target="_blank" rel="noopener">PubChem</a> (public domain) by CAS; note-tier assignments remain hand-curated and should be verified against open sources (<a href="https://pyrfume.org" target="_blank" rel="noopener">Pyrfume</a>, Leffingwell/Good-Scents) before any on-chain minting. Entries tagged <span class="verify">verify</span> are proprietary trade-name captives with no public structure. Boiling points and vapor pressures (@25°C) are experimental values from PubChem where available; a <span class="vpest">grey italic</span> vapor pressure is <b>estimated</b> from the boiling point (Clausius–Clapeyron with a Kistiakowsky enthalpy) and is indicative of the gradient only — absolute values for hydrogen-bonding and solid compounds can be off by an order of magnitude. A "~" boiling point is extrapolated from a reduced-pressure measurement. Proprietary "captive" molecules held by houses are excluded; this indexes the shared public palette. Curation by <b>vanpe</b> — independent GenesisL1 validator — for the community. The <b>MolNFT resolver</b> (framework contributed by <b>Joe</b>) performs read-only JSON-RPC calls and treats generated mock links as placeholders; RPC endpoints, contract addresses, token IDs and IPFS CIDs must be independently verified. Automatic payload decoding is capped at 12 MB to reduce browser lock-ups. Not affiliated with IFRA. Not financial or formulation advice.</div>
 </div></body></html>
