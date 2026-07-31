@@ -6,6 +6,20 @@ Times are UTC. Commit hashes in parentheses. Newest first.
 
 ---
 
+## 2026-07-31 — BP/VP for the sourced set; vapour-pressure estimator found biased 7.6× and recalibrated
+
+Added boiling point and vapour pressure to the 218 sourced molecules from PubChem's `Experimental Properties`, then discovered a defect in the **existing** data while validating.
+
+- **Coverage:** BP for 165/218, VP experimental for 80, VP estimated for 89, nothing for 49. (PubChem REST is unreachable via direct fetch — pulled same-origin through the browser, raw batches in `data/staging/p1`–`p3`.)
+- **The estimator was systematically wrong.** Validated the Clausius–Clapeyron + Kistiakowsky estimate against the 30 curated molecules that have *experimental* VP: median error **+0.88 log₁₀ ≈ 7.6× too high**, only 9/30 within 3×. That same estimator produced **42 of the 99 curated values** — the grey-italic ones on the live site.
+- **Recalibrated.** Tested three corrections with leave-one-out on the 30 anchors: flat offset → 3.3×; **fitted enthalpy scale ×1.246 → 2.4×**; log-linear → 5.1× (overfits). Chose the enthalpy scale — best *and* physically motivated: Kistiakowsky is calibrated for non-polar liquids and underestimates ΔH_vap for polar/H-bonding molecules. Applied to **42 curated + 89 sourced** estimates. Typical error now ~2.4×; an estimate is still an estimate.
+- **The gradient survives** — a near-uniform bias preserves ratios, so top→heart→base still falls monotonically. Absolute values moved down.
+- **Own bug caught:** `round(x, 4)` had silently zeroed Piperine's VP of 1.7×10⁻⁵ Pa. Switched to significant figures (128 values adjusted).
+- **48 borderline molecules dropped** (Ivan's call — flavour chemistry, out of scope): sourced 218, excluded 168.
+- **The site's headline sentence was hardcoded** — *"median roughly 200 Pa → 18 Pa → 4 Pa"* — and went stale the moment the estimator changed. Now computed in `mkhtml2.py`; reads **89 Pa → 6 Pa → 480 mPa**. That is the *fourth* derived value in this project to drift by being typed rather than generated (after `stats2.json`, the CSV, and the site copy).
+
+> ⚠️ **Mint fingerprint changed** — VP is an on-token field, so **42 of the 95** pilot records differ. New: `2c160f09b51d22844dfed34d7e07aac3019bc59e3dd1623f53fc6e8dfd5cfc42` (was `f66365fd…`). Token IDs did **not** move (VP isn't in the sort key). **Recompute the fingerprint at mint time rather than trusting any written-down value** — it has now changed twice.
+
 ## 2026-07-31 — Built a licence-clean expansion set: 218 molecules from public-domain / CC0 sources
 
 Acting on the licence scan: rather than chase Leffingwell, assembled an expansion from sources that permit commercial use, so it can back **tradeable** tokens. Lives in `data/sourced/`, deliberately **separate from `rows2.json`** so the curated and sourced layers stay visibly distinct.
