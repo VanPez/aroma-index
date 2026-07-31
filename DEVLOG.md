@@ -69,7 +69,7 @@ The repo held only the built HTML — every source, generator and note lived on 
 - **New `generators/mkcsv.py`** — `docs/aroma-index.csv` was a hand export and still carried the three empty formula/mw cells after the site was fixed. It now regenerates, and reproduces the old export byte-for-byte apart from those three rows.
 - **`site/` → `docs/`, GitHub Pages source switched to `main /docs`.** The working folder and the repo are now one tree: **`git push` deploys**, no copy step, no web-UI uploads. Verified live afterwards — index, scent map and SMILES→3D all serve correctly and the corrected `138 → 169 → 210` header is up.
   - **Gotcha:** between the push and the Pages settings change the site rendered `README.md` instead — the standard Pages fallback when there's no `index.html` at the publishing source. Harmless and self-correcting, but it means **the two steps should be done back-to-back**; the Pages build also takes ~2 min, so don't judge it from the first reload.
-- **Left for Ivan, deliberately not decided:** the local `LICENSE` said a legal name where the published one says `vanpe` — reverted to the pseudonym rather than publish a legal name irreversibly. `screenshots/` is 2.2 MB of the 2.8 MB repo and git keeps it forever; kept for now.
+- **Left for Ivan, deliberately not decided:** the local `LICENSE` carried a legal name where the published one says `vanpe` — reverted to the pseudonym rather than publish it irreversibly. `screenshots/` is 2.2 MB of the 2.8 MB repo and git keeps it forever; kept for now.
 
 ## 2026-07-31 — Pre-mint data audit: 3 empty fields fixed at source; token IDs renumbered
 

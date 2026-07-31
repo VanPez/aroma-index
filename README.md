@@ -4,7 +4,7 @@ An open, hand-curated index of common aroma molecules — a DeSci proof-of-conce
 
 - **Live site:** https://vanpez.github.io/aroma-index/
 - **Repo:** https://github.com/VanPez/aroma-index (MIT)
-- **Maintainer:** Ivan (vanpe / vAnPΞ)
+- **Maintainer:** vanpe (vAnPΞ)
 - **Companion:** `../INFRA.md` (validator + L1 tooling reference). This folder is the home for all Aroma-index work — previously only an early `aroma-index.html` lived in `../l1-liquidity/` (now superseded).
 
 ## What it is
