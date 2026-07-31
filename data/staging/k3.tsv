@@ -1,0 +1,96 @@
+11902	Methyl 2-furoate	COC(=O)C1=CC=CO1	0
+12020	1-Penten-3-Ol	CCC(C=C)O	0
+12097	5-Methylfurfural	CC1=CC=C(O1)C=O	0
+12178	3-Hexanol	CCCC(CC)O	0
+12180	Methyl butyrate	CCCC(=O)OC	1
+12206	Methyl valerate	CCCCC(=O)OC	0
+12327	Ethyl undecanoate	CCCCCCCCCCC(=O)OCC	0
+12377	Dipropyl disulfide	CCCSSCCC	0
+12506	Tetrahydrofurfuryl acetate	CC(=O)OCC1CCCO1	0
+12580	4-Propylphenol	CCCC1=CC=C(C=C1)O	0
+12587	Isocaproic acid	CC(C)CCC(=O)O	0
+12741	2-Decanone	CCCCCCCCC(=O)C	0
+12748	4-Methylthiazole	CC1=CSC=N1	1
+12810	delta-Decalactone	CCCCCC1CCCC(=O)O1	0
+12813	Gamma-Decalactone	CCCCCCC1CCC(=O)O1	0
+13187	2-Nonanone	CCCCCCCC(=O)C	0
+13204	delta-Hexalactone	CC1CCCC(=O)O1	0
+13436	Diphenyl disulfide	C1=CC=C(C=C1)SSC2=CC=CC=C2	0
+13561	6-Undecanone	CCCCCC(=O)CCCCC	0
+14104	Thymyl methyl ether	CC1=CC(=C(C=C1)C(C)C)OC	0
+14228	Hexyl Octanoate	CCCCCCCC(=O)OCCCCCC	0
+14286	2-Acetylpyridine	CC(=O)C1=CC=CC=N1	0
+14296	Tetramethylpyrazine	CC1=C(N=C(C(=N1)C)C)C	0
+14491	1,6-Hexanedithiol	C(CCCS)CCS	0
+14514	2-Acetyl-5-Methylfuran	CC1=CC=C(O1)C(=O)C	0
+15037	1-Furfurylpyrrole	C1=CN(C=C1)CC2=CC=CO2	0
+15380	2,4-Dithiapentane	CSCSC	0
+15510	Cyclopentanethiol	C1CCC(C1)S	0
+15606	Methyl nonanoate	CCCCCCCCC(=O)OC	0
+15654	4-Methyl-5-vinylthiazole	CC1=C(SC=N1)C=C	0
+15717	Allyl phenylacetate	C=CCOC(=O)CC1=CC=CC=C1	0
+16255	3-Methylbutyl octanoate	CCCCCCCC(=O)OCCC(C)C	0
+16324	Allyl butyrate	CCCC(=O)OCC=C	0
+16537	Terpinyl formate	CC1=CCC(CC1)C(C)(C)OC=O	0
+16741	Phenethyl Isothiocyanate	C1=CC=C(C=C1)CCN=C=S	0
+17121	1-Octen-3-yl acetate	CCCCCC(C=C)OC(=O)C	0
+17525	Hexyl butyrate	CCCCCCOC(=O)CCC	0
+17617	Allyl cyclohexanepropionate	C=CCOC(=O)CCC1CCCCC1	0
+18467	2-Methoxypyrazine	COC1=NC=CN=C1	0
+18554	2-Ethylfuran	CCC1=CC=CO1	0
+18635	Methional	CSCCC=O	1
+18827	1-Octen-3-Ol	CCCCCC(C=C)O	0
+19310	Dimethyl trisulfide	CSSSC	0
+21057	1-Hepten-3-OL	CCCCC(C=C)O	0
+21363	Cyclohexaneacetic acid	C1CCC(CC1)CC(=O)O	0
+21648	4-(4'-Hydroxyphenyl)-2-butanone	CC(=O)CCC1=CC=C(C=C1)O	1
+22310	Linalool, oxide	CC1(CCC(O1)C(C)(C)O)C=C	0
+22386	2-Pentanol	CCCC(C)O	0
+22873	Hexyl hexanoate	CCCCCCOC(=O)CCCCC	0
+23235	Hexyl benzoate	CCCCCCOC(=O)C1=CC=CC=C1	0
+23642	Thioguaiacol	COC1=CC=CC=C1S	0
+24020	Ethyl 2-methylbutyrate	CCC(C)C(=O)OCC	0
+24116	Allyl anthranilate	C=CCOC(=O)C1=CC=CC=C1N	0
+24513	Decanal dimethyl acetal	CCCCCCCCCC(OC)OC	0
+24834	4-Ethoxybenzaldehyde	CCOC1=CC=C(C=C1)C=O	0
+26331	2-Ethylpyrazine	CCC1=NC=CN=C1	0
+27440	2-Ethyl-4-methyl thiazole	CCC1=NC(=CS1)C	0
+27457	2-Ethyl-3-Methylpyrazine	CCC1=NC=CN=C1C	0
+27458	2,3-Diethylpyrazine	CCC1=NC=CN=C1CC	0
+31209	Amylcinnamaldehyde	CCCCCC(=CC1=CC=CC=C1)C=O	1
+31210	Butyl phenylacetate	CCCCOC(=O)CC1=CC=CC=C1	0
+31219	Benzyl propionate	CCC(=O)OCC1=CC=CC=C1	0
+31225	2-Phenylethyl propionate	CCC(=O)OCCC1=CC=CC=C1	1
+31234	Benzenepropanol	C1=CC=C(C=C1)CCCO	1
+31244	4-Methoxybenzaldehyde	COC1=CC=C(C=C1)C=O	1
+31246	4-Heptanone	CCCC(=O)CCC	1
+31249	Diethyl Succinate	CCOC(=O)CCC(=O)OCC	0
+31252	2,5-Dimethylpyrazine	CC1=CN=C(C=N1)C	0
+31260	Isoamyl Alcohol	CC(C)CCO	1
+31265	Ethyl hexanoate	CCCCCC(=O)OCC	0
+31266	Allyl caproate	CCCCCC(=O)OCC=C	0
+31268	Pyrrolidine	C1CCNC1	1
+31272	Butyl Acetate	CCCCOC(=O)C	1
+31276	Isoamyl Acetate	CC(C)CCOC(=O)C	1
+31283	Ethyl Myristate	CCCCCCCCCCCCCC(=O)OCC	0
+31404	2,6-Di-tert-butyl-4-methylphenol	CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C	1
+32594	2-Isobutyl-3-methoxypyrazine	CC(C)CC1=NC=CN=C1OC	0
+36822	5,6,7,8-Tetrahydroquinoxaline	C1CCC2=NC=CN=C2C1	0
+60998	Isobutyl phenylacetate	CC(C)COC(=O)CC1=CC=CC=C1	0
+60999	Benzyl phenylacetate	C1=CC=C(C=C1)CC(=O)OCC2=CC=CC=C2	0
+61005	Phenoxyethyl isobutyrate	CC(C)C(=O)OCCOC1=CC=CC=C1	0
+61024	Octyl isobutyrate	CCCCCCCCOC(=O)C(C)C	0
+61027	Butyl 10-undecenoate	CCCCOC(=O)CCCCCCCCC=C	0
+61048	Isobutyl Benzoate	CC(C)COC(=O)C1=CC=CC=C1	0
+61052	3-Phenylpropyl propanoate	CCC(=O)OCCCC1=CC=CC=C1	0
+61130	Myrtenal	CC1(C2CC=C(C1C2)C=O)C	0
+61138	4-Pentenoic acid	C=CCCC(=O)O	0
+61151	Methyl 2-Methoxybenzoate	COC1=CC=CC=C1C(=O)OC	0
+61155	Guaiacyl acetate	CC(=O)OC1=CC=CC=C1OC	0
+61177	Hexyl Formate	CCCCCCOC=O	0
+61185	Pentyl octanoate	CCCCCCCC(=O)OCCCCC	0
+61192	4-Methyl-5-thiazoleethanol acetate	CC1=C(SC=N1)CCOC(=O)C	0
+61199	5-Ethyl-3-hydroxy-4-methyl-2(5H)-furanone	CCC1C(=C(C(=O)O1)O)C	0
+61204	delta-UNDECALACTONE	CCCCCCC1CCCC(=O)O1	0
+61229	Vanillin acetate	CC(=O)OC1=C(C=C(C=C1)C=O)OC	0
+61252	Dihydro-3(2H)-thiophenone	C1CSCC1=O	0

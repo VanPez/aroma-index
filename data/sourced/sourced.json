@@ -1,0 +1,7304 @@
+[
+ {
+  "cid": 126,
+  "name": "4-Hydroxybenzaldehyde",
+  "smiles": "C1=CC(=CC=C1C=O)O",
+  "inchikey": "RGHHSNMVTDWUBI-UHFFFAOYSA-N",
+  "formula": "C7H6O2",
+  "mw": 122.12,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 176,
+  "name": "Acetic Acid",
+  "smiles": "CC(=O)O",
+  "inchikey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+  "formula": "C2H4O2",
+  "mw": 60.05,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pungent | Sour, vinegar-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 244,
+  "name": "Benzyl Alcohol",
+  "smiles": "C1=CC=C(C=C1)CO",
+  "inchikey": "WVDDGKGOMKODPV-UHFFFAOYSA-N",
+  "formula": "C7H8O",
+  "mw": 108.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Faint aromatic odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 261,
+  "name": "Butanal",
+  "smiles": "CCCC=O",
+  "inchikey": "ZTQSAGDEMFDKMZ-UHFFFAOYSA-N",
+  "formula": "C4H8O",
+  "mw": 72.11,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Characteristic, pungent, aldehyde odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 263,
+  "name": "1-Butanol",
+  "smiles": "CCCCO",
+  "inchikey": "LRHPLDYGYMQRHN-UHFFFAOYSA-N",
+  "formula": "C4H10O",
+  "mw": 74.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "HARSH FUSEL ODOR WITH BANANA | Odor similar to amyl alcohol | Rancid, sweet | Strong characteristic, mildly alcoholic odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 264,
+  "name": "Butyric Acid",
+  "smiles": "CCCC(=O)O",
+  "inchikey": "FERIUCNNQQJTOY-UHFFFAOYSA-N",
+  "formula": "C4H8O2",
+  "mw": 88.11,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Unpleasant, rancid odor | Penetrating and obnoxious odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 325,
+  "name": "Cuminol",
+  "smiles": "CC(C)C1=CC=C(C=C1)CO",
+  "inchikey": "OIGWAXDAPKFNCQ-UHFFFAOYSA-N",
+  "formula": "C10H14O",
+  "mw": 150.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 326,
+  "name": "Cuminaldehyde",
+  "smiles": "CC(C)C1=CC=C(C=C1)C=O",
+  "inchikey": "WTWBUQJHJGUZCY-UHFFFAOYSA-N",
+  "formula": "C10H12O",
+  "mw": 148.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 379,
+  "name": "Octanoic Acid",
+  "smiles": "CCCCCCCC(=O)O",
+  "inchikey": "WWZKQHOCKIZLMA-UHFFFAOYSA-N",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "FAINT, FRUITY-ACID ODOR | UNPLEASANT AND IRRITATING ODOR | Slight odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 460,
+  "name": "Guaiacol",
+  "smiles": "COC1=CC=CC=C1O",
+  "inchikey": "LHGVFZTZFXWLCP-UHFFFAOYSA-N",
+  "formula": "C7H8O2",
+  "mw": 124.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Aromatic odor | CHARACTERISTIC SWEET ODOR, SLIGHTLY PHENOLIC",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 650,
+  "name": "Butanedione",
+  "smiles": "CC(=O)C(=O)C",
+  "inchikey": "QSJXEFYPDANLFS-UHFFFAOYSA-N",
+  "formula": "C4H6O2",
+  "mw": 86.09,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Quinone odor; vapors have a chlorine-like odor | Very strong buttery odor in dilute solution | Strong odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 679,
+  "name": "Dimethyl Sulfoxide",
+  "smiles": "CS(=O)C",
+  "inchikey": "IAZDPXIOMUYVGZ-UHFFFAOYSA-N",
+  "formula": "C2H6OS",
+  "mw": 78.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Slightly sulfurous odor | Distinctive garlic or oyster-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 957,
+  "name": "1-Octanol",
+  "smiles": "CCCCCCCCO",
+  "inchikey": "KBPLFHHGFOOTCA-UHFFFAOYSA-N",
+  "formula": "C8H18O",
+  "mw": 130.23,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Fresh orange rose odor | Penetrating aromatic odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1001,
+  "name": "Phenethylamine",
+  "smiles": "C1=CC=C(C=C1)CCN",
+  "inchikey": "BHHGXPLMPWCGHP-UHFFFAOYSA-N",
+  "formula": "C8H11N",
+  "mw": 121.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Fishy odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1031,
+  "name": "1-Propanol",
+  "smiles": "CCCO",
+  "inchikey": "BDERNNFJNOPAEC-UHFFFAOYSA-N",
+  "formula": "C3H8O",
+  "mw": 60.1,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Similar to ethanol | Odor perception threshold: <0.07-100 mg/cu-m; odor recognition threshold: 0.32-150 mg/cu m",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1032,
+  "name": "Propionic Acid",
+  "smiles": "CCC(=O)O",
+  "inchikey": "XBDQKXXYIPTUBI-UHFFFAOYSA-N",
+  "formula": "C3H6O2",
+  "mw": 74.08,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Slightly pungent disagreeable, rancid odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1049,
+  "name": "Pyridine",
+  "smiles": "C1=CC=NC=C1",
+  "inchikey": "JUJWROOIHBZHMG-UHFFFAOYSA-N",
+  "formula": "C5H5N",
+  "mw": 79.1,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sharp, nauseating | Burnt, sickening | Nauseating fish-like odor.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1060,
+  "name": "Pyruvic Acid",
+  "smiles": "CC(=O)C(=O)O",
+  "inchikey": "LCTONWCANYUPML-UHFFFAOYSA-N",
+  "formula": "C3H4O3",
+  "mw": 88.06,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1068,
+  "name": "Dimethyl Sulfide",
+  "smiles": "CSC",
+  "inchikey": "QMMFVYPAHWMCMS-UHFFFAOYSA-N",
+  "formula": "C2H6S",
+  "mw": 62.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "UNPLEASANT ODOR OF WILD RADISH, CABBAGE-LIKE",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1136,
+  "name": "4-Methyl-5-(2-hydroxyethyl)thiazole",
+  "smiles": "CC1=C(SC=N1)CCO",
+  "inchikey": "BKAWJIRCKVUVED-UHFFFAOYSA-N",
+  "formula": "C6H9NOS",
+  "mw": 143.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 2346,
+  "name": "Benzyl Isothiocyanate",
+  "smiles": "C1=CC=C(C=C1)CN=C=S",
+  "inchikey": "MDKCFLQDBWCQCV-UHFFFAOYSA-N",
+  "formula": "C8H7NS",
+  "mw": 149.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 2879,
+  "name": "P-Cresol",
+  "smiles": "CC1=CC=C(C=C1)O",
+  "inchikey": "IWDCLRJOBJJRNH-UHFFFAOYSA-N",
+  "formula": "C7H8O",
+  "mw": 108.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Phenolic odor | Sweet, tarry odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 2969,
+  "name": "Decanoic Acid",
+  "smiles": "CCCCCCCCCC(=O)O",
+  "inchikey": "GHVNFZFCNZKVNT-UHFFFAOYSA-N",
+  "formula": "C10H20O2",
+  "mw": 172.27,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Rancid odor | Unpleasant odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 3102,
+  "name": "Benzophenone",
+  "smiles": "C1=CC=C(C=C1)C(=O)C2=CC=CC=C2",
+  "inchikey": "RWCCWEUUXYIKHB-UHFFFAOYSA-N",
+  "formula": "C13H10O",
+  "mw": 182.22,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Geranium-like odor | Sweet, rose-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 3776,
+  "name": "Isopropanol",
+  "smiles": "CC(C)O",
+  "inchikey": "KFZMGEQAYNKOFK-UHFFFAOYSA-N",
+  "formula": "C3H8O",
+  "mw": 60.1,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pleasant odor | Slight odor resembling that of a mixture of ethanol and acetone | Odor of rubbing alcohol",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 3893,
+  "name": "Lauric Acid",
+  "smiles": "CCCCCCCCCCCC(=O)O",
+  "inchikey": "POULHZVOKOAJMA-UHFFFAOYSA-N",
+  "formula": "C12H24O2",
+  "mw": 200.32,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Characteristic, like oil of bay",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5610,
+  "name": "Tyramine",
+  "smiles": "C1=CC(=CC=C1CCN)O",
+  "inchikey": "DZGWFCGJZKJUFP-UHFFFAOYSA-N",
+  "formula": "C8H11NO",
+  "mw": 137.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6184,
+  "name": "Hexanal",
+  "smiles": "CCCCCC=O",
+  "inchikey": "JARKCYVAAOWBJS-UHFFFAOYSA-N",
+  "formula": "C6H12O",
+  "mw": 100.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Characteristic fruity odor (on dilution) | Strong, green grass odor | Sharp, aldehyde odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6276,
+  "name": "1-Pentanol",
+  "smiles": "CCCCCO",
+  "inchikey": "AMQJEAYHLZJPGS-UHFFFAOYSA-N",
+  "formula": "C5H12O",
+  "mw": 88.15,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "CHARACTERISTIC FUSEL-LIKE ODOR | Mild odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6448,
+  "name": "Acetic acid 1,7,7-trimethyl-bicyclo(2.2.1)hept-2-yl ester",
+  "smiles": "CC(=O)OC1CC2CCC1(C2(C)C)C",
+  "inchikey": "KGEKLUUHTZCSIP-UHFFFAOYSA-N",
+  "formula": "C12H20O2",
+  "mw": 196.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6501,
+  "name": "Ethyl 3-methyl-3-phenylglycidate",
+  "smiles": "CCOC(=O)C1C(O1)(C)C2=CC=CC=C2",
+  "inchikey": "LQKRYVGRPXFFAV-UHFFFAOYSA-N",
+  "formula": "C12H14O3",
+  "mw": 206.24,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "ON DILUTION, STRONG FRUITY ODOR | FRUITY, BERRY AROMA",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6544,
+  "name": "Isophorone",
+  "smiles": "CC1=CC(=O)CC(C1)(C)C",
+  "inchikey": "HJOVHMDZYOCNQW-UHFFFAOYSA-N",
+  "formula": "C9H14O",
+  "mw": 138.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Peppermint-like odor | Camphor-like",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6560,
+  "name": "Isobutanol",
+  "smiles": "CC(C)CO",
+  "inchikey": "ZXEKIIBDNHEJCQ-UHFFFAOYSA-N",
+  "formula": "C4H10O",
+  "mw": 74.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sweet, musty odor | Odor like that of amyl alcohol, but weaker | Penetrating, wine-like, disagreeable odor | Suffocating odor of fusel oil",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6561,
+  "name": "Isobutyraldehyde",
+  "smiles": "CC(C)C=O",
+  "inchikey": "AMIMRNSIRUDHCM-UHFFFAOYSA-N",
+  "formula": "C4H8O",
+  "mw": 72.11,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "EXTREMELY SHARP | Pungent odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6569,
+  "name": "Methyl Ethyl Ketone",
+  "smiles": "CCC(=O)C",
+  "inchikey": "ZWEHNKRNPOVVGH-UHFFFAOYSA-N",
+  "formula": "C4H8O",
+  "mw": 72.11,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Acetone-like odor | Sweet, pleasant, pungent | Moderately sharp, fragrant, mint- or acetone-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6584,
+  "name": "Methyl Acetate",
+  "smiles": "CC(=O)OC",
+  "inchikey": "KXKVLQRXCPHEJC-UHFFFAOYSA-N",
+  "formula": "C3H6O2",
+  "mw": 74.08,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pleasant odor | Fragrant, fruity odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6590,
+  "name": "Isobutyric Acid",
+  "smiles": "CC(C)C(=O)O",
+  "inchikey": "KQNPFQTWMSNSAP-UHFFFAOYSA-N",
+  "formula": "C4H8O2",
+  "mw": 88.11,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pungent odor like that of butyric acid, but not as unpleasant | SHARP, BUTTER-FAT-LIKE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6658,
+  "name": "Methyl Methacrylate",
+  "smiles": "CC(=C)C(=O)OC",
+  "inchikey": "VVQNEPGJFQJSBK-UHFFFAOYSA-N",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Characteristic quality: sulfur-like, sweet, sharp; hedonic tone: unpleasant | Acrid, fruity odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6826,
+  "name": "Methyl N-methylanthranilate",
+  "smiles": "CNC1=CC=CC=C1C(=O)OC",
+  "inchikey": "GVOWHGSUZUUUDR-UHFFFAOYSA-N",
+  "formula": "C9H11NO2",
+  "mw": 165.19,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "ORANGE & MANDARIN-PEEL-LIKE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6943,
+  "name": "2-Isopropylphenol",
+  "smiles": "CC(C)C1=CC=CC=C1O",
+  "inchikey": "CRBJBYGJVIBWIY-UHFFFAOYSA-N",
+  "formula": "C9H12O",
+  "mw": 136.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6989,
+  "name": "Thymol",
+  "smiles": "CC1=CC(=C(C=C1)C(C)C)O",
+  "inchikey": "MGSRCZKZVOBKFT-UHFFFAOYSA-N",
+  "formula": "C10H14O",
+  "mw": 150.22,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Odor of thyme | A spicy-herbal, slightly medicinal odor reminiscent of thyme | Aromatic odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 6998,
+  "name": "Salicylaldehyde",
+  "smiles": "C1=CC=C(C(=C1)C=O)O",
+  "inchikey": "SMQUZDBALVYZAC-UHFFFAOYSA-N",
+  "formula": "C7H6O2",
+  "mw": 122.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Bitter, almond-like odor | Pungent, irritating odor similar to benzenaldehyde, acetophenone, and nitrobenzene, but with phenolic notes",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7059,
+  "name": "6-Methylquinoline",
+  "smiles": "CC1=CC2=C(C=C1)N=CC=C2",
+  "inchikey": "LUYISICIYVKBTA-UHFFFAOYSA-N",
+  "formula": "C10H9N",
+  "mw": 143.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7092,
+  "name": "6-Methylcoumarin",
+  "smiles": "CC1=CC2=C(C=C1)OC(=O)C=C2",
+  "inchikey": "FXFYOPQLGGEACP-UHFFFAOYSA-N",
+  "formula": "C10H8O2",
+  "mw": 160.17,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Somewhat dry, herbaceous (tonka-like) odor; also characterized as a delicate fig or date sweetness. | Coconut odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7095,
+  "name": "Biphenyl",
+  "smiles": "C1=CC=C(C=C1)C2=CC=CC=C2",
+  "inchikey": "ZUOUZKKEUPVFJK-UHFFFAOYSA-N",
+  "formula": "C12H10",
+  "mw": 154.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pleasant, peculiar odor | Pleasant, characteristic odor. | Pleasant, butter-like",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7119,
+  "name": "2-Methoxynaphthalene",
+  "smiles": "COC1=CC2=CC=CC=C2C=C1",
+  "inchikey": "LUZDYPLAQQGJEA-UHFFFAOYSA-N",
+  "formula": "C11H10O",
+  "mw": 158.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7122,
+  "name": "2-Acetylnaphthalene",
+  "smiles": "CC(=O)C1=CC2=CC=CC=C2C=C1",
+  "inchikey": "XSAYZAUNJMRRIR-UHFFFAOYSA-N",
+  "formula": "C12H10O",
+  "mw": 170.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7136,
+  "name": "Eugenyl Acetate",
+  "smiles": "CC(=O)OC1=C(C=C(C=C1)CC=C)OC",
+  "inchikey": "SCCDQYPEOIRVGX-UHFFFAOYSA-N",
+  "formula": "C12H14O3",
+  "mw": 206.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7137,
+  "name": "Isoeugenol, acetate",
+  "smiles": "CC=CC1=CC(=C(C=C1)OC(=O)C)OC",
+  "inchikey": "IUSBVFZKQJGVEP-UHFFFAOYSA-N",
+  "formula": "C12H14O3",
+  "mw": 206.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7144,
+  "name": "2-Methoxy-4-Methylphenol",
+  "smiles": "CC1=CC(=C(C=C1)O)OC",
+  "inchikey": "PETRWTHZSKVLRE-UHFFFAOYSA-N",
+  "formula": "C8H10O2",
+  "mw": 138.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7147,
+  "name": "1-Phenyl-1-propanol",
+  "smiles": "CCC(C1=CC=CC=C1)O",
+  "inchikey": "DYUQAZSOFZSPHD-UHFFFAOYSA-N",
+  "formula": "C9H12O",
+  "mw": 136.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7150,
+  "name": "Methyl Benzoate",
+  "smiles": "COC(=O)C1=CC=CC=C1",
+  "inchikey": "QPJVMBTYPHYUOC-UHFFFAOYSA-N",
+  "formula": "C8H8O2",
+  "mw": 136.15,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Fragrant odor | FRUITY ODOR, ALSO SIMILAR TO CANANGA | MEDICINAL ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7151,
+  "name": "Methyl Nicotinate",
+  "smiles": "COC(=O)C1=CN=CC=C1",
+  "inchikey": "YNBADRVTZLEFNH-UHFFFAOYSA-N",
+  "formula": "C7H7NO2",
+  "mw": 137.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7165,
+  "name": "Ethyl benzoate",
+  "smiles": "CCOC(=O)C1=CC=CC=C1",
+  "inchikey": "MTZQAGJQAFMTAQ-UHFFFAOYSA-N",
+  "formula": "C9H10O2",
+  "mw": 150.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7194,
+  "name": "Phenethyl Benzoate",
+  "smiles": "C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2",
+  "inchikey": "OSORMYZMWHVFOZ-UHFFFAOYSA-N",
+  "formula": "C15H14O2",
+  "mw": 226.28,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7302,
+  "name": "Gamma-Butyrolactone",
+  "smiles": "C1CC(=O)OC1",
+  "inchikey": "YEJRWHAVMIAJKC-UHFFFAOYSA-N",
+  "formula": "C4H6O2",
+  "mw": 86.09,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pleasant odor | Faint odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7335,
+  "name": "Carvyl acetate",
+  "smiles": "CC1=CCC(CC1OC(=O)C)C(=C)C",
+  "inchikey": "YTHRBOFHFYZBRJ-UHFFFAOYSA-N",
+  "formula": "C12H18O2",
+  "mw": 194.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7341,
+  "name": "2-Methylvaleric acid",
+  "smiles": "CCCC(C)C(=O)O",
+  "inchikey": "OVBFMEVBMNZIBR-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7361,
+  "name": "Furfuryl Alcohol",
+  "smiles": "C1=COC(=C1)CO",
+  "inchikey": "XPFVYQJUAUNWIW-UHFFFAOYSA-N",
+  "formula": "C5H6O2",
+  "mw": 98.1,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Faint burning odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7409,
+  "name": "1-Phenylethanol",
+  "smiles": "CC(C1=CC=CC=C1)O",
+  "inchikey": "WAPNOHKVXSQRPX-UHFFFAOYSA-N",
+  "formula": "C8H10O",
+  "mw": 122.17,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "MILD FLORAL ODOR | MILD HYACINTH-GARDENIA ODOR | Weak, bitter, almond-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7410,
+  "name": "Acetophenone",
+  "smiles": "CC(=O)C1=CC=CC=C1",
+  "inchikey": "KWOLFJPFCHCOCG-UHFFFAOYSA-N",
+  "formula": "C8H8O",
+  "mw": 120.15,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sweet pungent odor | Sweet, pungent and strong medicinal odor | Sweet almond-like smell",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7476,
+  "name": "4'-Methoxyacetophenone",
+  "smiles": "CC(=O)C1=CC=C(C=C1)OC",
+  "inchikey": "NTPLXRHDUXRPNE-UHFFFAOYSA-N",
+  "formula": "C9H10O2",
+  "mw": 150.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pleasant odor | Hawthorn odor | Similar to that of p-methylacetopheneone, suggestive of hawthorn and floral note of heliotrope",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7519,
+  "name": "Anisole",
+  "smiles": "COC1=CC=CC=C1",
+  "inchikey": "RDOXTESZEPMUJZ-UHFFFAOYSA-N",
+  "formula": "C7H8O",
+  "mw": 108.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "SWEET ANISE-LIKE ODOR | Agreeable aromatic odor | Spicy-sweet",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7559,
+  "name": "Methyl phenylacetate",
+  "smiles": "COC(=O)CC1=CC=CC=C1",
+  "inchikey": "CRZQGDNQQAALAY-UHFFFAOYSA-N",
+  "formula": "C9H10O2",
+  "mw": 150.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Honey, jasmine odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7583,
+  "name": "Diphenyl Ether",
+  "smiles": "C1=CC=C(C=C1)OC2=CC=CC=C2",
+  "inchikey": "USIUVYZYUHIAEV-UHFFFAOYSA-N",
+  "formula": "C12H10O",
+  "mw": 170.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Geranium-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7593,
+  "name": "1,3-Diphenyl-2-propanone",
+  "smiles": "C1=CC=C(C=C1)CC(=O)CC2=CC=CC=C2",
+  "inchikey": "YFKBXYGUSOXJGS-UHFFFAOYSA-N",
+  "formula": "C15H14O",
+  "mw": 210.28,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7601,
+  "name": "Phenethyl phenylacetate",
+  "smiles": "C1=CC=C(C=C1)CCOC(=O)CC2=CC=CC=C2",
+  "inchikey": "ZOZIRNMDEZKZHM-UHFFFAOYSA-N",
+  "formula": "C16H16O2",
+  "mw": 240.3,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7632,
+  "name": "2-Methyl-4-phenyl-2-butanol",
+  "smiles": "CC(C)(CCC1=CC=CC=C1)O",
+  "inchikey": "YXVSKJDFNJFXAJ-UHFFFAOYSA-N",
+  "formula": "C11H16O",
+  "mw": 164.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7654,
+  "name": "2-Phenylethyl Acetate",
+  "smiles": "CC(=O)OCCC1=CC=CC=C1",
+  "inchikey": "MDHYEMXUFSJLGV-UHFFFAOYSA-N",
+  "formula": "C10H12O2",
+  "mw": 164.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7657,
+  "name": "Dibenzyl ether",
+  "smiles": "C1=CC=C(C=C1)COCC2=CC=CC=C2",
+  "inchikey": "MHDVGSVTJDSBDK-UHFFFAOYSA-N",
+  "formula": "C14H14O",
+  "mw": 198.27,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "FAINT, ALMOND ODOR | VERY SLIGHT ODOR OF BENZALDEHYDE",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7695,
+  "name": "4-Methoxybenzyl acetate",
+  "smiles": "CC(=O)OCC1=CC=C(C=C1)OC",
+  "inchikey": "HFNGYHHRRMSKEU-UHFFFAOYSA-N",
+  "formula": "C10H12O3",
+  "mw": 180.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7720,
+  "name": "2-Ethylhexanol",
+  "smiles": "CCCCC(CC)CO",
+  "inchikey": "YIWUKEYIRIRTPP-UHFFFAOYSA-N",
+  "formula": "C8H18O",
+  "mw": 130.23,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Mild, oily, sweet, slightly floral odor reminiscent of rose | Intense and unpleasant",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7749,
+  "name": "Ethyl Propionate",
+  "smiles": "CCC(=O)OCC",
+  "inchikey": "FKRCODPIKNYEAC-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "REMINISCENT OF RUM & PINEAPPLE | Fruity odor | Odor of pineapple | Butter- or rum-like",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7761,
+  "name": "Diethyl Malonate",
+  "smiles": "CCOC(=O)CC(=O)OCC",
+  "inchikey": "IYXGSMUGOJNHAZ-UHFFFAOYSA-N",
+  "formula": "C7H12O4",
+  "mw": 160.17,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sweet ester odor | Slightly aromatic, pleasant odor | Aroma of ripe fruit, peach, cut grass",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7762,
+  "name": "Ethyl butyrate",
+  "smiles": "CCCC(=O)OCC",
+  "inchikey": "OBNCKNCVKJNDBV-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pineapple odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7765,
+  "name": "Acetal",
+  "smiles": "CCOC(C)OCC",
+  "inchikey": "DHKHKXVYLBGOIT-UHFFFAOYSA-N",
+  "formula": "C6H14O2",
+  "mw": 118.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "PUNGENT, GREEN, WOODY SOLVENT ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7768,
+  "name": "Caprolactam",
+  "smiles": "C1CCC(=O)NCC1",
+  "inchikey": "JBKVHLHDHHXQEQ-UHFFFAOYSA-N",
+  "formula": "C6H11NO",
+  "mw": 113.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Unpleasant odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7770,
+  "name": "Propyl butyrate",
+  "smiles": "CCCC(=O)OCCC",
+  "inchikey": "HUAZGNHGCJGYNP-UHFFFAOYSA-N",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7792,
+  "name": "3,7-Dimethyl-1-octanol",
+  "smiles": "CC(C)CCCC(C)CCO",
+  "inchikey": "PRNCMAKCNVRZFX-UHFFFAOYSA-N",
+  "formula": "C10H22O",
+  "mw": 158.28,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7795,
+  "name": "Isoamyl butyrate",
+  "smiles": "CCCC(=O)OCCC(C)C",
+  "inchikey": "PQLMXFQTAMDXIZ-UHFFFAOYSA-N",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7797,
+  "name": "Ethyl Heptanoate",
+  "smiles": "CCCCCCC(=O)OCC",
+  "inchikey": "TVQGDYNRXLTQAP-UHFFFAOYSA-N",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7799,
+  "name": "Ethyl octanoate",
+  "smiles": "CCCCCCCC(=O)OCC",
+  "inchikey": "YYZUSRORWSJGET-UHFFFAOYSA-N",
+  "formula": "C10H20O2",
+  "mw": 172.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7803,
+  "name": "Propyl propionate",
+  "smiles": "CCCOC(=O)CC",
+  "inchikey": "MCSINKKTEDDPNK-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7820,
+  "name": "Dimethyl Succinate",
+  "smiles": "COC(=O)CCC(=O)OC",
+  "inchikey": "MUXOBHXGJLMRAB-UHFFFAOYSA-N",
+  "formula": "C6H10O4",
+  "mw": 146.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "PLEASANT, ETHEREAL, WINEY ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7824,
+  "name": "Methyl hexanoate",
+  "smiles": "CCCCCC(=O)OC",
+  "inchikey": "NUKZAGXMHTUAFE-UHFFFAOYSA-N",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7826,
+  "name": "Methyl heptanoate",
+  "smiles": "CCCCCCC(=O)OC",
+  "inchikey": "XNCNNDVCAUWAIT-UHFFFAOYSA-N",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7894,
+  "name": "Isoamylamine",
+  "smiles": "CC(C)CCN",
+  "inchikey": "BMFVGAAISNGQNM-UHFFFAOYSA-N",
+  "formula": "C5H13N",
+  "mw": 87.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7915,
+  "name": "Isopropyl Acetate",
+  "smiles": "CC(C)OC(=O)C",
+  "inchikey": "JMMWKPVZQRWMSS-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Aromatic | Fruity odor. | Quality: sweet, ester; hedonic tone: pleasant to unpleasant | Pleasant-odored",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7916,
+  "name": "Isopropenyl acetate",
+  "smiles": "CC(=C)OC(=O)C",
+  "inchikey": "HETCEOQFVDFGSY-UHFFFAOYSA-N",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7921,
+  "name": "Gamma-Valerolactone",
+  "smiles": "CC1CCC(=O)O1",
+  "inchikey": "GAEKPEKOJKCEMS-UHFFFAOYSA-N",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7937,
+  "name": "2,6-Lutidine",
+  "smiles": "CC1=NC(=CC=C1)C",
+  "inchikey": "OISVCGZHLKNMSJ-UHFFFAOYSA-N",
+  "formula": "C7H9N",
+  "mw": 107.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Odor of pyridine plus peppermint",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7967,
+  "name": "Cyclohexanone",
+  "smiles": "C1CCC(=O)CC1",
+  "inchikey": "JHIVVAPYMSGYDF-UHFFFAOYSA-N",
+  "formula": "C6H10O",
+  "mw": 98.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "ODOR REMINISCENT OF PEPPERMINT & ACETONE | Peppermint- or acetone-like odor.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7969,
+  "name": "Thiophenol",
+  "smiles": "C1=CC=C(C=C1)S",
+  "inchikey": "RMVRSNDYEFQCLF-UHFFFAOYSA-N",
+  "formula": "C6H6S",
+  "mw": 110.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Repulsive, penetrating, garlic-like odor, especially when impure",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7983,
+  "name": "Butyl butyrate",
+  "smiles": "CCCCOC(=O)CCC",
+  "inchikey": "XUPYJHCZDLZNFP-UHFFFAOYSA-N",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7991,
+  "name": "Pentanoic Acid",
+  "smiles": "CCCCC(=O)O",
+  "inchikey": "NQPDZGIKBAWPEJ-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "UNPLEASANT ODOR, SIMILAR TO BUTYRIC ACID | Unpleasant odor | Penetrating odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 7997,
+  "name": "Propyl Acetate",
+  "smiles": "CCCOC(=O)C",
+  "inchikey": "YKYONYBAUNKHLG-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pleasant odor | Odor of pears | Mild, fruity odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8007,
+  "name": "Butylamine",
+  "smiles": "CCCCN",
+  "inchikey": "HQABUPZFAYXKJW-UHFFFAOYSA-N",
+  "formula": "C4H11N",
+  "mw": 73.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Amine odor | Fishy, ammonia-like odor.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8025,
+  "name": "Ethyl formate",
+  "smiles": "CCOC=O",
+  "inchikey": "WBJINCZRORDGAQ-UHFFFAOYSA-N",
+  "formula": "C3H6O2",
+  "mw": 74.08,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Fruity odor.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8038,
+  "name": "Isobutyl Acetate",
+  "smiles": "CC(C)COC(=O)C",
+  "inchikey": "GJRQTCIYDGXPES-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Fruit-like odor | Fruity, floral odor | FRUITY (CURRANT-PEAR), FLORAL (HYACINTH-ROSE) ODOR | SOLVENTY NAIL POLISH-LIKE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8048,
+  "name": "Ethyl caprate",
+  "smiles": "CCCCCCCCCC(=O)OCC",
+  "inchikey": "RGXWDWUGBIJHDO-UHFFFAOYSA-N",
+  "formula": "C12H24O2",
+  "mw": 200.32,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8049,
+  "name": "Diethyl Sebacate",
+  "smiles": "CCOC(=O)CCCCCCCCC(=O)OCC",
+  "inchikey": "ONKUXPIBXRRIDU-UHFFFAOYSA-N",
+  "formula": "C14H26O4",
+  "mw": 258.36,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8051,
+  "name": "2-Heptanone",
+  "smiles": "CCCCCC(=O)C",
+  "inchikey": "CATSNJVOTSVZJV-UHFFFAOYSA-N",
+  "formula": "C7H14O",
+  "mw": 114.19,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Penetrating fruity odor | CHARACTERISTIC BANANA, SLIGHTLY SPICY ODOR | Banana-like fruity odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8063,
+  "name": "Pentanal",
+  "smiles": "CCCCC=O",
+  "inchikey": "HGBOYTHUEUWSSQ-UHFFFAOYSA-N",
+  "formula": "C5H10O",
+  "mw": 86.13,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "POWERFUL, ACRID, PUNGENT ODOR | Strong, acrid, pungent odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8077,
+  "name": "Diethyl disulfide",
+  "smiles": "CCSSCC",
+  "inchikey": "CETBSQOFQKLHHZ-UHFFFAOYSA-N",
+  "formula": "C4H10S2",
+  "mw": 122.26,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8082,
+  "name": "Piperidine",
+  "smiles": "C1CCNCC1",
+  "inchikey": "NQRYJNQNLNOLGT-UHFFFAOYSA-N",
+  "formula": "C5H11N",
+  "mw": 85.15,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "AMINE-LIKE ODOR | HEAVY, SWEET, FLORAL, ANIMAL ODOR | Odor of pepper",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8091,
+  "name": "Methyl Octanoate",
+  "smiles": "CCCCCCCC(=O)OC",
+  "inchikey": "JGHZJRVDZXSNKQ-UHFFFAOYSA-N",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "POWERFUL, WINEY, FRUITY, AND ORANGE-LIKE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8093,
+  "name": "2-Octanone",
+  "smiles": "CCCCCCC(=O)C",
+  "inchikey": "ZPVFWPFBNIEHGJ-UHFFFAOYSA-N",
+  "formula": "C8H16O",
+  "mw": 128.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "FATTY, GREEN CHEESE AROMA | FLORAL, BITTER, FRUITY (UNRIPE APPLE) | Pleasant",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8094,
+  "name": "Heptanoic Acid",
+  "smiles": "CCCCCCC(=O)O",
+  "inchikey": "MNWFXJYAOYHMED-UHFFFAOYSA-N",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Disagreeable, rancid odor; faint tallow-like odor when spectroscopically pure.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8103,
+  "name": "1-Hexanol",
+  "smiles": "CCCCCCO",
+  "inchikey": "ZSIAUFGUXNUGDI-UHFFFAOYSA-N",
+  "formula": "C6H14O",
+  "mw": 102.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Characteristic; sweet alcohol; pleasant",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8122,
+  "name": "Ethyl stearate",
+  "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC",
+  "inchikey": "MVLVMROFTAUDAG-UHFFFAOYSA-N",
+  "formula": "C20H40O2",
+  "mw": 312.54,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8125,
+  "name": "1-Octene",
+  "smiles": "CCCCCCC=C",
+  "inchikey": "KWKAKUADMBZCLK-UHFFFAOYSA-N",
+  "formula": "C8H16",
+  "mw": 112.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8129,
+  "name": "Heptanol",
+  "smiles": "CCCCCCCO",
+  "inchikey": "BBMCTIGTTCKYKF-UHFFFAOYSA-N",
+  "formula": "C7H16O",
+  "mw": 116.2,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Fragrant | FAINT, AROMATIC, FATTY",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8137,
+  "name": "Methyl 2-nonynoate",
+  "smiles": "CCCCCCC#CC(=O)OC",
+  "inchikey": "NTLJTUMJJWVCTL-UHFFFAOYSA-N",
+  "formula": "C10H16O2",
+  "mw": 168.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8159,
+  "name": "Heptyl acetate",
+  "smiles": "CCCCCCCOC(=O)C",
+  "inchikey": "ZCZSIDMEHXZRLG-UHFFFAOYSA-N",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8163,
+  "name": "2-Undecanone",
+  "smiles": "CCCCCCCCCC(=O)C",
+  "inchikey": "KYWIYKKSMDLRDC-UHFFFAOYSA-N",
+  "formula": "C11H22O",
+  "mw": 170.3,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Strong odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8174,
+  "name": "1-Decanol",
+  "smiles": "CCCCCCCCCCO",
+  "inchikey": "MWKFXSUHUHTGQN-UHFFFAOYSA-N",
+  "formula": "C10H22O",
+  "mw": 158.28,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sweet odor | Floral, fruity odor | RESEMBLE ORANGE FLOWERS",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8180,
+  "name": "Undecanoic Acid",
+  "smiles": "CCCCCCCCCCC(=O)O",
+  "inchikey": "ZDPHROOEEOARMN-UHFFFAOYSA-N",
+  "formula": "C11H22O2",
+  "mw": 186.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8184,
+  "name": "1-Undecanol",
+  "smiles": "CCCCCCCCCCCO",
+  "inchikey": "KJIOQYGWTQBHNH-UHFFFAOYSA-N",
+  "formula": "C11H24O",
+  "mw": 172.31,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Citrus",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8186,
+  "name": "Undecanal",
+  "smiles": "CCCCCCCCCCC=O",
+  "inchikey": "KMPQYAYAQWNLME-UHFFFAOYSA-N",
+  "formula": "C11H22O",
+  "mw": 170.3,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8193,
+  "name": "1-Dodecanol",
+  "smiles": "CCCCCCCCCCCCO",
+  "inchikey": "LQZZUXJYWNFBMV-UHFFFAOYSA-N",
+  "formula": "C12H26O",
+  "mw": 186.34,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "CHARACTERISTIC FATTY ODOR; UNPLEASANT AT HIGH CONCN BUT DELICATE & FLORAL ON DILUTION | Fatty repulsive odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8205,
+  "name": "Dodecyl acetate",
+  "smiles": "CCCCCCCCCCCCOC(=O)C",
+  "inchikey": "VZWGRQBCURJOMT-UHFFFAOYSA-N",
+  "formula": "C14H28O2",
+  "mw": 228.38,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8375,
+  "name": "2'-Hydroxyacetophenone",
+  "smiles": "CC(=O)C1=CC=CC=C1O",
+  "inchikey": "JECYUBVRTQDVAT-UHFFFAOYSA-N",
+  "formula": "C8H8O2",
+  "mw": 136.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8419,
+  "name": "Veratraldehyde",
+  "smiles": "COC1=C(C=C(C=C1)C=O)OC",
+  "inchikey": "WJUFSDZVCOTFON-UHFFFAOYSA-N",
+  "formula": "C9H10O3",
+  "mw": 166.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8452,
+  "name": "Cyclopentanone",
+  "smiles": "C1CCC(=O)C1",
+  "inchikey": "BGTOWKSIORTVQH-UHFFFAOYSA-N",
+  "formula": "C5H8O",
+  "mw": 84.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "DISTINCTIVE ETHEREAL ODOR, SOMEWHAT LIKE PEPPERMINT",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8456,
+  "name": "Butylated Hydroxyanisole",
+  "smiles": "CC(C)(C)C1=C(C=CC(=C1)OC)O",
+  "inchikey": "MRBKEAMVRSLQPH-UHFFFAOYSA-N",
+  "formula": "C11H16O2",
+  "mw": 180.25,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Faint characteristic odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8468,
+  "name": "Vanillic Acid",
+  "smiles": "COC1=C(C=CC(=C1)C(=O)O)O",
+  "inchikey": "WKOLLVMJNQIZCI-UHFFFAOYSA-N",
+  "formula": "C8H8O4",
+  "mw": 168.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8615,
+  "name": "Phenethyl anthranilate",
+  "smiles": "C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2N",
+  "inchikey": "PXWNBAGCFUDYBE-UHFFFAOYSA-N",
+  "formula": "C15H15NO2",
+  "mw": 241.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8658,
+  "name": "2-Methoxybenzaldehyde",
+  "smiles": "COC1=CC=CC=C1C=O",
+  "inchikey": "PKZJLOCLABXVMC-UHFFFAOYSA-N",
+  "formula": "C8H8O2",
+  "mw": 136.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8712,
+  "name": "2-Thiocresol",
+  "smiles": "CC1=CC=CC=C1S",
+  "inchikey": "LXUNZSDDXMPKLP-UHFFFAOYSA-N",
+  "formula": "C7H8S",
+  "mw": 124.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8723,
+  "name": "2-Methyl-1-butanol",
+  "smiles": "CCC(C)CO",
+  "inchikey": "QPRQEDXDYOZYLA-UHFFFAOYSA-N",
+  "formula": "C5H12O",
+  "mw": 88.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8797,
+  "name": "4-Methylphenyl acetate",
+  "smiles": "CC1=CC=C(C=C1)OC(=O)C",
+  "inchikey": "CDJJKTLOZJAGIZ-UHFFFAOYSA-N",
+  "formula": "C9H10O2",
+  "mw": 150.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8815,
+  "name": "Estragole",
+  "smiles": "COC1=CC=C(C=C1)CC=C",
+  "inchikey": "ZFMSMUAANRJZFM-UHFFFAOYSA-N",
+  "formula": "C10H12O",
+  "mw": 148.2,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Odor reminiscent of anise with a corresponding sweet taste (differing from anethole)",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8878,
+  "name": "Allyl Heptanoate",
+  "smiles": "CCCCCCC(=O)OCC=C",
+  "inchikey": "SJWKGDGUQTWDRV-UHFFFAOYSA-N",
+  "formula": "C10H18O2",
+  "mw": 170.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8892,
+  "name": "Hexanoic Acid",
+  "smiles": "CCCCCC(=O)O",
+  "inchikey": "FUZZWVXGSFPDMH-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Characteristic goat-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8908,
+  "name": "Hexyl acetate",
+  "smiles": "CCCCCCOC(=O)C",
+  "inchikey": "AOGQPLXWSUTHQB-UHFFFAOYSA-N",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sweet-fruity, pearl-like odor | Sweet ester odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8914,
+  "name": "1-Nonanol",
+  "smiles": "CCCCCCCCCO",
+  "inchikey": "ZWRUINPWMLAQRD-UHFFFAOYSA-N",
+  "formula": "C9H20O",
+  "mw": 144.26,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Floral odor | Odor of citronella oil",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 8918,
+  "name": "Nonyl Acetate",
+  "smiles": "CCCCCCCCCOC(=O)C",
+  "inchikey": "GJQIMXVRFNLMTB-UHFFFAOYSA-N",
+  "formula": "C11H22O2",
+  "mw": 186.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 9012,
+  "name": "Dibenzyl Disulfide",
+  "smiles": "C1=CC=C(C=C1)CSSCC2=CC=CC=C2",
+  "inchikey": "GVPWHKZIJBODOX-UHFFFAOYSA-N",
+  "formula": "C14H14S2",
+  "mw": 246.4,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 9016,
+  "name": "1,4-Dimethoxybenzene",
+  "smiles": "COC1=CC=C(C=C1)OC",
+  "inchikey": "OHBQPCCCRFSCAX-UHFFFAOYSA-N",
+  "formula": "C8H10O2",
+  "mw": 138.17,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "SWEET CLOVER ODOR | SWEET, NUT-LIKE AROMA",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 9024,
+  "name": "Dimethyl benzyl carbinyl acetate",
+  "smiles": "CC(=O)OC(C)(C)CC1=CC=CC=C1",
+  "inchikey": "FLUWAIIVLCVEKF-UHFFFAOYSA-N",
+  "formula": "C12H16O2",
+  "mw": 192.26,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 9025,
+  "name": "1,3-Dimethoxybenzene",
+  "smiles": "COC1=CC(=CC=C1)OC",
+  "inchikey": "DPZNOMCNRMUKPS-UHFFFAOYSA-N",
+  "formula": "C8H10O2",
+  "mw": 138.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 9256,
+  "name": "Thiazole",
+  "smiles": "C1=CSC=N1",
+  "inchikey": "FZWLAAWBMGSTSO-UHFFFAOYSA-N",
+  "formula": "C3H3NS",
+  "mw": 85.13,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 9261,
+  "name": "Pyrazine",
+  "smiles": "C1=CN=CC=N1",
+  "inchikey": "KYQCOXFCLRTKLS-UHFFFAOYSA-N",
+  "formula": "C4H4N2",
+  "mw": 80.09,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 9589,
+  "name": "3-Acetylpyridine",
+  "smiles": "CC(=O)C1=CN=CC=C1",
+  "inchikey": "WEGYGNROSJDEIW-UHFFFAOYSA-N",
+  "formula": "C7H7NO",
+  "mw": 121.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 9609,
+  "name": "Ethyl sulfide",
+  "smiles": "CCSCC",
+  "inchikey": "LJSQFQKUNVCTIA-UHFFFAOYSA-N",
+  "formula": "C4H10S",
+  "mw": 90.19,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Garlic-like odor | Ethereal odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 9862,
+  "name": "6-Methyl-5-hepten-2-one",
+  "smiles": "CC(=CCCC(=O)C)C",
+  "inchikey": "UHEPJGULSIKKTP-UHFFFAOYSA-N",
+  "formula": "C8H14O",
+  "mw": 126.2,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "POWERFUL, FATTY, GREEN, CITRUS ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 10364,
+  "name": "Carvacrol",
+  "smiles": "CC1=C(C=C(C=C1)C(C)C)O",
+  "inchikey": "RECUKUPTGUEGMW-UHFFFAOYSA-N",
+  "formula": "C10H14O",
+  "mw": 150.22,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "THYMOL ODOR | MEDICINAL SMOKE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 10430,
+  "name": "Isovaleric Acid",
+  "smiles": "CC(C)CC(=O)O",
+  "inchikey": "GWYFCOCPABKNJV-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "DISAGREEABLE, RANCID-CHEESE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 10448,
+  "name": "3-(Methylthio)-1-propanol",
+  "smiles": "CSCCCO",
+  "inchikey": "CZUGFKJYCPYHHV-UHFFFAOYSA-N",
+  "formula": "C4H10OS",
+  "mw": 106.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 10797,
+  "name": "2-Methylfuran",
+  "smiles": "CC1=CC=CO1",
+  "inchikey": "VQKFNUFAXTZWDK-UHFFFAOYSA-N",
+  "formula": "C5H6O",
+  "mw": 82.1,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 10882,
+  "name": "Ethyl valerate",
+  "smiles": "CCCCC(=O)OCC",
+  "inchikey": "ICMAFTSLXCXHRK-UHFFFAOYSA-N",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 10886,
+  "name": "Pentyl Hexanoate",
+  "smiles": "CCCCCC(=O)OCCCCC",
+  "inchikey": "WRFZKAGPPQGDDQ-UHFFFAOYSA-N",
+  "formula": "C11H22O2",
+  "mw": 186.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 10890,
+  "name": "Amyl butyrate",
+  "smiles": "CCCCCOC(=O)CCC",
+  "inchikey": "CFNJLPHOBMVMNS-UHFFFAOYSA-N",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 10895,
+  "name": "Isobutyl propionate",
+  "smiles": "CCC(=O)OCC(C)C",
+  "inchikey": "FZXRXKLUIMKDEL-UHFFFAOYSA-N",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 10925,
+  "name": "Isoamyl mercaptan",
+  "smiles": "CC(C)CCS",
+  "inchikey": "GIJGXNFNUUFEGH-UHFFFAOYSA-N",
+  "formula": "C5H12S",
+  "mw": 104.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11086,
+  "name": "2'-Aminoacetophenone",
+  "smiles": "CC(=O)C1=CC=CC=C1N",
+  "inchikey": "GTDQGKWDWVUKTI-UHFFFAOYSA-N",
+  "formula": "C8H9NO",
+  "mw": 135.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11124,
+  "name": "Methyl propionate",
+  "smiles": "CCC(=O)OC",
+  "inchikey": "RJUFJBKOKNCXHH-UHFFFAOYSA-N",
+  "formula": "C4H8O2",
+  "mw": 88.11,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "SWEET, FRUITY, RUM-LIKE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11419,
+  "name": "2-Methylcyclohexanone",
+  "smiles": "CC1CCCCC1=O",
+  "inchikey": "LFSAPCRASZRSKS-UHFFFAOYSA-N",
+  "formula": "C7H12O",
+  "mw": 112.17,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Acetone-like odor | Odor: characteristic: quality: peppermintlike | Weak, peppermint-like odor.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11525,
+  "name": "4-Methylcyclohexanone",
+  "smiles": "CC1CCC(=O)CC1",
+  "inchikey": "VGVHNLRUAMRIEW-UHFFFAOYSA-N",
+  "formula": "C7H12O",
+  "mw": 112.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11527,
+  "name": "3-Octanol",
+  "smiles": "CCCCCC(CC)O",
+  "inchikey": "NMRPBPVERJPACX-UHFFFAOYSA-N",
+  "formula": "C8H18O",
+  "mw": 130.23,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11529,
+  "name": "Butyl propionate",
+  "smiles": "CCCCOC(=O)CC",
+  "inchikey": "BTMVHUNTONAYDX-UHFFFAOYSA-N",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11567,
+  "name": "3-Methylcyclohexanone",
+  "smiles": "CC1CCCC(=O)C1",
+  "inchikey": "UJBOOUHRTQVGRU-UHFFFAOYSA-N",
+  "formula": "C7H12O",
+  "mw": 112.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11614,
+  "name": "Butyl Formate",
+  "smiles": "CCCCOC=O",
+  "inchikey": "NMJJFJNHVMGPGM-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11617,
+  "name": "Diallyl Sulfide",
+  "smiles": "C=CCSCC=C",
+  "inchikey": "UBJVUCKUDDKUJF-UHFFFAOYSA-N",
+  "formula": "C6H10S",
+  "mw": 114.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Garlic odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 11902,
+  "name": "Methyl 2-furoate",
+  "smiles": "COC(=O)C1=CC=CO1",
+  "inchikey": "HDJLSECJEQSPKW-UHFFFAOYSA-N",
+  "formula": "C6H6O3",
+  "mw": 126.11,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12020,
+  "name": "1-Penten-3-Ol",
+  "smiles": "CCC(C=C)O",
+  "inchikey": "VHVMXWZXFBOANQ-UHFFFAOYSA-N",
+  "formula": "C5H10O",
+  "mw": 86.13,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12097,
+  "name": "5-Methylfurfural",
+  "smiles": "CC1=CC=C(O1)C=O",
+  "inchikey": "OUDFNZMQXZILJD-UHFFFAOYSA-N",
+  "formula": "C6H6O2",
+  "mw": 110.11,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12178,
+  "name": "3-Hexanol",
+  "smiles": "CCCC(CC)O",
+  "inchikey": "ZOCHHNOQQHDWHG-UHFFFAOYSA-N",
+  "formula": "C6H14O",
+  "mw": 102.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12180,
+  "name": "Methyl butyrate",
+  "smiles": "CCCC(=O)OC",
+  "inchikey": "UUIQMZJEGPQKFD-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "APPLE-LIKE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12206,
+  "name": "Methyl valerate",
+  "smiles": "CCCCC(=O)OC",
+  "inchikey": "HNBDRPTVWVGKBR-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12327,
+  "name": "Ethyl undecanoate",
+  "smiles": "CCCCCCCCCCC(=O)OCC",
+  "inchikey": "IAFQYUQIAOWKSB-UHFFFAOYSA-N",
+  "formula": "C13H26O2",
+  "mw": 214.35,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12377,
+  "name": "Dipropyl disulfide",
+  "smiles": "CCCSSCCC",
+  "inchikey": "ALVPFGSHPUPROW-UHFFFAOYSA-N",
+  "formula": "C6H14S2",
+  "mw": 150.31,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12506,
+  "name": "Tetrahydrofurfuryl acetate",
+  "smiles": "CC(=O)OCC1CCCO1",
+  "inchikey": "AAQDYYFAFXGBFZ-UHFFFAOYSA-N",
+  "formula": "C7H12O3",
+  "mw": 144.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12580,
+  "name": "4-Propylphenol",
+  "smiles": "CCCC1=CC=C(C=C1)O",
+  "inchikey": "KLSLBUSXWBJMEC-UHFFFAOYSA-N",
+  "formula": "C9H12O",
+  "mw": 136.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12587,
+  "name": "Isocaproic acid",
+  "smiles": "CC(C)CCC(=O)O",
+  "inchikey": "FGKJLKRYENPLQH-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12741,
+  "name": "2-Decanone",
+  "smiles": "CCCCCCCCC(=O)C",
+  "inchikey": "ZAJNGDIORYACQU-UHFFFAOYSA-N",
+  "formula": "C10H20O",
+  "mw": 156.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 12748,
+  "name": "4-Methylthiazole",
+  "smiles": "CC1=CSC=N1",
+  "inchikey": "QMHIMXFNBOYPND-UHFFFAOYSA-N",
+  "formula": "C4H5NS",
+  "mw": 99.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "GREEN, NUTTY ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 13187,
+  "name": "2-Nonanone",
+  "smiles": "CCCCCCCC(=O)C",
+  "inchikey": "VKCYHJWLYTUGCC-UHFFFAOYSA-N",
+  "formula": "C9H18O",
+  "mw": 142.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 13204,
+  "name": "delta-Hexalactone",
+  "smiles": "CC1CCCC(=O)O1",
+  "inchikey": "RZTOWFMDBDPERY-UHFFFAOYSA-N",
+  "formula": "C6H10O2",
+  "mw": 114.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 13436,
+  "name": "Diphenyl disulfide",
+  "smiles": "C1=CC=C(C=C1)SSC2=CC=CC=C2",
+  "inchikey": "GUUVPOWQJOLRAS-UHFFFAOYSA-N",
+  "formula": "C12H10S2",
+  "mw": 218.35,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 13561,
+  "name": "6-Undecanone",
+  "smiles": "CCCCCC(=O)CCCCC",
+  "inchikey": "ZPQAKYPOZRXKFA-UHFFFAOYSA-N",
+  "formula": "C11H22O",
+  "mw": 170.3,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 14104,
+  "name": "Thymyl methyl ether",
+  "smiles": "CC1=CC(=C(C=C1)C(C)C)OC",
+  "inchikey": "LSQXNMXDFRRDSJ-UHFFFAOYSA-N",
+  "formula": "C11H16O",
+  "mw": 164.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 14228,
+  "name": "Hexyl Octanoate",
+  "smiles": "CCCCCCCC(=O)OCCCCCC",
+  "inchikey": "PBGWNXWNCSSXCO-UHFFFAOYSA-N",
+  "formula": "C14H28O2",
+  "mw": 228.38,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 14286,
+  "name": "2-Acetylpyridine",
+  "smiles": "CC(=O)C1=CC=CC=N1",
+  "inchikey": "AJKVQEKCUACUMD-UHFFFAOYSA-N",
+  "formula": "C7H7NO",
+  "mw": 121.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 14296,
+  "name": "Tetramethylpyrazine",
+  "smiles": "CC1=C(N=C(C(=N1)C)C)C",
+  "inchikey": "FINHMKGKINIASC-UHFFFAOYSA-N",
+  "formula": "C8H12N2",
+  "mw": 136.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 14491,
+  "name": "1,6-Hexanedithiol",
+  "smiles": "C(CCCS)CCS",
+  "inchikey": "SRZXCOWFGPICGA-UHFFFAOYSA-N",
+  "formula": "C6H14S2",
+  "mw": 150.31,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 14514,
+  "name": "2-Acetyl-5-Methylfuran",
+  "smiles": "CC1=CC=C(O1)C(=O)C",
+  "inchikey": "KEFJLCGVTHRGAH-UHFFFAOYSA-N",
+  "formula": "C7H8O2",
+  "mw": 124.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 15037,
+  "name": "1-Furfurylpyrrole",
+  "smiles": "C1=CN(C=C1)CC2=CC=CO2",
+  "inchikey": "BTBFUBUCCJKJOZ-UHFFFAOYSA-N",
+  "formula": "C9H9NO",
+  "mw": 147.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 15380,
+  "name": "2,4-Dithiapentane",
+  "smiles": "CSCSC",
+  "inchikey": "LOCDPORVFVOGCR-UHFFFAOYSA-N",
+  "formula": "C3H8S2",
+  "mw": 108.23,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 15510,
+  "name": "Cyclopentanethiol",
+  "smiles": "C1CCC(C1)S",
+  "inchikey": "WVDYBOADDMMFIY-UHFFFAOYSA-N",
+  "formula": "C5H10S",
+  "mw": 102.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 15606,
+  "name": "Methyl nonanoate",
+  "smiles": "CCCCCCCCC(=O)OC",
+  "inchikey": "IJXHLVMUNBOGRR-UHFFFAOYSA-N",
+  "formula": "C10H20O2",
+  "mw": 172.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 15654,
+  "name": "4-Methyl-5-vinylthiazole",
+  "smiles": "CC1=C(SC=N1)C=C",
+  "inchikey": "QUAMMXIRDIIGDJ-UHFFFAOYSA-N",
+  "formula": "C6H7NS",
+  "mw": 125.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 15717,
+  "name": "Allyl phenylacetate",
+  "smiles": "C=CCOC(=O)CC1=CC=CC=C1",
+  "inchikey": "ZCDYAMJXVAUTIM-UHFFFAOYSA-N",
+  "formula": "C11H12O2",
+  "mw": 176.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 16255,
+  "name": "3-Methylbutyl octanoate",
+  "smiles": "CCCCCCCC(=O)OCCC(C)C",
+  "inchikey": "XKWSWANXMRXDES-UHFFFAOYSA-N",
+  "formula": "C13H26O2",
+  "mw": 214.35,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 16324,
+  "name": "Allyl butyrate",
+  "smiles": "CCCC(=O)OCC=C",
+  "inchikey": "RMZIOVJHUJAAEY-UHFFFAOYSA-N",
+  "formula": "C7H12O2",
+  "mw": 128.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 16537,
+  "name": "Terpinyl formate",
+  "smiles": "CC1=CCC(CC1)C(C)(C)OC=O",
+  "inchikey": "IPYLQIQMGUZFCK-UHFFFAOYSA-N",
+  "formula": "C11H18O2",
+  "mw": 182.26,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 16741,
+  "name": "Phenethyl Isothiocyanate",
+  "smiles": "C1=CC=C(C=C1)CCN=C=S",
+  "inchikey": "IZJDOKYDEWTZSO-UHFFFAOYSA-N",
+  "formula": "C9H9NS",
+  "mw": 163.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 17121,
+  "name": "1-Octen-3-yl acetate",
+  "smiles": "CCCCCC(C=C)OC(=O)C",
+  "inchikey": "DOJDQRFOTHOBEK-UHFFFAOYSA-N",
+  "formula": "C10H18O2",
+  "mw": 170.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 17525,
+  "name": "Hexyl butyrate",
+  "smiles": "CCCCCCOC(=O)CCC",
+  "inchikey": "XAPCMTMQBXLDBB-UHFFFAOYSA-N",
+  "formula": "C10H20O2",
+  "mw": 172.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 17617,
+  "name": "Allyl cyclohexanepropionate",
+  "smiles": "C=CCOC(=O)CCC1CCCCC1",
+  "inchikey": "TWXUTZNBHUWMKJ-UHFFFAOYSA-N",
+  "formula": "C12H20O2",
+  "mw": 196.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 18467,
+  "name": "2-Methoxypyrazine",
+  "smiles": "COC1=NC=CN=C1",
+  "inchikey": "WKSXRWSOSLGSTN-UHFFFAOYSA-N",
+  "formula": "C5H6N2O",
+  "mw": 110.12,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 18554,
+  "name": "2-Ethylfuran",
+  "smiles": "CCC1=CC=CO1",
+  "inchikey": "HLPIHRDZBHXTFJ-UHFFFAOYSA-N",
+  "formula": "C6H8O",
+  "mw": 96.13,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 18635,
+  "name": "Methional",
+  "smiles": "CSCCC=O",
+  "inchikey": "CLUWOWRTHNNBBU-UHFFFAOYSA-N",
+  "formula": "C4H8OS",
+  "mw": 104.17,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Powerful, onion, meat-like odor | Cooked potato | Extremely foul and persistent odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 18827,
+  "name": "1-Octen-3-Ol",
+  "smiles": "CCCCCC(C=C)O",
+  "inchikey": "VSMOENVRRABVKN-UHFFFAOYSA-N",
+  "formula": "C8H16O",
+  "mw": 128.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 19310,
+  "name": "Dimethyl trisulfide",
+  "smiles": "CSSSC",
+  "inchikey": "YWHLKYXPLRWGSE-UHFFFAOYSA-N",
+  "formula": "C2H6S3",
+  "mw": 126.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 21057,
+  "name": "1-Hepten-3-OL",
+  "smiles": "CCCCC(C=C)O",
+  "inchikey": "PZKFYTOLVRCMOA-UHFFFAOYSA-N",
+  "formula": "C7H14O",
+  "mw": 114.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 21363,
+  "name": "Cyclohexaneacetic acid",
+  "smiles": "C1CCC(CC1)CC(=O)O",
+  "inchikey": "LJOODBDWMQKMFB-UHFFFAOYSA-N",
+  "formula": "C8H14O2",
+  "mw": 142.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 21648,
+  "name": "4-(4'-Hydroxyphenyl)-2-butanone",
+  "smiles": "CC(=O)CCC1=CC=C(C=C1)O",
+  "inchikey": "NJGBTKGETPDVIK-UHFFFAOYSA-N",
+  "formula": "C10H12O2",
+  "mw": 164.2,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sweet fruity, warm odor resembling raspberry preserve",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 22310,
+  "name": "Linalool, oxide",
+  "smiles": "CC1(CCC(O1)C(C)(C)O)C=C",
+  "inchikey": "BRHDDEIRQPDPMG-UHFFFAOYSA-N",
+  "formula": "C10H18O2",
+  "mw": 170.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 22386,
+  "name": "2-Pentanol",
+  "smiles": "CCCC(C)O",
+  "inchikey": "JYVLIDXNZAXMDK-UHFFFAOYSA-N",
+  "formula": "C5H12O",
+  "mw": 88.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 22873,
+  "name": "Hexyl hexanoate",
+  "smiles": "CCCCCCOC(=O)CCCCC",
+  "inchikey": "NCDCLPBOMHPFCV-UHFFFAOYSA-N",
+  "formula": "C12H24O2",
+  "mw": 200.32,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 23235,
+  "name": "Hexyl benzoate",
+  "smiles": "CCCCCCOC(=O)C1=CC=CC=C1",
+  "inchikey": "UUGLJVMIFJNVFH-UHFFFAOYSA-N",
+  "formula": "C13H18O2",
+  "mw": 206.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 23642,
+  "name": "Thioguaiacol",
+  "smiles": "COC1=CC=CC=C1S",
+  "inchikey": "DSCJETUEDFKYGN-UHFFFAOYSA-N",
+  "formula": "C7H8OS",
+  "mw": 140.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 24020,
+  "name": "Ethyl 2-methylbutyrate",
+  "smiles": "CCC(C)C(=O)OCC",
+  "inchikey": "HCRBXQFHJMCTLF-UHFFFAOYSA-N",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 24116,
+  "name": "Allyl anthranilate",
+  "smiles": "C=CCOC(=O)C1=CC=CC=C1N",
+  "inchikey": "UCANFCXAKYMFGA-UHFFFAOYSA-N",
+  "formula": "C10H11NO2",
+  "mw": 177.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 24513,
+  "name": "Decanal dimethyl acetal",
+  "smiles": "CCCCCCCCCC(OC)OC",
+  "inchikey": "NCRNCSZWOOYBQF-UHFFFAOYSA-N",
+  "formula": "C12H26O2",
+  "mw": 202.34,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 24834,
+  "name": "4-Ethoxybenzaldehyde",
+  "smiles": "CCOC1=CC=C(C=C1)C=O",
+  "inchikey": "JRHHJNMASOIRDS-UHFFFAOYSA-N",
+  "formula": "C9H10O2",
+  "mw": 150.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 26331,
+  "name": "2-Ethylpyrazine",
+  "smiles": "CCC1=NC=CN=C1",
+  "inchikey": "KVFIJIWMDBAGDP-UHFFFAOYSA-N",
+  "formula": "C6H8N2",
+  "mw": 108.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 27440,
+  "name": "2-Ethyl-4-methyl thiazole",
+  "smiles": "CCC1=NC(=CS1)C",
+  "inchikey": "VGRVKVGGUPOCMT-UHFFFAOYSA-N",
+  "formula": "C6H9NS",
+  "mw": 127.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 27457,
+  "name": "2-Ethyl-3-Methylpyrazine",
+  "smiles": "CCC1=NC=CN=C1C",
+  "inchikey": "LNIMMWYNSBZESE-UHFFFAOYSA-N",
+  "formula": "C7H10N2",
+  "mw": 122.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 27458,
+  "name": "2,3-Diethylpyrazine",
+  "smiles": "CCC1=NC=CN=C1CC",
+  "inchikey": "GZXXANJCCWGCSV-UHFFFAOYSA-N",
+  "formula": "C8H12N2",
+  "mw": 136.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31209,
+  "name": "Amylcinnamaldehyde",
+  "smiles": "CCCCCC(=CC1=CC=CC=C1)C=O",
+  "inchikey": "HMKKIXGYKWDQSV-UHFFFAOYSA-N",
+  "formula": "C14H18O",
+  "mw": 202.3,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Jasmine-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31210,
+  "name": "Butyl phenylacetate",
+  "smiles": "CCCCOC(=O)CC1=CC=CC=C1",
+  "inchikey": "LDOXTQYWWYXYSQ-UHFFFAOYSA-N",
+  "formula": "C12H16O2",
+  "mw": 192.26,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31219,
+  "name": "Benzyl propionate",
+  "smiles": "CCC(=O)OCC1=CC=CC=C1",
+  "inchikey": "VHOMAPWVLKRQAZ-UHFFFAOYSA-N",
+  "formula": "C10H12O2",
+  "mw": 164.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31225,
+  "name": "2-Phenylethyl propionate",
+  "smiles": "CCC(=O)OCCC1=CC=CC=C1",
+  "inchikey": "HVGZQCSMLUDISR-UHFFFAOYSA-N",
+  "formula": "C11H14O2",
+  "mw": 178.23,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Flower fruit odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31234,
+  "name": "Benzenepropanol",
+  "smiles": "C1=CC=C(C=C1)CCCO",
+  "inchikey": "VAJVDSVGBWFCLW-UHFFFAOYSA-N",
+  "formula": "C9H12O",
+  "mw": 136.19,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Floral odor | Blossomy-balsamic odor, slightly reminiscent of hyacinths | Sweet, hyacinth-mignonette odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31246,
+  "name": "4-Heptanone",
+  "smiles": "CCCC(=O)CCC",
+  "inchikey": "HCFAJYNVAYBARA-UHFFFAOYSA-N",
+  "formula": "C7H14O",
+  "mw": 114.19,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pleasant odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31249,
+  "name": "Diethyl Succinate",
+  "smiles": "CCOC(=O)CCC(=O)OCC",
+  "inchikey": "DKMROQRQHGEIOW-UHFFFAOYSA-N",
+  "formula": "C8H14O4",
+  "mw": 174.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31252,
+  "name": "2,5-Dimethylpyrazine",
+  "smiles": "CC1=CN=C(C=N1)C",
+  "inchikey": "LCZUOKDVTBMCMX-UHFFFAOYSA-N",
+  "formula": "C6H8N2",
+  "mw": 108.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31260,
+  "name": "Isoamyl Alcohol",
+  "smiles": "CC(C)CCO",
+  "inchikey": "PHTQWCKDNZKARW-UHFFFAOYSA-N",
+  "formula": "C5H12O",
+  "mw": 88.15,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "CHARACTERISTIC, DISAGREEABLE ODOR | Disagreeable odor.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31265,
+  "name": "Ethyl hexanoate",
+  "smiles": "CCCCCC(=O)OCC",
+  "inchikey": "SHZIWNPUGXLXDT-UHFFFAOYSA-N",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31268,
+  "name": "Pyrrolidine",
+  "smiles": "C1CCNC1",
+  "inchikey": "RWRDLPDLKQPQOW-UHFFFAOYSA-N",
+  "formula": "C4H9N",
+  "mw": 71.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Unpleasant, ammoniacal odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31272,
+  "name": "Butyl Acetate",
+  "smiles": "CCCCOC(=O)C",
+  "inchikey": "DKPFZGUDAPQIHT-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Strong fruity odor | Sweet | Fruity odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31283,
+  "name": "Ethyl Myristate",
+  "smiles": "CCCCCCCCCCCCCC(=O)OCC",
+  "inchikey": "MMKRHZKQPFCLLS-UHFFFAOYSA-N",
+  "formula": "C16H32O2",
+  "mw": 256.43,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 31404,
+  "name": "2,6-Di-tert-butyl-4-methylphenol",
+  "smiles": "CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C",
+  "inchikey": "NLZUEZXRPGMBCV-UHFFFAOYSA-N",
+  "formula": "C15H24O",
+  "mw": 220.36,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Very faint, musty, occasional cresylic-type odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 32594,
+  "name": "2-Isobutyl-3-methoxypyrazine",
+  "smiles": "CC(C)CC1=NC=CN=C1OC",
+  "inchikey": "UXFSPRAGHGMRSQ-UHFFFAOYSA-N",
+  "formula": "C9H14N2O",
+  "mw": 166.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 36822,
+  "name": "5,6,7,8-Tetrahydroquinoxaline",
+  "smiles": "C1CCC2=NC=CN=C2C1",
+  "inchikey": "XCZPDOCRSYZOBI-UHFFFAOYSA-N",
+  "formula": "C8H10N2",
+  "mw": 134.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 60998,
+  "name": "Isobutyl phenylacetate",
+  "smiles": "CC(C)COC(=O)CC1=CC=CC=C1",
+  "inchikey": "RJASFPFZACBKBE-UHFFFAOYSA-N",
+  "formula": "C12H16O2",
+  "mw": 192.26,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 60999,
+  "name": "Benzyl phenylacetate",
+  "smiles": "C1=CC=C(C=C1)CC(=O)OCC2=CC=CC=C2",
+  "inchikey": "MIYFJEKZLFWKLZ-UHFFFAOYSA-N",
+  "formula": "C15H14O2",
+  "mw": 226.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61005,
+  "name": "Phenoxyethyl isobutyrate",
+  "smiles": "CC(C)C(=O)OCCOC1=CC=CC=C1",
+  "inchikey": "MJTPMXWJHPOWGH-UHFFFAOYSA-N",
+  "formula": "C12H16O3",
+  "mw": 208.26,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61024,
+  "name": "Octyl isobutyrate",
+  "smiles": "CCCCCCCCOC(=O)C(C)C",
+  "inchikey": "PQCYCHFQWMNQRJ-UHFFFAOYSA-N",
+  "formula": "C12H24O2",
+  "mw": 200.32,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61027,
+  "name": "Butyl 10-undecenoate",
+  "smiles": "CCCCOC(=O)CCCCCCCCC=C",
+  "inchikey": "GRAORJFMGCQWRN-UHFFFAOYSA-N",
+  "formula": "C15H28O2",
+  "mw": 240.39,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61048,
+  "name": "Isobutyl Benzoate",
+  "smiles": "CC(C)COC(=O)C1=CC=CC=C1",
+  "inchikey": "KYZHGEFMXZOSJN-UHFFFAOYSA-N",
+  "formula": "C11H14O2",
+  "mw": 178.23,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61052,
+  "name": "3-Phenylpropyl propanoate",
+  "smiles": "CCC(=O)OCCCC1=CC=CC=C1",
+  "inchikey": "GTNCESCYZPMXCJ-UHFFFAOYSA-N",
+  "formula": "C12H16O2",
+  "mw": 192.26,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61130,
+  "name": "Myrtenal",
+  "smiles": "CC1(C2CC=C(C1C2)C=O)C",
+  "inchikey": "KMRMUZKLFIEVAO-UHFFFAOYSA-N",
+  "formula": "C10H14O",
+  "mw": 150.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61138,
+  "name": "4-Pentenoic acid",
+  "smiles": "C=CCCC(=O)O",
+  "inchikey": "HVAMZGADVCBITI-UHFFFAOYSA-N",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61151,
+  "name": "Methyl 2-Methoxybenzoate",
+  "smiles": "COC1=CC=CC=C1C(=O)OC",
+  "inchikey": "PFYHAAAQPNMZHO-UHFFFAOYSA-N",
+  "formula": "C9H10O3",
+  "mw": 166.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61155,
+  "name": "Guaiacyl acetate",
+  "smiles": "CC(=O)OC1=CC=CC=C1OC",
+  "inchikey": "BHJHPYFAYGAPLS-UHFFFAOYSA-N",
+  "formula": "C9H10O3",
+  "mw": 166.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61177,
+  "name": "Hexyl Formate",
+  "smiles": "CCCCCCOC=O",
+  "inchikey": "OUGPMNMLWKSBRI-UHFFFAOYSA-N",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61185,
+  "name": "Pentyl octanoate",
+  "smiles": "CCCCCCCC(=O)OCCCCC",
+  "inchikey": "GJWGZSBNFSBUPX-UHFFFAOYSA-N",
+  "formula": "C13H26O2",
+  "mw": 214.35,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61192,
+  "name": "4-Methyl-5-thiazoleethanol acetate",
+  "smiles": "CC1=C(SC=N1)CCOC(=O)C",
+  "inchikey": "CRTCWNPLKVVXIX-UHFFFAOYSA-N",
+  "formula": "C8H11NO2S",
+  "mw": 185.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61199,
+  "name": "5-Ethyl-3-hydroxy-4-methyl-2(5H)-furanone",
+  "smiles": "CCC1C(=C(C(=O)O1)O)C",
+  "inchikey": "IUFQZPBIRYFPFD-UHFFFAOYSA-N",
+  "formula": "C7H10O3",
+  "mw": 142.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61204,
+  "name": "delta-UNDECALACTONE",
+  "smiles": "CCCCCCC1CCCC(=O)O1",
+  "inchikey": "YZRXRLLRSPQHDK-UHFFFAOYSA-N",
+  "formula": "C11H20O2",
+  "mw": 184.28,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61229,
+  "name": "Vanillin acetate",
+  "smiles": "CC(=O)OC1=C(C=C(C=C1)C=O)OC",
+  "inchikey": "PZSJOBKRSVRODF-UHFFFAOYSA-N",
+  "formula": "C10H10O4",
+  "mw": 194.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61252,
+  "name": "Dihydro-3(2H)-thiophenone",
+  "smiles": "C1CSCC1=O",
+  "inchikey": "DSXFPRKPFJRPIB-UHFFFAOYSA-N",
+  "formula": "C4H6OS",
+  "mw": 102.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61293,
+  "name": "Ethyl 3-hydroxyhexanoate",
+  "smiles": "CCCC(CC(=O)OCC)O",
+  "inchikey": "LYRIITRHDCNUHV-UHFFFAOYSA-N",
+  "formula": "C8H16O3",
+  "mw": 160.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61325,
+  "name": "2,5-dimethyl-4-methoxy-3(2H)-furanone",
+  "smiles": "CC1C(=O)C(=C(O1)C)OC",
+  "inchikey": "SIMKGHMLPVDSJE-UHFFFAOYSA-N",
+  "formula": "C7H10O3",
+  "mw": 142.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61331,
+  "name": "2-Methoxyphenyl benzeneacetate",
+  "smiles": "COC1=CC=CC=C1OC(=O)CC2=CC=CC=C2",
+  "inchikey": "KNVYLIIBQXVDKC-UHFFFAOYSA-N",
+  "formula": "C15H14O3",
+  "mw": 242.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61337,
+  "name": "Allyl furoate",
+  "smiles": "C=CCOC(=O)C1=CC=CO1",
+  "inchikey": "SJRQTHAMRUOPBJ-UHFFFAOYSA-N",
+  "formula": "C8H8O3",
+  "mw": 152.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61386,
+  "name": "Isoamyl Laurate",
+  "smiles": "CCCCCCCCCCCC(=O)OCCC(C)C",
+  "inchikey": "FVKRIDSRWFEQME-UHFFFAOYSA-N",
+  "formula": "C17H34O2",
+  "mw": 270.46,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61408,
+  "name": "Allyl 2-ethylbutyrate",
+  "smiles": "CCC(CC)C(=O)OCC=C",
+  "inchikey": "NBKXNUWCFMZFMM-UHFFFAOYSA-N",
+  "formula": "C9H16O2",
+  "mw": 156.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61523,
+  "name": "5-Phenyl-1-pentanol",
+  "smiles": "C1=CC=C(C=C1)CCCCCO",
+  "inchikey": "DPZMVZIQRMVBBW-UHFFFAOYSA-N",
+  "formula": "C11H16O",
+  "mw": 164.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61527,
+  "name": "3-Acetyl-2,5-dimethylfuran",
+  "smiles": "CC1=CC(=C(O1)C)C(=O)C",
+  "inchikey": "KBSVBCHYXYXDAG-UHFFFAOYSA-N",
+  "formula": "C8H10O2",
+  "mw": 138.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61641,
+  "name": "Methyl 3-methylthiopropionate",
+  "smiles": "COC(=O)CCSC",
+  "inchikey": "DMMJVMYCBULSIS-UHFFFAOYSA-N",
+  "formula": "C5H10O2S",
+  "mw": 134.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61653,
+  "name": "2,4,5-Trimethylthiazole",
+  "smiles": "CC1=C(SC(=N1)C)C",
+  "inchikey": "BAMPVSWRQZNDQC-UHFFFAOYSA-N",
+  "formula": "C6H9NS",
+  "mw": 127.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61670,
+  "name": "5-Methylquinoxaline",
+  "smiles": "CC1=C2C(=CC=C1)N=CC=N2",
+  "inchikey": "CQLOYHZZZCWHSG-UHFFFAOYSA-N",
+  "formula": "C9H8N2",
+  "mw": 144.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61771,
+  "name": "2-sec-Butyl cyclohexanone",
+  "smiles": "CCC(C)C1CCCCC1=O",
+  "inchikey": "RQXTZKGDMNIWJF-UHFFFAOYSA-N",
+  "formula": "C10H18O",
+  "mw": 154.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61809,
+  "name": "2-Ethoxythiazole",
+  "smiles": "CCOC1=NC=CS1",
+  "inchikey": "NDUWJHRKDYXRAD-UHFFFAOYSA-N",
+  "formula": "C5H7NOS",
+  "mw": 129.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61918,
+  "name": "2-Acetyl-3-ethylpyrazine",
+  "smiles": "CCC1=NC=CN=C1C(=O)C",
+  "inchikey": "PPJSYGVFDJEMRP-UHFFFAOYSA-N",
+  "formula": "C8H10N2O",
+  "mw": 150.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 61945,
+  "name": "Pyrazineethanethiol",
+  "smiles": "C1=CN=C(C=N1)CCS",
+  "inchikey": "QKVWBAMZPUHCMO-UHFFFAOYSA-N",
+  "formula": "C6H8N2S",
+  "mw": 140.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62087,
+  "name": "2-Mercapto-3-butanol",
+  "smiles": "CC(C(C)S)O",
+  "inchikey": "MJQWABQELVFQJL-UHFFFAOYSA-N",
+  "formula": "C4H10OS",
+  "mw": 106.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62089,
+  "name": "4-Methyloctanoic acid",
+  "smiles": "CCCCC(C)CCC(=O)O",
+  "inchikey": "LEGGANXCVQPIAI-UHFFFAOYSA-N",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62144,
+  "name": "Furfuryl mercaptan formate",
+  "smiles": "C1=COC(=C1)CSC=O",
+  "inchikey": "GFAOAYJTEVHTLA-UHFFFAOYSA-N",
+  "formula": "C6H6O2S",
+  "mw": 142.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62332,
+  "name": "Phenethyl salicylate",
+  "smiles": "C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2O",
+  "inchikey": "YNMSDIQQNIRGDP-UHFFFAOYSA-N",
+  "formula": "C15H14O3",
+  "mw": 242.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62351,
+  "name": "3-Methylthiopropyl isothiocyanate",
+  "smiles": "CSCCCN=C=S",
+  "inchikey": "LDKSCZJUIURGMW-UHFFFAOYSA-N",
+  "formula": "C5H9NS2",
+  "mw": 147.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62374,
+  "name": "Ketoisophorone",
+  "smiles": "CC1=CC(=O)CC(C1=O)(C)C",
+  "inchikey": "AYJXHIDNNLJQDT-UHFFFAOYSA-N",
+  "formula": "C9H12O2",
+  "mw": 152.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62375,
+  "name": "Benzaldehyde dimethyl acetal",
+  "smiles": "COC(C1=CC=CC=C1)OC",
+  "inchikey": "HEVMDQBCAHEHDY-UHFFFAOYSA-N",
+  "formula": "C9H12O2",
+  "mw": 152.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62444,
+  "name": "S-methyl butanethioate",
+  "smiles": "CCCC(=O)SC",
+  "inchikey": "GRLJIIJNZJVMGP-UHFFFAOYSA-N",
+  "formula": "C5H10OS",
+  "mw": 118.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62465,
+  "name": "4-Ethylguaiacol",
+  "smiles": "CCC1=CC(=C(C=C1)O)OC",
+  "inchikey": "CHWNEIVBYREQRF-UHFFFAOYSA-N",
+  "formula": "C9H12O2",
+  "mw": 152.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62572,
+  "name": "Ethyl 3-Hydroxybutyrate",
+  "smiles": "CCOC(=O)CC(C)O",
+  "inchikey": "OMSUIQOIVADKIM-UHFFFAOYSA-N",
+  "formula": "C6H12O3",
+  "mw": 132.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62580,
+  "name": "Piperonyl isobutyrate",
+  "smiles": "CC(C)C(=O)OCC1=CC2=C(C=C1)OCO2",
+  "inchikey": "RQULTIASPCVEFO-UHFFFAOYSA-N",
+  "formula": "C12H14O4",
+  "mw": 222.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62725,
+  "name": "2-Isobutylthiazole",
+  "smiles": "CC(C)CC1=NC=CS1",
+  "inchikey": "CMPVUVUNJQERIT-UHFFFAOYSA-N",
+  "formula": "C7H11NS",
+  "mw": 141.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62835,
+  "name": "Sotolone",
+  "smiles": "CC1C(=C(C(=O)O1)O)C",
+  "inchikey": "UNYNVICDCJHOPO-UHFFFAOYSA-N",
+  "formula": "C6H8O3",
+  "mw": 128.13,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62900,
+  "name": "5-Butyl-4-methyldihydro-2(3H)-furanone",
+  "smiles": "CCCCC1C(CC(=O)O1)C",
+  "inchikey": "WNVCMFHPRIBNCW-UHFFFAOYSA-N",
+  "formula": "C9H16O2",
+  "mw": 156.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 62902,
+  "name": "Ethyl 2-methylpentanoate",
+  "smiles": "CCCC(C)C(=O)OCC",
+  "inchikey": "HZPKNSYIDSNZKW-UHFFFAOYSA-N",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 69963,
+  "name": "5-Hexen-1-ol",
+  "smiles": "C=CCCCCO",
+  "inchikey": "UIZVMOZAXAMASY-UHFFFAOYSA-N",
+  "formula": "C6H12O",
+  "mw": 100.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 78925,
+  "name": "2-(Methylthio)ethanol",
+  "smiles": "CSCCO",
+  "inchikey": "WBBPRCNXBQTYLF-UHFFFAOYSA-N",
+  "formula": "C3H8OS",
+  "mw": 92.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 85522,
+  "name": "Methyl (methylthio)acetate",
+  "smiles": "COC(=O)CSC",
+  "inchikey": "HZYCAKGEXXKCDM-UHFFFAOYSA-N",
+  "formula": "C4H8O2S",
+  "mw": 120.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 88454,
+  "name": "Hexyl propionate",
+  "smiles": "CCCCCCOC(=O)CC",
+  "inchikey": "GOKKOFHHJFGZHW-UHFFFAOYSA-N",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 98330,
+  "name": "1,4-Dithiane-2,5-diol",
+  "smiles": "C1C(SCC(S1)O)O",
+  "inchikey": "YUIOPHXTILULQC-UHFFFAOYSA-N",
+  "formula": "C4H8O2S2",
+  "mw": 152.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 101010,
+  "name": "cis-2-Methyl-4-propyl-1,3-oxathiane",
+  "smiles": "CCCC1CCOC(S1)C",
+  "inchikey": "GKGOLPMYJJXRGD-UHFFFAOYSA-N",
+  "formula": "C8H16OS",
+  "mw": 160.28,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 106997,
+  "name": "2-Ethyl-1,3,3-trimethylbicyclo(2.2.1)heptan-2-ol",
+  "smiles": "CCC1(C(C2CCC1(C2)C)(C)C)O",
+  "inchikey": "KIPCKEJKGCXRGA-UHFFFAOYSA-N",
+  "formula": "C12H22O",
+  "mw": 182.31,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 159055,
+  "name": "D-Camphor",
+  "smiles": "C[C@@]12CC[C@@H](C1(C)C)CC2=O",
+  "inchikey": "DSSYKIVIOFKYAU-XCBNKYQSSA-N",
+  "formula": "C10H16O",
+  "mw": 152.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 165675,
+  "name": "(+)-Menthol",
+  "smiles": "C[C@H]1CC[C@@H]([C@H](C1)O)C(C)C",
+  "inchikey": "NOOLISFMXDJSKH-AEJSXWLSSA-N",
+  "formula": "C10H20O",
+  "mw": 156.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 170833,
+  "name": "(-)-Isopulegol",
+  "smiles": "C[C@@H]1CC[C@H]([C@@H](C1)O)C(=C)C",
+  "inchikey": "ZYTMANIQRDEHIO-KXUCPTDWSA-N",
+  "formula": "C10H18O",
+  "mw": 154.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 228769,
+  "name": "Octyl isovalerate",
+  "smiles": "CCCCCCCCOC(=O)CC(C)C",
+  "inchikey": "FUBGRVHGQADOJI-UHFFFAOYSA-N",
+  "formula": "C13H26O2",
+  "mw": 214.35,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 246728,
+  "name": "3-Octanone",
+  "smiles": "CCCCCC(=O)CC",
+  "inchikey": "RHLVCLIPMVJYKS-UHFFFAOYSA-N",
+  "formula": "C8H16O",
+  "mw": 128.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Mild fruity odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 251531,
+  "name": "Phenethyl 2-furoate",
+  "smiles": "C1=CC=C(C=C1)CCOC(=O)C2=CC=CO2",
+  "inchikey": "QKPSYARWSBJEDY-UHFFFAOYSA-N",
+  "formula": "C13H12O3",
+  "mw": 216.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 439570,
+  "name": "Carvone, (-)-",
+  "smiles": "CC1=CC[C@H](CC1=O)C(=C)C",
+  "inchikey": "ULDHMXUKGWMISQ-SECBINFHSA-N",
+  "formula": "C10H14O",
+  "mw": 150.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 440917,
+  "name": "(+)-Limonene",
+  "smiles": "CC1=CC[C@@H](CC1)C(=C)C",
+  "inchikey": "XMGQYMWWDOXHJM-JTQLQIEISA-N",
+  "formula": "C10H16",
+  "mw": 136.24,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Citrus odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 444539,
+  "name": "Cinnamic Acid",
+  "smiles": "C1=CC=C(C=C1)/C=C/C(=O)O",
+  "inchikey": "WBYWAXJHAXSJNI-VOTSOKGWSA-N",
+  "formula": "C9H8O2",
+  "mw": 148.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 519539,
+  "name": "2-(1-Methylpropyl)thiazole",
+  "smiles": "CCC(C)C1=NC=CS1",
+  "inchikey": "MHJSWOZJMPIGJQ-UHFFFAOYSA-N",
+  "formula": "C7H11NS",
+  "mw": 141.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 520108,
+  "name": "2-Acetylthiazole",
+  "smiles": "CC(=O)C1=NC=CS1",
+  "inchikey": "MOMFXATYAINJML-UHFFFAOYSA-N",
+  "formula": "C5H5NOS",
+  "mw": 127.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 520296,
+  "name": "delta-TETRADECALACTONE",
+  "smiles": "CCCCCCCCCC1CCCC(=O)O1",
+  "inchikey": "SKQYTJLYRIFFCO-UHFFFAOYSA-N",
+  "formula": "C14H26O2",
+  "mw": 226.36,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 521238,
+  "name": "3-Octyl acetate",
+  "smiles": "CCCCCC(CC)OC(=O)C",
+  "inchikey": "STZUZYMKSMSTOU-UHFFFAOYSA-N",
+  "formula": "C10H20O2",
+  "mw": 172.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 526618,
+  "name": "2-Methyl-3-(methylthio)furan",
+  "smiles": "CC1=C(C=CO1)SC",
+  "inchikey": "OQVAOEIMSKZGAL-UHFFFAOYSA-N",
+  "formula": "C6H8OS",
+  "mw": 128.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 556940,
+  "name": "Ethyl 3-(furfurylthio)propionate",
+  "smiles": "CCOC(=O)CCSCC1=CC=CO1",
+  "inchikey": "ZKCVVCLCYIXCOD-UHFFFAOYSA-N",
+  "formula": "C10H14O3S",
+  "mw": 214.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 565690,
+  "name": "Butanoic acid, 3-methyl-, 5-methyl-2-(1-methylethyl)cyclohexyl ester",
+  "smiles": "CC1CCC(C(C1)OC(=O)CC(C)C)C(C)C",
+  "inchikey": "VYQSSWZYPCCBRN-UHFFFAOYSA-N",
+  "formula": "C15H28O2",
+  "mw": 240.39,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 595928,
+  "name": "Benzaldehyde propylene glycol acetal",
+  "smiles": "CC1COC(O1)C2=CC=CC=C2",
+  "inchikey": "CDIKGISJRLTLRA-UHFFFAOYSA-N",
+  "formula": "C10H12O2",
+  "mw": 164.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 637758,
+  "name": "Ethyl Cinnamate",
+  "smiles": "CCOC(=O)/C=C/C1=CC=CC=C1",
+  "inchikey": "KBEBGUQPQBELIU-CMDGGOBGSA-N",
+  "formula": "C11H12O2",
+  "mw": 176.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 638024,
+  "name": "Piperine",
+  "smiles": "C1CCN(CC1)C(=O)/C=C/C=C/C2=CC3=C(C=C2)OCO3",
+  "inchikey": "MXXWOMGUGJBKIW-YPCIICBESA-N",
+  "formula": "C17H19NO3",
+  "mw": 285.34,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 641423,
+  "name": "Allyl Cinnamate",
+  "smiles": "C=CCOC(=O)/C=C/C1=CC=CC=C1",
+  "inchikey": "KCMITHMNVLRGJU-CMDGGOBGSA-N",
+  "formula": "C12H12O2",
+  "mw": 188.23,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 778574,
+  "name": "Isobutyl Cinnamate",
+  "smiles": "CC(C)COC(=O)/C=C/C1=CC=CC=C1",
+  "inchikey": "IQZUZPKOFSOVET-CMDGGOBGSA-N",
+  "formula": "C13H16O2",
+  "mw": 204.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1549025,
+  "name": "Neryl acetate",
+  "smiles": "CC(=CCC/C(=C\\COC(=O)C)/C)C",
+  "inchikey": "HIGQPQRQIQDZMP-FLIBITNWSA-N",
+  "formula": "C12H20O2",
+  "mw": 196.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1549778,
+  "name": "Geranylacetone",
+  "smiles": "CC(=CCC/C(=C/CCC(=O)C)/C)C",
+  "inchikey": "HNZUNIKWNYHEJJ-FMIVXFBMSA-N",
+  "formula": "C13H22O",
+  "mw": 194.32,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 1550470,
+  "name": "Ethyl sorbate",
+  "smiles": "CCOC(=O)/C=C/C=C/C",
+  "inchikey": "OZZYKXXGCOLLLO-TWTPFVCWSA-N",
+  "formula": "C8H12O2",
+  "mw": 140.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 2733294,
+  "name": "2-Hexenyl acetate, (2E)-",
+  "smiles": "CCC/C=C/COC(=O)C",
+  "inchikey": "HRHOWZHRCRZVCU-AATRIKPKSA-N",
+  "formula": "C8H14O2",
+  "mw": 142.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 3578033,
+  "name": "3-(5-Methyl-2-furyl)butanal",
+  "smiles": "CC1=CC=C(O1)C(C)CC=O",
+  "inchikey": "DFSVNSCDOZSUCT-UHFFFAOYSA-N",
+  "formula": "C9H12O2",
+  "mw": 152.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5273467,
+  "name": "Isoamyl Cinnamate",
+  "smiles": "CC(C)CCOC(=O)/C=C/C1=CC=CC=C1",
+  "inchikey": "JFHCDEYLWGVZMX-CMDGGOBGSA-N",
+  "formula": "C14H18O2",
+  "mw": 218.3,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5280450,
+  "name": "Linoleic Acid",
+  "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)O",
+  "inchikey": "OYHQOLUKZRVURQ-HZJYTTRNSA-N",
+  "formula": "C18H32O2",
+  "mw": 280.45,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5315892,
+  "name": "Cinnamyl Alcohol",
+  "smiles": "C1=CC=C(C=C1)/C=C/CO",
+  "inchikey": "OOCCDEMITAIZTP-QPJJXVBHSA-N",
+  "formula": "C9H10O",
+  "mw": 134.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "ODOR OF HYACINTH | PLEASANT, FLORAL ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5318599,
+  "name": "2-Octen-1-ol, (2E)-",
+  "smiles": "CCCCC/C=C/CO",
+  "inchikey": "AYQPVPFZWIQERS-VOTSOKGWSA-N",
+  "formula": "C8H16O",
+  "mw": 128.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5352539,
+  "name": "Hexenyl isobutanoate, (3Z)-",
+  "smiles": "CC/C=C\\CCOC(=O)C(C)C",
+  "inchikey": "OSMAJVWUIUORGC-WAYWQWQTSA-N",
+  "formula": "C10H18O2",
+  "mw": 170.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5352837,
+  "name": "5-Octen-1-ol, (5Z)-",
+  "smiles": "CC/C=C\\CCCCO",
+  "inchikey": "VDHRTASWKDTLER-ARJAWSKDSA-N",
+  "formula": "C8H16O",
+  "mw": 128.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5355850,
+  "name": "Cinnamyl propionate",
+  "smiles": "CCC(=O)OC/C=C/C1=CC=CC=C1",
+  "inchikey": "KGDJMNKPBUNHGY-RMKNXTFCSA-N",
+  "formula": "C12H14O2",
+  "mw": 190.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5362588,
+  "name": "5-Methyl-2-hepten-4-one",
+  "smiles": "CCC(C)C(=O)/C=C/C",
+  "inchikey": "ARJWAURHQDJJAC-GQCTYLIASA-N",
+  "formula": "C8H14O",
+  "mw": 126.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5362798,
+  "name": "4-Decenol, (4Z)-",
+  "smiles": "CCCCC/C=C\\CCCO",
+  "inchikey": "VUNFOJWKJSYIDH-SREVYHEPSA-N",
+  "formula": "C10H20O",
+  "mw": 156.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5362814,
+  "name": "4-Heptenal, (4Z)-",
+  "smiles": "CC/C=C\\CCC=O",
+  "inchikey": "VVGOCOMZRGWHPI-ARJAWSKDSA-N",
+  "formula": "C7H12O",
+  "mw": 112.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5363233,
+  "name": "3-Decen-2-one, (3E)-",
+  "smiles": "CCCCCC/C=C/C(=O)C",
+  "inchikey": "JRPDANVNRUIUAB-CMDGGOBGSA-N",
+  "formula": "C10H18O",
+  "mw": 154.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5363388,
+  "name": "cis-3-HEXENYL ACETATE",
+  "smiles": "CC/C=C\\CCOC(=O)C",
+  "inchikey": "NPFVOOAXDOBMCE-PLNGDYQASA-N",
+  "formula": "C8H14O2",
+  "mw": 142.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5363491,
+  "name": "Sorbyl acetate",
+  "smiles": "C/C=C/C=C/COC(=O)C",
+  "inchikey": "PXVKYPFROMBALG-VNKDHWASSA-N",
+  "formula": "C8H12O2",
+  "mw": 140.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5364231,
+  "name": "3-Hexenyl lactate, (3Z)-",
+  "smiles": "CC/C=C\\CCOC(=O)C(C)O",
+  "inchikey": "NNLLMULULOBXBY-PLNGDYQASA-N",
+  "formula": "C9H16O3",
+  "mw": 172.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5364729,
+  "name": "Allyl tiglate",
+  "smiles": "C/C=C(\\C)/C(=O)OCC=C",
+  "inchikey": "ODOZNBUSHKFCSH-FNORWQNLSA-N",
+  "formula": "C8H12O2",
+  "mw": 140.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5365027,
+  "name": "2-Nonen-1-ol, (2Z)-",
+  "smiles": "CCCCCC/C=C\\CO",
+  "inchikey": "NSSALFVIQPAIQK-FPLPWBNLSA-N",
+  "formula": "C9H18O",
+  "mw": 142.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5365049,
+  "name": "cis-3-Hexenyl propionate",
+  "smiles": "CC/C=C\\CCOC(=O)CC",
+  "inchikey": "LGTLDEUQCOJGFP-WAYWQWQTSA-N",
+  "formula": "C9H16O2",
+  "mw": 156.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5367698,
+  "name": "3-Hexenyl phenylacetate, (3Z)-",
+  "smiles": "CC/C=C\\CCOC(=O)CC1=CC=CC=C1",
+  "inchikey": "FJKFIIYSBXHBCT-ARJAWSKDSA-N",
+  "formula": "C14H18O2",
+  "mw": 218.3,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5367706,
+  "name": "3-Hexenyl benzoate, (3Z)-",
+  "smiles": "CC/C=C\\CCOC(=O)C1=CC=CC=C1",
+  "inchikey": "BCOXBEHFBZOJJZ-ARJAWSKDSA-N",
+  "formula": "C13H16O2",
+  "mw": 204.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ },
+ {
+  "cid": 5368076,
+  "name": "Methyl 2-nonenoate",
+  "smiles": "CCCCCC/C=C/C(=O)OC",
+  "inchikey": "ZWNPUELCBZVMDA-CMDGGOBGSA-N",
+  "formula": "C10H18O2",
+  "mw": 170.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  }
+ }
+]

@@ -1,0 +1,94 @@
+61293	Ethyl 3-hydroxyhexanoate	CCCC(CC(=O)OCC)O	0
+61325	2,5-dimethyl-4-methoxy-3(2H)-furanone	CC1C(=O)C(=C(O1)C)OC	0
+61331	2-Methoxyphenyl benzeneacetate	COC1=CC=CC=C1OC(=O)CC2=CC=CC=C2	0
+61337	Allyl furoate	C=CCOC(=O)C1=CC=CO1	0
+61386	Isoamyl Laurate	CCCCCCCCCCCC(=O)OCCC(C)C	0
+61408	Allyl 2-ethylbutyrate	CCC(CC)C(=O)OCC=C	0
+61523	5-Phenyl-1-pentanol	C1=CC=C(C=C1)CCCCCO	0
+61527	3-Acetyl-2,5-dimethylfuran	CC1=CC(=C(O1)C)C(=O)C	0
+61641	Methyl 3-methylthiopropionate	COC(=O)CCSC	0
+61653	2,4,5-Trimethylthiazole	CC1=C(SC(=N1)C)C	0
+61670	5-Methylquinoxaline	CC1=C2C(=CC=C1)N=CC=N2	0
+61771	2-sec-Butyl cyclohexanone	CCC(C)C1CCCCC1=O	0
+61809	2-Ethoxythiazole	CCOC1=NC=CS1	0
+61918	2-Acetyl-3-ethylpyrazine	CCC1=NC=CN=C1C(=O)C	0
+61945	Pyrazineethanethiol	C1=CN=C(C=N1)CCS	0
+62087	2-Mercapto-3-butanol	CC(C(C)S)O	0
+62089	4-Methyloctanoic acid	CCCCC(C)CCC(=O)O	0
+62144	Furfuryl mercaptan formate	C1=COC(=C1)CSC=O	0
+62332	Phenethyl salicylate	C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2O	0
+62351	3-Methylthiopropyl isothiocyanate	CSCCCN=C=S	0
+62374	Ketoisophorone	CC1=CC(=O)CC(C1=O)(C)C	0
+62375	Benzaldehyde dimethyl acetal	COC(C1=CC=CC=C1)OC	0
+62378	Dihydrojasmone	CCCCCC1=C(CCC1=O)C	0
+62444	S-methyl butanethioate	CCCC(=O)SC	0
+62465	4-Ethylguaiacol	CCC1=CC(=C(C=C1)O)OC	0
+62572	Ethyl 3-Hydroxybutyrate	CCOC(=O)CC(C)O	0
+62580	Piperonyl isobutyrate	CC(C)C(=O)OCC1=CC2=C(C=C1)OCO2	0
+62725	2-Isobutylthiazole	CC(C)CC1=NC=CS1	0
+62835	Sotolone	CC1C(=C(C(=O)O1)O)C	0
+62900	5-Butyl-4-methyldihydro-2(3H)-furanone	CCCCC1C(CC(=O)O1)C	0
+62902	Ethyl 2-methylpentanoate	CCCC(C)C(=O)OCC	0
+69963	5-Hexen-1-ol	C=CCCCCO	0
+78925	2-(Methylthio)ethanol	CSCCO	0
+85522	Methyl (methylthio)acetate	COC(=O)CSC	0
+88454	Hexyl propionate	CCCCCCOC(=O)CC	0
+98330	1,4-Dithiane-2,5-diol	C1C(SCC(S1)O)O	0
+101010	cis-2-Methyl-4-propyl-1,3-oxathiane	CCCC1CCOC(S1)C	0
+106997	2-Ethyl-1,3,3-trimethylbicyclo(2.2.1)heptan-2-ol	CCC1(C(C2CCC1(C2)C)(C)C)O	0
+145742	L-Proline	C1C[C@H](NC1)C(=O)O	1
+159055	D-Camphor	C[C@@]12CC[C@@H](C1(C)C)CC2=O	0
+165675	(+)-Menthol	C[C@H]1CC[C@@H]([C@H](C1)O)C(C)C	0
+170833	(-)-Isopulegol	C[C@@H]1CC[C@H]([C@@H](C1)O)C(=C)C	0
+228769	Octyl isovalerate	CCCCCCCCOC(=O)CC(C)C	0
+235414	Pentadecalactone	C1CCCCCCCOC(=O)CCCCCC1	0
+246728	3-Octanone	CCCCCC(=O)CC	1
+251531	Phenethyl 2-furoate	C1=CC=C(C=C1)CCOC(=O)C2=CC=CO2	0
+439570	Carvone, (-)-	CC1=CC[C@H](CC1=O)C(=C)C	0
+440917	(+)-Limonene	CC1=CC[C@@H](CC1)C(=C)C	1
+444539	Cinnamic Acid	C1=CC=C(C=C1)/C=C/C(=O)O	0
+444972	Fumaric Acid	C(=C/C(=O)O)\C(=O)O	1
+519539	2-(1-Methylpropyl)thiazole	CCC(C)C1=NC=CS1	0
+520108	2-Acetylthiazole	CC(=O)C1=NC=CS1	0
+520296	delta-TETRADECALACTONE	CCCCCCCCCC1CCCC(=O)O1	0
+521238	3-Octyl acetate	CCCCCC(CC)OC(=O)C	0
+526618	2-Methyl-3-(methylthio)furan	CC1=C(C=CO1)SC	0
+556940	Ethyl 3-(furfurylthio)propionate	CCOC(=O)CCSCC1=CC=CO1	0
+565690	Butanoic acid, 3-methyl-, 5-methyl-2-(1-methylethyl)cyclohexyl ester	CC1CCC(C(C1)OC(=O)CC(C)C)C(C)C	0
+595928	Benzaldehyde propylene glycol acetal	CC1COC(O1)C2=CC=CC=C2	0
+637563	Anethole	C/C=C/C1=CC=C(C=C1)OC	1
+637566	Geraniol	CC(=CCC/C(=C/CO)/C)C	1
+637758	Ethyl Cinnamate	CCOC(=O)/C=C/C1=CC=CC=C1	0
+638014	I2-Ionone	CC1=C(C(CCC1)(C)C)/C=C/C(=O)C	1
+638024	Piperine	C1CCN(CC1)C(=O)/C=C/C=C/C2=CC3=C(C=C2)OCO3	0
+641423	Allyl Cinnamate	C=CCOC(=O)/C=C/C1=CC=CC=C1	0
+643820	Nerol	CC(=CCC/C(=C\CO)/C)C	1
+778574	Isobutyl Cinnamate	CC(C)COC(=O)/C=C/C1=CC=CC=C1	0
+853433	Isoeugenol	C/C=C/C1=CC(=C(C=C1)O)OC	1
+1549025	Neryl acetate	CC(=CCC/C(=C\COC(=O)C)/C)C	0
+1549026	Geranyl Acetate	CC(=CCC/C(=C/COC(=O)C)/C)C	1
+1549778	Geranylacetone	CC(=CCC/C(=C/CCC(=O)C)/C)C	0
+1550470	Ethyl sorbate	CCOC(=O)/C=C/C=C/C	0
+2733294	2-Hexenyl acetate, (2E)-	CCC/C=C/COC(=O)C	0
+3578033	3-(5-Methyl-2-furyl)butanal	CC1=CC=C(O1)C(C)CC=O	0
+5273467	Isoamyl Cinnamate	CC(C)CCOC(=O)/C=C/C1=CC=CC=C1	0
+5280450	Linoleic Acid	CCCCC/C=C\C/C=C\CCCCCCCC(=O)O	0
+5281167	3-Hexenol	CC/C=C\CCO	1
+5315892	Cinnamyl Alcohol	C1=CC=C(C=C1)/C=C/CO	1
+5318599	2-Octen-1-ol, (2E)-	CCCCC/C=C/CO	0
+5352539	Hexenyl isobutanoate, (3Z)-	CC/C=C\CCOC(=O)C(C)C	0
+5352837	5-Octen-1-ol, (5Z)-	CC/C=C\CCCCO	0
+5355850	Cinnamyl propionate	CCC(=O)OC/C=C/C1=CC=CC=C1	0
+5362588	5-Methyl-2-hepten-4-one	CCC(C)C(=O)/C=C/C	0
+5362798	4-Decenol, (4Z)-	CCCCC/C=C\CCCO	0
+5362814	4-Heptenal, (4Z)-	CC/C=C\CCC=O	0
+5363233	3-Decen-2-one, (3E)-	CCCCCC/C=C/C(=O)C	0
+5363388	cis-3-HEXENYL ACETATE	CC/C=C\CCOC(=O)C	0
+5363491	Sorbyl acetate	C/C=C/C=C/COC(=O)C	0
+5364231	3-Hexenyl lactate, (3Z)-	CC/C=C\CCOC(=O)C(C)O	0
+5364729	Allyl tiglate	C/C=C(\C)/C(=O)OCC=C	0
+5365027	2-Nonen-1-ol, (2Z)-	CCCCCC/C=C\CO	0
+5365049	cis-3-Hexenyl propionate	CC/C=C\CCOC(=O)CC	0
+5367698	3-Hexenyl phenylacetate, (3Z)-	CC/C=C\CCOC(=O)CC1=CC=CC=C1	0
+5367706	3-Hexenyl benzoate, (3Z)-	CC/C=C\CCOC(=O)C1=CC=CC=C1	0
+5368076	Methyl 2-nonenoate	CCCCCC/C=C/C(=O)OC	0
