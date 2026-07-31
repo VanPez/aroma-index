@@ -6,6 +6,24 @@ Times are UTC. Commit hashes in parentheses. Newest first.
 
 ---
 
+## 2026-07-31 — Built a licence-clean expansion set: 218 molecules from public-domain / CC0 sources
+
+Acting on the licence scan: rather than chase Leffingwell, assembled an expansion from sources that permit commercial use, so it can back **tradeable** tokens. Lives in `data/sourced/`, deliberately **separate from `rows2.json`** so the curated and sourced layers stay visibly distinct.
+
+**Selection** (all measured, not estimated): molecules with a **FEMA number** in PubChem (2,389) ∩ having free odour data — **HSDB** odour text (US National Library of Medicine → public domain) or **Keller & Vosshall 2016** (CC BY 4.0 + CC0) → 562. Restricted to those **present in Keller** (i.e. actually smelled and rated by 61 human subjects, so odorants by construction, which excludes the HSDB-only bucket full of parabens and acidulants) → 382. Minus 34 already in the curated 99, minus 10 that **HSDB itself labels odourless** (adipic acid, glycerol, cetyl alcohol…) → 338.
+
+**Then filtered to perfumery relevance** (Ivan's call — "keep it in the spirit of what it was born in"): 338 → **218**. Removed 120 with a stated reason each, kept in `data/sourced/excluded.json` so any category can be reinstated by changing one rule: 48 savoury/roasted heterocycles (pyrazines, thiazoles, furans), 26 solvents/industrial/plasticisers, 25 sulfurous, 15 straight-chain fatty acids, 4 amines, 2 preservatives.
+
+- **48 are flagged `borderline`, not decided** — short-chain fruity esters, fusel alcohols, simple aldehydes/ketones. Genuine perfumery judgement, explicitly left to Ivan rather than guessed.
+- **`note`, `family`, `descriptors` are null on every sourced molecule, on purpose.** Auto-filling them is exactly the mistake that produced the unverifiable descriptors in `rows2.json`.
+- Provenance per field: structures/CIDs from PubChem; **formula, MW and InChIKey recomputed locally with RDKit**; odour text from HSDB (64 of the 218); Keller CC0 ratings for all.
+- **Verified, 0 problems:** all SMILES parse, all InChIKeys/formulae recompute from structure, no duplicates, no collision with the curated set, `rows2.json` untouched at 99 rows.
+- **Two of my own filter rules misfired and were caught on review** — bornyl acetate binned by an `^acetic acid` regex matching its IUPAC name, and thioguaiacol *rescued* by the `guaiacol` keep-rule despite being a sulfur compound. Lesson: keyword filters over chemical names fail in both directions; always audit both the kept and removed lists.
+
+**Index now: 99 curated + 170 sourced = 269**, plus 48 pending. Honest about what it is — the sourced material is well-documented commodity flavour/fragrance chemistry, not the modern perfumery palette. Iso E Super, Hedione, Ambroxan and the musks are not in any free source and never will be.
+
+**Pipeline note:** PubChem's REST API returns an empty body through the direct fetch tool; it only works same-origin from a page on `pubchem.ncbi.nlm.nih.gov`, so everything came through the browser ~96 rows at a time. Raw batches kept in `data/staging/` (`k1`–`k4`). Full method in `data/sourced/README.md`.
+
 ## 2026-07-31 — Licence scan for the scale-up: no permissive Leffingwell exists; PubChem supplies the molecules but not the words
 
 Full scan of 15 odour/aroma datasets, licences read at source, written up in `reports/license-scan.md`. Driven by the constraint that **tradeable ERC-721s = commercial use**, so anything NonCommercial is out.
