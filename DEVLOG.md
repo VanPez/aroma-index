@@ -6,6 +6,19 @@ Times are UTC. Commit hashes in parentheses. Newest first.
 
 ---
 
+## 2026-07-31 — Project put under version control; sources published; deploys are now `git push` · `8109e86`
+
+The repo held only the built HTML — every source, generator and note lived on one machine with no history. Fixed the structure rather than the symptom, because the day's three separate bugs (`stats2.json` drift, the stale CSV, the site being a hand-copied duplicate) all had the same cause: **derived artifacts built by hand, with no generator and no single source**.
+
+- **Adopted the real git history** into `~/Documents/GenesisL1/aroma-index/` (cloned the 14 existing commits rather than `git init`, so nothing was orphaned). Ivan pushed; the assistant never handles credentials.
+- **Published** `data/`, `generators/`, `reports/`, `README.md`, `DEVLOG.md`, `build.sh` — 45 files. Reproducibility is the scientific claim, so the generators belong in public alongside the output.
+- **`mint/` deliberately untracked** (`.gitignore`, with the reasoning written in so it isn't silently reverted). Not secrecy — the structures are public-domain and the curation is now public in `data/`. It's that token IDs stay volatile until a contract fixes them (today's fix renumbered 56 of 95), and `mint/` regenerates exactly from `rows2.json` + `build_mint.py`, so the git history still dates the curation. It gets published at mint time with the contract address and tx hashes.
+- **`build.sh`** — one command regenerates all five derived artifacts. Verified it reproduces every current one **byte-for-byte** before committing, so the committed outputs provably match their sources. `scentmap.py` is deliberately excluded (recomputing UMAP would move every dot).
+- **New `generators/mkcsv.py`** — `docs/aroma-index.csv` was a hand export and still carried the three empty formula/mw cells after the site was fixed. It now regenerates, and reproduces the old export byte-for-byte apart from those three rows.
+- **`site/` → `docs/`, GitHub Pages source switched to `main /docs`.** The working folder and the repo are now one tree: **`git push` deploys**, no copy step, no web-UI uploads. Verified live afterwards — index, scent map and SMILES→3D all serve correctly and the corrected `138 → 169 → 210` header is up.
+  - **Gotcha:** between the push and the Pages settings change the site rendered `README.md` instead — the standard Pages fallback when there's no `index.html` at the publishing source. Harmless and self-correcting, but it means **the two steps should be done back-to-back**; the Pages build also takes ~2 min, so don't judge it from the first reload.
+- **Left for Ivan, deliberately not decided:** the local `LICENSE` said a legal name where the published one says `vanpe` — reverted to the pseudonym rather than publish a legal name irreversibly. `screenshots/` is 2.2 MB of the 2.8 MB repo and git keeps it forever; kept for now.
+
 ## 2026-07-31 — Pre-mint data audit: 3 empty fields fixed at source; token IDs renumbered
 
 Audit of the staged pilot before anything goes on-chain. Found **three records carrying empty `formula` and null `mw`** — Mayol (CID 83763), Aurantiol (CID 98118), Norlimbanol (CID 116699) — which the ERC-721 builder was rendering as literal `"value": ""` / `"value": null` attributes. Immutable tokens, so worth catching now.

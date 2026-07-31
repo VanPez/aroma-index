@@ -30,7 +30,7 @@ aroma-index/
     stats2.json          per-tier stats
     scentmap.json        UMAP coordinates + odour classes
   generators/          scripts that build the site from data
-    mkhtml2.py           builds site/index.html from rows2.json + stats2.json + res_*.txt
+    mkhtml2.py           builds docs/index.html from rows2.json + stats2.json + res_*.txt
     mkscentmap.py        builds scent-map.html from scentmap.json
     mkstats.py           recomputes stats2.json from rows2.json
     mkcsv.py             rebuilds docs/aroma-index.csv from rows2.json
