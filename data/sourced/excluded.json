@@ -1,0 +1,2718 @@
+[
+ {
+  "cid": 176,
+  "name": "Acetic Acid",
+  "smiles": "CC(=O)O",
+  "inchikey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+  "formula": "C2H4O2",
+  "mw": 60.05,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pungent | Sour, vinegar-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 263,
+  "name": "1-Butanol",
+  "smiles": "CCCCO",
+  "inchikey": "LRHPLDYGYMQRHN-UHFFFAOYSA-N",
+  "formula": "C4H10O",
+  "mw": 74.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "HARSH FUSEL ODOR WITH BANANA | Odor similar to amyl alcohol | Rancid, sweet | Strong characteristic, mildly alcoholic odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 264,
+  "name": "Butyric Acid",
+  "smiles": "CCCC(=O)O",
+  "inchikey": "FERIUCNNQQJTOY-UHFFFAOYSA-N",
+  "formula": "C4H8O2",
+  "mw": 88.11,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Unpleasant, rancid odor | Penetrating and obnoxious odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 379,
+  "name": "Octanoic Acid",
+  "smiles": "CCCCCCCC(=O)O",
+  "inchikey": "WWZKQHOCKIZLMA-UHFFFAOYSA-N",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "FAINT, FRUITY-ACID ODOR | UNPLEASANT AND IRRITATING ODOR | Slight odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 679,
+  "name": "Dimethyl Sulfoxide",
+  "smiles": "CS(=O)C",
+  "inchikey": "IAZDPXIOMUYVGZ-UHFFFAOYSA-N",
+  "formula": "C2H6OS",
+  "mw": 78.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Slightly sulfurous odor | Distinctive garlic or oyster-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 1001,
+  "name": "Phenethylamine",
+  "smiles": "C1=CC=C(C=C1)CCN",
+  "inchikey": "BHHGXPLMPWCGHP-UHFFFAOYSA-N",
+  "formula": "C8H11N",
+  "mw": 121.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Fishy odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "amine \u2014 fishy/ammoniacal"
+ },
+ {
+  "cid": 1031,
+  "name": "1-Propanol",
+  "smiles": "CCCO",
+  "inchikey": "BDERNNFJNOPAEC-UHFFFAOYSA-N",
+  "formula": "C3H8O",
+  "mw": 60.1,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Similar to ethanol | Odor perception threshold: <0.07-100 mg/cu-m; odor recognition threshold: 0.32-150 mg/cu m",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 1032,
+  "name": "Propionic Acid",
+  "smiles": "CCC(=O)O",
+  "inchikey": "XBDQKXXYIPTUBI-UHFFFAOYSA-N",
+  "formula": "C3H6O2",
+  "mw": 74.08,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Slightly pungent disagreeable, rancid odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 1049,
+  "name": "Pyridine",
+  "smiles": "C1=CC=NC=C1",
+  "inchikey": "JUJWROOIHBZHMG-UHFFFAOYSA-N",
+  "formula": "C5H5N",
+  "mw": 79.1,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sharp, nauseating | Burnt, sickening | Nauseating fish-like odor.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 1060,
+  "name": "Pyruvic Acid",
+  "smiles": "CC(=O)C(=O)O",
+  "inchikey": "LCTONWCANYUPML-UHFFFAOYSA-N",
+  "formula": "C3H4O3",
+  "mw": 88.06,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 1068,
+  "name": "Dimethyl Sulfide",
+  "smiles": "CSC",
+  "inchikey": "QMMFVYPAHWMCMS-UHFFFAOYSA-N",
+  "formula": "C2H6S",
+  "mw": 62.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "UNPLEASANT ODOR OF WILD RADISH, CABBAGE-LIKE",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 1136,
+  "name": "4-Methyl-5-(2-hydroxyethyl)thiazole",
+  "smiles": "CC1=C(SC=N1)CCO",
+  "inchikey": "BKAWJIRCKVUVED-UHFFFAOYSA-N",
+  "formula": "C6H9NOS",
+  "mw": 143.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 2969,
+  "name": "Decanoic Acid",
+  "smiles": "CCCCCCCCCC(=O)O",
+  "inchikey": "GHVNFZFCNZKVNT-UHFFFAOYSA-N",
+  "formula": "C10H20O2",
+  "mw": 172.27,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Rancid odor | Unpleasant odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 3776,
+  "name": "Isopropanol",
+  "smiles": "CC(C)O",
+  "inchikey": "KFZMGEQAYNKOFK-UHFFFAOYSA-N",
+  "formula": "C3H8O",
+  "mw": 60.1,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pleasant odor | Slight odor resembling that of a mixture of ethanol and acetone | Odor of rubbing alcohol",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 3893,
+  "name": "Lauric Acid",
+  "smiles": "CCCCCCCCCCCC(=O)O",
+  "inchikey": "POULHZVOKOAJMA-UHFFFAOYSA-N",
+  "formula": "C12H24O2",
+  "mw": 200.32,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Characteristic, like oil of bay",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 5610,
+  "name": "Tyramine",
+  "smiles": "C1=CC(=CC=C1CCN)O",
+  "inchikey": "DZGWFCGJZKJUFP-UHFFFAOYSA-N",
+  "formula": "C8H11NO",
+  "mw": 137.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "amine \u2014 fishy/ammoniacal"
+ },
+ {
+  "cid": 6560,
+  "name": "Isobutanol",
+  "smiles": "CC(C)CO",
+  "inchikey": "ZXEKIIBDNHEJCQ-UHFFFAOYSA-N",
+  "formula": "C4H10O",
+  "mw": 74.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sweet, musty odor | Odor like that of amyl alcohol, but weaker | Penetrating, wine-like, disagreeable odor | Suffocating odor of fusel oil",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 6569,
+  "name": "Methyl Ethyl Ketone",
+  "smiles": "CCC(=O)C",
+  "inchikey": "ZWEHNKRNPOVVGH-UHFFFAOYSA-N",
+  "formula": "C4H8O",
+  "mw": 72.11,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Acetone-like odor | Sweet, pleasant, pungent | Moderately sharp, fragrant, mint- or acetone-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 6590,
+  "name": "Isobutyric Acid",
+  "smiles": "CC(C)C(=O)O",
+  "inchikey": "KQNPFQTWMSNSAP-UHFFFAOYSA-N",
+  "formula": "C4H8O2",
+  "mw": 88.11,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pungent odor like that of butyric acid, but not as unpleasant | SHARP, BUTTER-FAT-LIKE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 6658,
+  "name": "Methyl Methacrylate",
+  "smiles": "CC(=C)C(=O)OC",
+  "inchikey": "VVQNEPGJFQJSBK-UHFFFAOYSA-N",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Characteristic quality: sulfur-like, sweet, sharp; hedonic tone: unpleasant | Acrid, fruity odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 7059,
+  "name": "6-Methylquinoline",
+  "smiles": "CC1=CC2=C(C=C1)N=CC=C2",
+  "inchikey": "LUYISICIYVKBTA-UHFFFAOYSA-N",
+  "formula": "C10H9N",
+  "mw": 143.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 7095,
+  "name": "Biphenyl",
+  "smiles": "C1=CC=C(C=C1)C2=CC=CC=C2",
+  "inchikey": "ZUOUZKKEUPVFJK-UHFFFAOYSA-N",
+  "formula": "C12H10",
+  "mw": 154.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Pleasant, peculiar odor | Pleasant, characteristic odor. | Pleasant, butter-like",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 7151,
+  "name": "Methyl Nicotinate",
+  "smiles": "COC(=O)C1=CN=CC=C1",
+  "inchikey": "YNBADRVTZLEFNH-UHFFFAOYSA-N",
+  "formula": "C7H7NO2",
+  "mw": 137.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 7341,
+  "name": "2-Methylvaleric acid",
+  "smiles": "CCCC(C)C(=O)O",
+  "inchikey": "OVBFMEVBMNZIBR-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 7361,
+  "name": "Furfuryl Alcohol",
+  "smiles": "C1=COC(=C1)CO",
+  "inchikey": "XPFVYQJUAUNWIW-UHFFFAOYSA-N",
+  "formula": "C5H6O2",
+  "mw": 98.1,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Faint burning odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 7761,
+  "name": "Diethyl Malonate",
+  "smiles": "CCOC(=O)CC(=O)OCC",
+  "inchikey": "IYXGSMUGOJNHAZ-UHFFFAOYSA-N",
+  "formula": "C7H12O4",
+  "mw": 160.17,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Sweet ester odor | Slightly aromatic, pleasant odor | Aroma of ripe fruit, peach, cut grass",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 7765,
+  "name": "Acetal",
+  "smiles": "CCOC(C)OCC",
+  "inchikey": "DHKHKXVYLBGOIT-UHFFFAOYSA-N",
+  "formula": "C6H14O2",
+  "mw": 118.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "PUNGENT, GREEN, WOODY SOLVENT ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 7768,
+  "name": "Caprolactam",
+  "smiles": "C1CCC(=O)NCC1",
+  "inchikey": "JBKVHLHDHHXQEQ-UHFFFAOYSA-N",
+  "formula": "C6H11NO",
+  "mw": 113.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Unpleasant odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 7820,
+  "name": "Dimethyl Succinate",
+  "smiles": "COC(=O)CCC(=O)OC",
+  "inchikey": "MUXOBHXGJLMRAB-UHFFFAOYSA-N",
+  "formula": "C6H10O4",
+  "mw": 146.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "PLEASANT, ETHEREAL, WINEY ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 7894,
+  "name": "Isoamylamine",
+  "smiles": "CC(C)CCN",
+  "inchikey": "BMFVGAAISNGQNM-UHFFFAOYSA-N",
+  "formula": "C5H13N",
+  "mw": 87.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "amine \u2014 fishy/ammoniacal"
+ },
+ {
+  "cid": 7916,
+  "name": "Isopropenyl acetate",
+  "smiles": "CC(=C)OC(=O)C",
+  "inchikey": "HETCEOQFVDFGSY-UHFFFAOYSA-N",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 7937,
+  "name": "2,6-Lutidine",
+  "smiles": "CC1=NC(=CC=C1)C",
+  "inchikey": "OISVCGZHLKNMSJ-UHFFFAOYSA-N",
+  "formula": "C7H9N",
+  "mw": 107.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Odor of pyridine plus peppermint",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 7969,
+  "name": "Thiophenol",
+  "smiles": "C1=CC=C(C=C1)S",
+  "inchikey": "RMVRSNDYEFQCLF-UHFFFAOYSA-N",
+  "formula": "C6H6S",
+  "mw": 110.18,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Repulsive, penetrating, garlic-like odor, especially when impure",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 7991,
+  "name": "Pentanoic Acid",
+  "smiles": "CCCCC(=O)O",
+  "inchikey": "NQPDZGIKBAWPEJ-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "UNPLEASANT ODOR, SIMILAR TO BUTYRIC ACID | Unpleasant odor | Penetrating odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 8007,
+  "name": "Butylamine",
+  "smiles": "CCCCN",
+  "inchikey": "HQABUPZFAYXKJW-UHFFFAOYSA-N",
+  "formula": "C4H11N",
+  "mw": 73.14,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Amine odor | Fishy, ammonia-like odor.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "amine \u2014 fishy/ammoniacal"
+ },
+ {
+  "cid": 8049,
+  "name": "Diethyl Sebacate",
+  "smiles": "CCOC(=O)CCCCCCCCC(=O)OCC",
+  "inchikey": "ONKUXPIBXRRIDU-UHFFFAOYSA-N",
+  "formula": "C14H26O4",
+  "mw": 258.36,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 8077,
+  "name": "Diethyl disulfide",
+  "smiles": "CCSSCC",
+  "inchikey": "CETBSQOFQKLHHZ-UHFFFAOYSA-N",
+  "formula": "C4H10S2",
+  "mw": 122.26,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 8082,
+  "name": "Piperidine",
+  "smiles": "C1CCNCC1",
+  "inchikey": "NQRYJNQNLNOLGT-UHFFFAOYSA-N",
+  "formula": "C5H11N",
+  "mw": 85.15,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "AMINE-LIKE ODOR | HEAVY, SWEET, FLORAL, ANIMAL ODOR | Odor of pepper",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 8094,
+  "name": "Heptanoic Acid",
+  "smiles": "CCCCCCC(=O)O",
+  "inchikey": "MNWFXJYAOYHMED-UHFFFAOYSA-N",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Disagreeable, rancid odor; faint tallow-like odor when spectroscopically pure.",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 8122,
+  "name": "Ethyl stearate",
+  "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC",
+  "inchikey": "MVLVMROFTAUDAG-UHFFFAOYSA-N",
+  "formula": "C20H40O2",
+  "mw": 312.54,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 8125,
+  "name": "1-Octene",
+  "smiles": "CCCCCCC=C",
+  "inchikey": "KWKAKUADMBZCLK-UHFFFAOYSA-N",
+  "formula": "C8H16",
+  "mw": 112.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 8180,
+  "name": "Undecanoic Acid",
+  "smiles": "CCCCCCCCCCC(=O)O",
+  "inchikey": "ZDPHROOEEOARMN-UHFFFAOYSA-N",
+  "formula": "C11H22O2",
+  "mw": 186.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 8205,
+  "name": "Dodecyl acetate",
+  "smiles": "CCCCCCCCCCCCOC(=O)C",
+  "inchikey": "VZWGRQBCURJOMT-UHFFFAOYSA-N",
+  "formula": "C14H28O2",
+  "mw": 228.38,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 8456,
+  "name": "Butylated Hydroxyanisole",
+  "smiles": "CC(C)(C)C1=C(C=CC(=C1)OC)O",
+  "inchikey": "MRBKEAMVRSLQPH-UHFFFAOYSA-N",
+  "formula": "C11H16O2",
+  "mw": 180.25,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Faint characteristic odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "preservative / antioxidant"
+ },
+ {
+  "cid": 8468,
+  "name": "Vanillic Acid",
+  "smiles": "COC1=C(C=CC(=C1)C(=O)O)O",
+  "inchikey": "WKOLLVMJNQIZCI-UHFFFAOYSA-N",
+  "formula": "C8H8O4",
+  "mw": 168.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 8712,
+  "name": "2-Thiocresol",
+  "smiles": "CC1=CC=CC=C1S",
+  "inchikey": "LXUNZSDDXMPKLP-UHFFFAOYSA-N",
+  "formula": "C7H8S",
+  "mw": 124.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 8892,
+  "name": "Hexanoic Acid",
+  "smiles": "CCCCCC(=O)O",
+  "inchikey": "FUZZWVXGSFPDMH-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Characteristic goat-like odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 9012,
+  "name": "Dibenzyl Disulfide",
+  "smiles": "C1=CC=C(C=C1)CSSCC2=CC=CC=C2",
+  "inchikey": "GVPWHKZIJBODOX-UHFFFAOYSA-N",
+  "formula": "C14H14S2",
+  "mw": 246.4,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 9256,
+  "name": "Thiazole",
+  "smiles": "C1=CSC=N1",
+  "inchikey": "FZWLAAWBMGSTSO-UHFFFAOYSA-N",
+  "formula": "C3H3NS",
+  "mw": 85.13,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 9261,
+  "name": "Pyrazine",
+  "smiles": "C1=CN=CC=N1",
+  "inchikey": "KYQCOXFCLRTKLS-UHFFFAOYSA-N",
+  "formula": "C4H4N2",
+  "mw": 80.09,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 9589,
+  "name": "3-Acetylpyridine",
+  "smiles": "CC(=O)C1=CN=CC=C1",
+  "inchikey": "WEGYGNROSJDEIW-UHFFFAOYSA-N",
+  "formula": "C7H7NO",
+  "mw": 121.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 9609,
+  "name": "Ethyl sulfide",
+  "smiles": "CCSCC",
+  "inchikey": "LJSQFQKUNVCTIA-UHFFFAOYSA-N",
+  "formula": "C4H10S",
+  "mw": 90.19,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Garlic-like odor | Ethereal odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 10430,
+  "name": "Isovaleric Acid",
+  "smiles": "CC(C)CC(=O)O",
+  "inchikey": "GWYFCOCPABKNJV-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "DISAGREEABLE, RANCID-CHEESE ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 10448,
+  "name": "3-(Methylthio)-1-propanol",
+  "smiles": "CSCCCO",
+  "inchikey": "CZUGFKJYCPYHHV-UHFFFAOYSA-N",
+  "formula": "C4H10OS",
+  "mw": 106.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 10797,
+  "name": "2-Methylfuran",
+  "smiles": "CC1=CC=CO1",
+  "inchikey": "VQKFNUFAXTZWDK-UHFFFAOYSA-N",
+  "formula": "C5H6O",
+  "mw": 82.1,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 10925,
+  "name": "Isoamyl mercaptan",
+  "smiles": "CC(C)CCS",
+  "inchikey": "GIJGXNFNUUFEGH-UHFFFAOYSA-N",
+  "formula": "C5H12S",
+  "mw": 104.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 11614,
+  "name": "Butyl Formate",
+  "smiles": "CCCCOC=O",
+  "inchikey": "NMJJFJNHVMGPGM-UHFFFAOYSA-N",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 11617,
+  "name": "Diallyl Sulfide",
+  "smiles": "C=CCSCC=C",
+  "inchikey": "UBJVUCKUDDKUJF-UHFFFAOYSA-N",
+  "formula": "C6H10S",
+  "mw": 114.21,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Garlic odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 11902,
+  "name": "Methyl 2-furoate",
+  "smiles": "COC(=O)C1=CC=CO1",
+  "inchikey": "HDJLSECJEQSPKW-UHFFFAOYSA-N",
+  "formula": "C6H6O3",
+  "mw": 126.11,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 12097,
+  "name": "5-Methylfurfural",
+  "smiles": "CC1=CC=C(O1)C=O",
+  "inchikey": "OUDFNZMQXZILJD-UHFFFAOYSA-N",
+  "formula": "C6H6O2",
+  "mw": 110.11,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 12377,
+  "name": "Dipropyl disulfide",
+  "smiles": "CCCSSCCC",
+  "inchikey": "ALVPFGSHPUPROW-UHFFFAOYSA-N",
+  "formula": "C6H14S2",
+  "mw": 150.31,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 12506,
+  "name": "Tetrahydrofurfuryl acetate",
+  "smiles": "CC(=O)OCC1CCCO1",
+  "inchikey": "AAQDYYFAFXGBFZ-UHFFFAOYSA-N",
+  "formula": "C7H12O3",
+  "mw": 144.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 12587,
+  "name": "Isocaproic acid",
+  "smiles": "CC(C)CCC(=O)O",
+  "inchikey": "FGKJLKRYENPLQH-UHFFFAOYSA-N",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 12748,
+  "name": "4-Methylthiazole",
+  "smiles": "CC1=CSC=N1",
+  "inchikey": "QMHIMXFNBOYPND-UHFFFAOYSA-N",
+  "formula": "C4H5NS",
+  "mw": 99.16,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "GREEN, NUTTY ODOR",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 13436,
+  "name": "Diphenyl disulfide",
+  "smiles": "C1=CC=C(C=C1)SSC2=CC=CC=C2",
+  "inchikey": "GUUVPOWQJOLRAS-UHFFFAOYSA-N",
+  "formula": "C12H10S2",
+  "mw": 218.35,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 14286,
+  "name": "2-Acetylpyridine",
+  "smiles": "CC(=O)C1=CC=CC=N1",
+  "inchikey": "AJKVQEKCUACUMD-UHFFFAOYSA-N",
+  "formula": "C7H7NO",
+  "mw": 121.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 14296,
+  "name": "Tetramethylpyrazine",
+  "smiles": "CC1=C(N=C(C(=N1)C)C)C",
+  "inchikey": "FINHMKGKINIASC-UHFFFAOYSA-N",
+  "formula": "C8H12N2",
+  "mw": 136.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 14491,
+  "name": "1,6-Hexanedithiol",
+  "smiles": "C(CCCS)CCS",
+  "inchikey": "SRZXCOWFGPICGA-UHFFFAOYSA-N",
+  "formula": "C6H14S2",
+  "mw": 150.31,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 14514,
+  "name": "2-Acetyl-5-Methylfuran",
+  "smiles": "CC1=CC=C(O1)C(=O)C",
+  "inchikey": "KEFJLCGVTHRGAH-UHFFFAOYSA-N",
+  "formula": "C7H8O2",
+  "mw": 124.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 15037,
+  "name": "1-Furfurylpyrrole",
+  "smiles": "C1=CN(C=C1)CC2=CC=CO2",
+  "inchikey": "BTBFUBUCCJKJOZ-UHFFFAOYSA-N",
+  "formula": "C9H9NO",
+  "mw": 147.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 15380,
+  "name": "2,4-Dithiapentane",
+  "smiles": "CSCSC",
+  "inchikey": "LOCDPORVFVOGCR-UHFFFAOYSA-N",
+  "formula": "C3H8S2",
+  "mw": 108.23,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 15510,
+  "name": "Cyclopentanethiol",
+  "smiles": "C1CCC(C1)S",
+  "inchikey": "WVDYBOADDMMFIY-UHFFFAOYSA-N",
+  "formula": "C5H10S",
+  "mw": 102.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 15654,
+  "name": "4-Methyl-5-vinylthiazole",
+  "smiles": "CC1=C(SC=N1)C=C",
+  "inchikey": "QUAMMXIRDIIGDJ-UHFFFAOYSA-N",
+  "formula": "C6H7NS",
+  "mw": 125.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 18467,
+  "name": "2-Methoxypyrazine",
+  "smiles": "COC1=NC=CN=C1",
+  "inchikey": "WKSXRWSOSLGSTN-UHFFFAOYSA-N",
+  "formula": "C5H6N2O",
+  "mw": 110.12,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 18554,
+  "name": "2-Ethylfuran",
+  "smiles": "CCC1=CC=CO1",
+  "inchikey": "HLPIHRDZBHXTFJ-UHFFFAOYSA-N",
+  "formula": "C6H8O",
+  "mw": 96.13,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 18635,
+  "name": "Methional",
+  "smiles": "CSCCC=O",
+  "inchikey": "CLUWOWRTHNNBBU-UHFFFAOYSA-N",
+  "formula": "C4H8OS",
+  "mw": 104.17,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Powerful, onion, meat-like odor | Cooked potato | Extremely foul and persistent odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 19310,
+  "name": "Dimethyl trisulfide",
+  "smiles": "CSSSC",
+  "inchikey": "YWHLKYXPLRWGSE-UHFFFAOYSA-N",
+  "formula": "C2H6S3",
+  "mw": 126.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 21363,
+  "name": "Cyclohexaneacetic acid",
+  "smiles": "C1CCC(CC1)CC(=O)O",
+  "inchikey": "LJOODBDWMQKMFB-UHFFFAOYSA-N",
+  "formula": "C8H14O2",
+  "mw": 142.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 23642,
+  "name": "Thioguaiacol",
+  "smiles": "COC1=CC=CC=C1S",
+  "inchikey": "DSCJETUEDFKYGN-UHFFFAOYSA-N",
+  "formula": "C7H8OS",
+  "mw": 140.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 26331,
+  "name": "2-Ethylpyrazine",
+  "smiles": "CCC1=NC=CN=C1",
+  "inchikey": "KVFIJIWMDBAGDP-UHFFFAOYSA-N",
+  "formula": "C6H8N2",
+  "mw": 108.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 27440,
+  "name": "2-Ethyl-4-methyl thiazole",
+  "smiles": "CCC1=NC(=CS1)C",
+  "inchikey": "VGRVKVGGUPOCMT-UHFFFAOYSA-N",
+  "formula": "C6H9NS",
+  "mw": 127.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 27457,
+  "name": "2-Ethyl-3-Methylpyrazine",
+  "smiles": "CCC1=NC=CN=C1C",
+  "inchikey": "LNIMMWYNSBZESE-UHFFFAOYSA-N",
+  "formula": "C7H10N2",
+  "mw": 122.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 27458,
+  "name": "2,3-Diethylpyrazine",
+  "smiles": "CCC1=NC=CN=C1CC",
+  "inchikey": "GZXXANJCCWGCSV-UHFFFAOYSA-N",
+  "formula": "C8H12N2",
+  "mw": 136.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 31249,
+  "name": "Diethyl Succinate",
+  "smiles": "CCOC(=O)CCC(=O)OCC",
+  "inchikey": "DKMROQRQHGEIOW-UHFFFAOYSA-N",
+  "formula": "C8H14O4",
+  "mw": 174.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 31252,
+  "name": "2,5-Dimethylpyrazine",
+  "smiles": "CC1=CN=C(C=N1)C",
+  "inchikey": "LCZUOKDVTBMCMX-UHFFFAOYSA-N",
+  "formula": "C6H8N2",
+  "mw": 108.14,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 31268,
+  "name": "Pyrrolidine",
+  "smiles": "C1CCNC1",
+  "inchikey": "RWRDLPDLKQPQOW-UHFFFAOYSA-N",
+  "formula": "C4H9N",
+  "mw": 71.12,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Unpleasant, ammoniacal odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 31283,
+  "name": "Ethyl Myristate",
+  "smiles": "CCCCCCCCCCCCCC(=O)OCC",
+  "inchikey": "MMKRHZKQPFCLLS-UHFFFAOYSA-N",
+  "formula": "C16H32O2",
+  "mw": 256.43,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 31404,
+  "name": "2,6-Di-tert-butyl-4-methylphenol",
+  "smiles": "CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C",
+  "inchikey": "NLZUEZXRPGMBCV-UHFFFAOYSA-N",
+  "formula": "C15H24O",
+  "mw": 220.36,
+  "sources": [
+   "HSDB",
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "hsdb_odor": "Very faint, musty, occasional cresylic-type odor",
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": "HSDB via PubChem (US NLM, public domain)",
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "preservative / antioxidant"
+ },
+ {
+  "cid": 32594,
+  "name": "2-Isobutyl-3-methoxypyrazine",
+  "smiles": "CC(C)CC1=NC=CN=C1OC",
+  "inchikey": "UXFSPRAGHGMRSQ-UHFFFAOYSA-N",
+  "formula": "C9H14N2O",
+  "mw": 166.22,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 36822,
+  "name": "5,6,7,8-Tetrahydroquinoxaline",
+  "smiles": "C1CCC2=NC=CN=C2C1",
+  "inchikey": "XCZPDOCRSYZOBI-UHFFFAOYSA-N",
+  "formula": "C8H10N2",
+  "mw": 134.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 61027,
+  "name": "Butyl 10-undecenoate",
+  "smiles": "CCCCOC(=O)CCCCCCCCC=C",
+  "inchikey": "GRAORJFMGCQWRN-UHFFFAOYSA-N",
+  "formula": "C15H28O2",
+  "mw": 240.39,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 61138,
+  "name": "4-Pentenoic acid",
+  "smiles": "C=CCCC(=O)O",
+  "inchikey": "HVAMZGADVCBITI-UHFFFAOYSA-N",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 61192,
+  "name": "4-Methyl-5-thiazoleethanol acetate",
+  "smiles": "CC1=C(SC=N1)CCOC(=O)C",
+  "inchikey": "CRTCWNPLKVVXIX-UHFFFAOYSA-N",
+  "formula": "C8H11NO2S",
+  "mw": 185.25,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 61252,
+  "name": "Dihydro-3(2H)-thiophenone",
+  "smiles": "C1CSCC1=O",
+  "inchikey": "DSXFPRKPFJRPIB-UHFFFAOYSA-N",
+  "formula": "C4H6OS",
+  "mw": 102.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 61337,
+  "name": "Allyl furoate",
+  "smiles": "C=CCOC(=O)C1=CC=CO1",
+  "inchikey": "SJRQTHAMRUOPBJ-UHFFFAOYSA-N",
+  "formula": "C8H8O3",
+  "mw": 152.15,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 61386,
+  "name": "Isoamyl Laurate",
+  "smiles": "CCCCCCCCCCCC(=O)OCCC(C)C",
+  "inchikey": "FVKRIDSRWFEQME-UHFFFAOYSA-N",
+  "formula": "C17H34O2",
+  "mw": 270.46,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ },
+ {
+  "cid": 61527,
+  "name": "3-Acetyl-2,5-dimethylfuran",
+  "smiles": "CC1=CC(=C(O1)C)C(=O)C",
+  "inchikey": "KBSVBCHYXYXDAG-UHFFFAOYSA-N",
+  "formula": "C8H10O2",
+  "mw": 138.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 61641,
+  "name": "Methyl 3-methylthiopropionate",
+  "smiles": "COC(=O)CCSC",
+  "inchikey": "DMMJVMYCBULSIS-UHFFFAOYSA-N",
+  "formula": "C5H10O2S",
+  "mw": 134.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 61653,
+  "name": "2,4,5-Trimethylthiazole",
+  "smiles": "CC1=C(SC(=N1)C)C",
+  "inchikey": "BAMPVSWRQZNDQC-UHFFFAOYSA-N",
+  "formula": "C6H9NS",
+  "mw": 127.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 61670,
+  "name": "5-Methylquinoxaline",
+  "smiles": "CC1=C2C(=CC=C1)N=CC=N2",
+  "inchikey": "CQLOYHZZZCWHSG-UHFFFAOYSA-N",
+  "formula": "C9H8N2",
+  "mw": 144.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 61809,
+  "name": "2-Ethoxythiazole",
+  "smiles": "CCOC1=NC=CS1",
+  "inchikey": "NDUWJHRKDYXRAD-UHFFFAOYSA-N",
+  "formula": "C5H7NOS",
+  "mw": 129.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 61918,
+  "name": "2-Acetyl-3-ethylpyrazine",
+  "smiles": "CCC1=NC=CN=C1C(=O)C",
+  "inchikey": "PPJSYGVFDJEMRP-UHFFFAOYSA-N",
+  "formula": "C8H10N2O",
+  "mw": 150.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 61945,
+  "name": "Pyrazineethanethiol",
+  "smiles": "C1=CN=C(C=N1)CCS",
+  "inchikey": "QKVWBAMZPUHCMO-UHFFFAOYSA-N",
+  "formula": "C6H8N2S",
+  "mw": 140.21,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 62087,
+  "name": "2-Mercapto-3-butanol",
+  "smiles": "CC(C(C)S)O",
+  "inchikey": "MJQWABQELVFQJL-UHFFFAOYSA-N",
+  "formula": "C4H10OS",
+  "mw": 106.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 62089,
+  "name": "4-Methyloctanoic acid",
+  "smiles": "CCCCC(C)CCC(=O)O",
+  "inchikey": "LEGGANXCVQPIAI-UHFFFAOYSA-N",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "straight-chain fatty acid \u2014 rancid/cheese"
+ },
+ {
+  "cid": 62144,
+  "name": "Furfuryl mercaptan formate",
+  "smiles": "C1=COC(=C1)CSC=O",
+  "inchikey": "GFAOAYJTEVHTLA-UHFFFAOYSA-N",
+  "formula": "C6H6O2S",
+  "mw": 142.18,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 62351,
+  "name": "3-Methylthiopropyl isothiocyanate",
+  "smiles": "CSCCCN=C=S",
+  "inchikey": "LDKSCZJUIURGMW-UHFFFAOYSA-N",
+  "formula": "C5H9NS2",
+  "mw": 147.27,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 62444,
+  "name": "S-methyl butanethioate",
+  "smiles": "CCCC(=O)SC",
+  "inchikey": "GRLJIIJNZJVMGP-UHFFFAOYSA-N",
+  "formula": "C5H10OS",
+  "mw": 118.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 62725,
+  "name": "2-Isobutylthiazole",
+  "smiles": "CC(C)CC1=NC=CS1",
+  "inchikey": "CMPVUVUNJQERIT-UHFFFAOYSA-N",
+  "formula": "C7H11NS",
+  "mw": 141.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 78925,
+  "name": "2-(Methylthio)ethanol",
+  "smiles": "CSCCO",
+  "inchikey": "WBBPRCNXBQTYLF-UHFFFAOYSA-N",
+  "formula": "C3H8OS",
+  "mw": 92.16,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 85522,
+  "name": "Methyl (methylthio)acetate",
+  "smiles": "COC(=O)CSC",
+  "inchikey": "HZYCAKGEXXKCDM-UHFFFAOYSA-N",
+  "formula": "C4H8O2S",
+  "mw": 120.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 98330,
+  "name": "1,4-Dithiane-2,5-diol",
+  "smiles": "C1C(SCC(S1)O)O",
+  "inchikey": "YUIOPHXTILULQC-UHFFFAOYSA-N",
+  "formula": "C4H8O2S2",
+  "mw": 152.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 101010,
+  "name": "cis-2-Methyl-4-propyl-1,3-oxathiane",
+  "smiles": "CCCC1CCOC(S1)C",
+  "inchikey": "GKGOLPMYJJXRGD-UHFFFAOYSA-N",
+  "formula": "C8H16OS",
+  "mw": 160.28,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "sulfurous \u2014 meat/allium flavour"
+ },
+ {
+  "cid": 251531,
+  "name": "Phenethyl 2-furoate",
+  "smiles": "C1=CC=C(C=C1)CCOC(=O)C2=CC=CO2",
+  "inchikey": "QKPSYARWSBJEDY-UHFFFAOYSA-N",
+  "formula": "C13H12O3",
+  "mw": 216.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 519539,
+  "name": "2-(1-Methylpropyl)thiazole",
+  "smiles": "CCC(C)C1=NC=CS1",
+  "inchikey": "MHJSWOZJMPIGJQ-UHFFFAOYSA-N",
+  "formula": "C7H11NS",
+  "mw": 141.24,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 520108,
+  "name": "2-Acetylthiazole",
+  "smiles": "CC(=O)C1=NC=CS1",
+  "inchikey": "MOMFXATYAINJML-UHFFFAOYSA-N",
+  "formula": "C5H5NOS",
+  "mw": 127.17,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 526618,
+  "name": "2-Methyl-3-(methylthio)furan",
+  "smiles": "CC1=C(C=CO1)SC",
+  "inchikey": "OQVAOEIMSKZGAL-UHFFFAOYSA-N",
+  "formula": "C6H8OS",
+  "mw": 128.2,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 556940,
+  "name": "Ethyl 3-(furfurylthio)propionate",
+  "smiles": "CCOC(=O)CCSCC1=CC=CO1",
+  "inchikey": "ZKCVVCLCYIXCOD-UHFFFAOYSA-N",
+  "formula": "C10H14O3S",
+  "mw": 214.29,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 3578033,
+  "name": "3-(5-Methyl-2-furyl)butanal",
+  "smiles": "CC1=CC=C(O1)C(C)CC=O",
+  "inchikey": "DFSVNSCDOZSUCT-UHFFFAOYSA-N",
+  "formula": "C9H12O2",
+  "mw": 152.19,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "savoury/roasted heterocycle \u2014 food chemistry"
+ },
+ {
+  "cid": 5280450,
+  "name": "Linoleic Acid",
+  "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)O",
+  "inchikey": "OYHQOLUKZRVURQ-HZJYTTRNSA-N",
+  "formula": "C18H32O2",
+  "mw": 280.45,
+  "sources": [
+   "Keller2016"
+  ],
+  "class": "sourced",
+  "note": null,
+  "family": null,
+  "descriptors": null,
+  "sources_detail": {
+   "structure": "PubChem (public domain)",
+   "formula_mw_inchikey": "computed from SMILES with RDKit",
+   "odor_text": null,
+   "perceptual_ratings": "Keller & Vosshall 2016 (CC0)"
+  },
+  "_removed_because": "solvent / industrial / plasticiser"
+ }
+]
