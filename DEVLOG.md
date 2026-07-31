@@ -6,6 +6,26 @@ Times are UTC. Commit hashes in parentheses. Newest first.
 
 ---
 
+## 2026-07-31 — Licence scan for the scale-up: no permissive Leffingwell exists; PubChem supplies the molecules but not the words
+
+Full scan of 15 odour/aroma datasets, licences read at source, written up in `reports/license-scan.md`. Driven by the constraint that **tradeable ERC-721s = commercial use**, so anything NonCommercial is out.
+
+**Result: the scale-up premise was wrong.** There is no permissive equivalent of Leffingwell. Every large expert-labelled odour table is NC, proprietary, or a copyrighted book.
+
+- **Leffingwell is worse than CC-BY-NC** — the Zenodo files are now **Restricted**, released only on request under a stated non-commercial condition.
+- **Only clean descriptor set found: Keller & Vosshall 2016** — **CC BY 4.0 + CC0 for the data** (verified on the publisher's rights statement, `oa=CC BY + CC0`). 480 molecules, 61 subjects, 19 semantic descriptors. Perceptual ratings, not perfumer vocabulary.
+- **FlavorDB2 = CC BY-NC-SA 3.0** (site footer) — fails twice: NC blocks tokens, SA would force copyleft on the collection.
+- **Two traps that look like green lights:** `pyrfume-data` has an **MIT LICENSE at its root** that covers Pyrfume's *code* and cannot relicense the third-party archives inside it (Good Scents manifest: *"Pyrfume developers make no claims concerning copyright"*). And **OpenPOM is MIT but trained on Leffingwell + Good Scents** — the badge doesn't launder the data.
+- **Wikidata ruled out with numbers** (SPARQL, not impression): 363 items classed as aroma compounds, 699 uses of `smells of` across all of Wikidata, and only **31** chemicals having both a SMILES and an odour statement.
+
+**PubChem measured directly (PUG View API):** **2,389** molecules carry a FEMA number — a licence-clean flavour/fragrance molecule list, 24× the current index, one API call away. **2,261** molecules have an `Odor` annotation, **2,356 of 2,358 sourced from HSDB** (US National Library of Medicine → public domain) — but only **308** overlap the FEMA set, and the prose is toxicological ("Sweetish smell" for vanillin; geraniol absent).
+
+**The reframe that matters:** the descriptors are the only encumbered layer, and they are *not* what makes this index work. Its organising principle — top/heart/base from vapor pressure — is **computed from physics**. So a ~2,389-molecule index can be built today with zero licence exposure: PD structures, computed formula/MW, PubChem BP/VP with the existing Clausius–Clapeyron fallback, tiers computed. Descriptors would cover only a few hundred (308 HSDB + 480 Keller). Explicit trade: thousands correctly tiered, hundreds described.
+
+**Open lead, not yet assessed:** US patents — patent text isn't copyrightable in the US, and fragrance patents describe compound odours in detail beside their structures. The only plausible route to free descriptors at scale. Needs extraction, not download.
+
+Does not affect the 95-molecule pilot, which needs no licence.
+
 ## 2026-07-31 — Project put under version control; sources published; deploys are now `git push` · `8109e86`
 
 The repo held only the built HTML — every source, generator and note lived on one machine with no history. Fixed the structure rather than the symptom, because the day's three separate bugs (`stats2.json` drift, the stale CSV, the site being a hand-copied duplicate) all had the same cause: **derived artifacts built by hand, with no generator and no single source**.

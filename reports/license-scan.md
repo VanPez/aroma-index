@@ -45,7 +45,9 @@ the set, because the *choice of 3,523 molecules* is itself the protected compila
 | **OpenPOM / Principal Odor Map** | *code only* | n/a | n/a | **MIT** (the *code*) | ⚠️ CAUTION — see note | [github.com/BioMachineLearning/openpom](https://github.com/BioMachineLearning/openpom) | **The trap:** MIT covers the model code, not training data. OpenPOM is trained on **Leffingwell + Good Scents**, so its *outputs and any redistributed training set inherit those restrictions*. An MIT badge here does not launder NC data. |
 | **FEMA GRAS / Flavor Ingredient Library** | ~2,900 | Partial | ❌ Not odour descriptors (safety/GRAS status) | **Proprietary**, © FEMA, partly login-gated | ❌ **NO** | [femaflavor.org/flavor-library](https://www.femaflavor.org/flavor-library) | Industry association content under its own Terms of Use. FEMA numbers themselves are identifiers/facts. |
 | **FDA Substances Added to Food (EAFUS)** | ~4,000 | Partial | ❌ No | **US Government — public domain** | ✅ YES (but no descriptors) | [FDA inventory](https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances) | Useful as a **licence-clean molecule list** to *select* a set independently — which solves the compilation problem, not the descriptor problem. |
-| **PubChem** | — | Yes | Some organoleptic annotations | Public domain *as an archive*; **individual annotations inherit their upstream source licence** | ⚠️ CAUTION | [pubchem.ncbi.nlm.nih.gov](https://pubchem.ncbi.nlm.nih.gov/) | Safe for structures/identifiers/properties (what the pilot already uses). Do **not** assume its *odour* annotation blocks are free — many are re-served from third-party databases with their own terms. |
+| **PubChem — FEMA-numbered substances** | **2,389** | Yes | ❌ No (identifier list) | Public domain (identifiers + PD archive) | ✅ **YES** | [PUG View `FEMA Number`](https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/annotations/heading/JSON?heading=FEMA%20Number) | **The licence-clean molecule list.** 2,389 unique CIDs measured 2026-07-31. FEMA numbers are identifiers/facts; the selection criterion (has a FEMA number) is objective, not an authored compilation. |
+| **PubChem — `Odor` annotations** | **2,261** | Yes | Yes — short prose | **Public domain** (source is HSDB, US NLM) | ✅ **YES** (but see notes) | [PUG View `Odor`](https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/annotations/heading/JSON?heading=Odor) | 2,358 annotations / 2,261 CIDs, **2,356 of them from HSDB** (Hazardous Substances Data Bank, US National Library of Medicine → US Government work, public domain). **Only 308 overlap with the FEMA set.** Vocabulary is toxicological, not perfumery. |
+| **PubChem — general** | — | Yes | see above | Public domain *as an archive*; **other annotation blocks inherit their upstream source licence** | ⚠️ CAUTION | [pubchem.ncbi.nlm.nih.gov](https://pubchem.ncbi.nlm.nih.gov/) | Safe for structures/identifiers/properties (what the pilot already uses). The `Odor` heading happens to be PD because HSDB is; do **not** generalise that to other headings without checking `SourceName`. |
 
 Legend: ✅ usable for tradeable tokens · ⚠️ conditional or unverified · ❌ ruled out.
 
@@ -107,6 +109,54 @@ suggests tightening rather than loosening. Do not plan around it.
 **Conclusion:** the scale-up is *not* blocked, but it is blocked on the assumption that it would come from
 a big existing table. No permissive equivalent of Leffingwell exists. Grow the curated index ourselves,
 and use Keller & Vosshall's CC0 data as free external validation.
+
+---
+
+---
+
+## Addendum (2026-07-31) — what PubChem can actually supply
+
+Measured directly against PubChem's PUG View annotation API, not estimated:
+
+| Measurement | Count |
+|---|---|
+| Molecules with a **FEMA number** (flavour/fragrance substances) | **2,389** |
+| Molecules with an **`Odor` annotation** | **2,261** |
+| …of those annotations sourced from **HSDB** (US NLM → public domain) | 2,356 of 2,358 |
+| **FEMA-listed molecules that also have odour text** | **308** |
+
+Sample of the HSDB odour prose, to judge quality:
+
+| Molecule | HSDB text |
+|---|---|
+| Limonene | "Pleasant lemon-like" |
+| Eugenol | "Odor of cloves" |
+| Coumarin | "Pleasant, fragrant odor resembling that of vanilla beans." |
+| Vanillin | "Sweetish smell" |
+| Geraniol | *not present in the Odor set* |
+
+**Reading.** The *molecule-list* problem is solved: 2,389 flavour/fragrance molecules with structures,
+licence-clean, retrievable by API — 24× the current index, with no curation needed to obtain them. The
+*descriptor* problem is not: free descriptors exist for only a few hundred of them, and the HSDB
+vocabulary is a safety datasheet's, not a perfumer's ("Sweetish smell" for vanillin).
+
+**Shape of a fully licence-clean scale-up:**
+
+- ~2,389 molecules — structure, InChIKey, CID, formula, MW (formula/MW computed from SMILES, as already done)
+- volatility — PubChem experimental BP/VP where present; Clausius–Clapeyron estimate elsewhere (the
+  existing method; 27 of the current 99 are already estimated)
+- **note tier — computed from vapor pressure, no curation required.** This is the key point: the index's
+  organising principle is physics, so it scales without a licence or a human in the loop.
+- descriptors — ~308 HSDB (PD) + 480 Keller & Vosshall (CC0) ≈ a few hundred covered; remainder blank
+  or curated incrementally
+
+So the trade is explicit: **thousands of molecules correctly tiered, but only hundreds with descriptors.**
+No dataset fixes that, because odour labelling is exactly the expensive human work that gets licensed.
+
+**Still unexplored — the one plausible route to descriptors at scale:** US patents. Patent text is not
+subject to copyright in the US, and fragrance/flavour patents describe the odour of individual compounds
+in detail, often alongside the structure. Large, machine-readable, free. Requires extraction rather than
+download. Not yet assessed.
 
 ---
 
