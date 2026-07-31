@@ -1,0 +1,24 @@
+ .resolver{background:#fff;border:1px solid var(--line-strong);box-shadow:var(--shadow);margin:0 0 24px;overflow:hidden;border-top:3px solid var(--blue)}
+ .resolver-head{padding:15px 18px;border-bottom:1px solid var(--line);background:var(--blue-pale);display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap}
+ .resolver-head h2{font-size:17px;margin:0 0 3px}.resolver-head p{margin:0;color:#42506a;font-size:13px;max-width:90ch}
+ .resolver-badge{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.08em;border:1px solid rgba(36,92,255,.4);color:var(--blue);padding:4px 8px;background:#fff;white-space:nowrap}
+ .resolver-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}.resolver-pane{padding:17px 18px}.resolver-pane+.resolver-pane{border-left:1px solid var(--line)}
+ .resolver-pane h3{font-size:14px;margin:0 0 10px}.resolver-pane .lead{font-size:12.5px;color:var(--mut);margin:-4px 0 12px}
+ .resolver-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px}.resolver-field{display:flex;flex-direction:column;gap:4px;min-width:0}.resolver-field.wide{grid-column:1/-1}
+ .resolver-field label{font-family:var(--mono);font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--mut)}
+ .resolver input[type=text],.resolver input[type=url],.resolver input[type=number]{width:100%;font:12px var(--mono);padding:9px 10px;border:1px solid var(--line-strong);border-radius:7px;background:#fff;color:var(--ink);outline:none}
+ .resolver input:focus{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-pale)}
+ .resolver-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:11px}.resolver button,.resolver-btn{font:600 11px var(--mono);border:1px solid var(--blue);background:var(--blue);color:#fff;padding:8px 11px;border-radius:7px;cursor:pointer}
+ .resolver button.secondary,.resolver-btn.secondary{background:#fff;color:var(--blue)}.resolver button:disabled{opacity:.55;cursor:wait}
+ .resolver-check{display:flex;align-items:flex-start;gap:8px;font-size:12px;color:#42506a;margin-top:10px}.resolver-check input{margin-top:3px}
+ .resolver-status{margin:14px 18px 0;padding:10px 12px;border:1px solid var(--line);background:#f8fafc;font:11.5px/1.55 var(--mono);color:var(--mut);white-space:pre-wrap;word-break:break-word}
+ .resolver-status.ok{border-color:rgba(15,143,127,.35);background:rgba(15,143,127,.07);color:#17675d}.resolver-status.err{border-color:rgba(170,40,40,.35);background:#fff4f4;color:#8b2626}
+ .resolver-output{display:grid;grid-template-columns:minmax(280px,390px) 1fr;gap:16px;padding:16px 18px 18px}.resolver-view{height:320px;background:#fff;border:1px solid var(--line-strong);border-radius:9px;position:relative;overflow:hidden}
+ .resolver-view .load{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;color:var(--mut);font:12px/1.5 var(--mono)}
+ .resolver-data{min-width:0}.resolver-data h3{font-size:14px;margin:0 0 8px}.resolver-kv{display:grid;grid-template-columns:110px 1fr;gap:5px 10px;font-size:12px;margin-bottom:10px}
+ .resolver-kv .k{font:10px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--mut)}.resolver-kv .v{font:12px var(--mono);word-break:break-all}
+ .resolver-links{display:flex;flex-direction:column;gap:6px;margin:8px 0 12px}.resolver-link{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--line);padding:7px 9px;background:#fbfcfe;font:11px/1.45 var(--mono);word-break:break-all}
+ .resolver-link a{color:var(--blue);text-decoration:none}.mocktag{flex:0 0 auto;color:var(--amber);background:var(--amber-pale);border:1px solid rgba(154,106,20,.3);padding:0 4px;font-size:9px;text-transform:uppercase}
+ .resolver-json{max-height:250px;overflow:auto;background:#07111d;color:#dbe8ff;border-radius:7px;padding:10px 12px;font:10.5px/1.55 var(--mono);white-space:pre-wrap;word-break:break-word;margin:8px 0 0}
+ .resolver-download{display:inline-block;font:11px var(--mono);color:var(--blue);text-decoration:none;border:1px solid var(--line-strong);padding:6px 9px;border-radius:6px;margin-right:6px;margin-top:6px}
+ @media(max-width:850px){.resolver-grid,.resolver-output{grid-template-columns:1fr}.resolver-pane+.resolver-pane{border-left:0;border-top:1px solid var(--line)}}

@@ -1,0 +1,21 @@
+# Mint pilot — held back until the mint itself.
+# Not secrecy: the structures are public-domain PubChem and the curation is
+# published in data/. It's that token IDs stay volatile until a contract fixes
+# them (a single data fix on 2026-07-31 renumbered 56 of 95), so publishing them
+# early invites stale references. mint/ regenerates exactly from data/rows2.json
+# + generators/build_mint.py, both tracked here, so nothing is lost by ignoring it
+# and the git history still dates the curation.
+# Publish at mint time, together with the contract address and tx hashes.
+mint/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

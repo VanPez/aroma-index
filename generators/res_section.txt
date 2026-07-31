@@ -1,0 +1,43 @@
+  <section class="resolver" id="molnftResolver">
+    <div class="resolver-head">
+      <div><h2>MolNFT / IPFS structure resolver</h2><p>Read-only prototype. Mock mode produces link shapes only; live mode uses <code>eth_call</code> against a GenesisL1-compatible EVM RPC. No wallet or private key is requested.</p></div>
+      <span class="resolver-badge">small-data first</span>
+    </div>
+    <div class="resolver-grid">
+      <div class="resolver-pane">
+        <h3>1 · Mock link interface</h3>
+        <p class="lead">Select a molecule, then generate clearly labelled placeholder links for a future mint or index record.</p>
+        <div class="resolver-fields">
+          <div class="resolver-field wide"><label>Selected molecule</label><input id="mockMolecule" type="text" value="Limonene · PubChem CID 22311"></div>
+          <div class="resolver-field"><label>Potential token ID</label><input id="mockToken" type="number" min="0" value="22311"></div>
+          <div class="resolver-field"><label>Potential IPFS CID</label><input id="mockCid" type="text" placeholder="bafy… or Qm…"></div>
+        </div>
+        <div class="resolver-actions"><button id="makeMock" class="secondary" type="button">Generate mock links</button></div>
+        <div class="resolver-links" id="mockLinks"></div>
+      </div>
+      <div class="resolver-pane">
+        <h3>2 · Live GenesisL1 / IPFS read</h3>
+        <p class="lead">Supply an existing deployment. Values are kept only in this browser’s local storage.</p>
+        <div class="resolver-fields">
+          <div class="resolver-field wide"><label>GenesisL1 EVM JSON-RPC URL</label><input id="rpcUrl" type="url" placeholder="https://your-genesisl1-rpc.example"></div>
+          <div class="resolver-field wide"><label>MolNFT contract address</label><input id="contractAddress" type="text" placeholder="0x…"></div>
+          <div class="resolver-field"><label>Token / parent ID</label><input id="liveToken" type="number" min="0" placeholder="e.g. 1234"></div>
+          <div class="resolver-field"><label>IPFS gateway</label><input id="ipfsGateway" type="url" value="https://ipfs.io/ipfs/"></div>
+          <div class="resolver-field wide"><label>IPFS URI, CID, or HTTPS structure/metadata link</label><input id="ipfsUri" type="text" placeholder="ipfs://bafy…/structure.sdf"></div>
+        </div>
+        <label class="resolver-check"><input id="fetchPayload" type="checkbox"><span>Also request the full on-chain structure through <code>getEntireNFT(uint256)</code>, falling back to <code>getCombinedData(uint256)</code>. This can be large and is intentionally off by default.</span></label>
+        <div class="resolver-actions"><button id="resolveChain" type="button">Resolve MolNFT</button><button id="resolveIpfs" class="secondary" type="button">Resolve IPFS/link</button><button id="clearResolver" class="secondary" type="button">Clear</button></div>
+      </div>
+    </div>
+    <div class="resolver-status" id="resolverStatus">Ready. Choose mock mode, enter an IPFS link, or configure a live GenesisL1 deployment.</div>
+    <div class="resolver-output">
+      <div class="resolver-view" id="resolverViewer"><div class="load">No molecular payload loaded.</div></div>
+      <div class="resolver-data">
+        <h3>Resolved record</h3>
+        <div class="resolver-kv" id="resolverKv"><span class="k">Mode</span><span class="v">idle</span></div>
+        <div id="resolvedLinks" class="resolver-links"></div>
+        <div id="resolverDownloads"></div>
+        <pre id="resolverJson" class="resolver-json">No metadata yet.</pre>
+      </div>
+    </div>
+  </section>

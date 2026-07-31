@@ -1,0 +1,51 @@
+name,cas,formula,mw,note,family,descriptors,smiles
+Ethyl acetate,141-78-6,C4H8O2,88.11,top,fruity/solvent,"fruity, ethereal, glue-like",CCOC(=O)C
+cis-3-Hexen-1-ol,928-96-1,C6H12O,100.16,top,green,"cut grass, leafy, fresh green",CC/C=C\CCO
+Benzaldehyde,100-52-7,C7H6O,106.12,top,almond,"bitter almond, cherry, marzipan",C1=CC=C(C=C1)C=O
+Limonene,138-86-3,C10H16,136.24,top,citrus,"orange peel, fresh, sweet",CC(=C)C1CCC(=CC1)C
+alpha-Pinene,80-56-8,C10H16,136.24,top,terpenic,"pine, resinous, fresh",CC1=CCC2CC1C2(C)C
+Citral,5392-40-5,C10H16O,152.24,top,citrus,"lemon, intense, zesty",CC(=CCCC(=CC=O)C)C
+"Eucalyptol (1,8-cineole)",470-82-6,C10H18O,154.25,top,fresh/camphor,"eucalyptus, minty, cooling",CC12CCC(CC1)C(C)(C)O2
+Linalool,78-70-6,C10H18O,154.25,top,floral,"fresh, floral, lavender, citrus",CC(=CCCC(C)(C=C)O)C
+Allyl hexanoate,123-68-2,C9H16O2,156.22,top,fruity,"pineapple, fruity, juicy",CCCCCC(=O)OCC=C
+Dihydromyrcenol,18479-58-8,C10H20O,156.27,top,fresh,"lime, citrus, fresh, soapy",CC(CCCC(C)(C=C)O)C
+Menthol,89-78-1,C10H20O,156.27,top,mint,"peppermint, cooling, fresh",
+Indole,120-72-9,C8H7N,117.15,heart,animalic/floral,"jasmine, mothball, animalic",c1ccc2[nH]ccc2c1
+2-Phenylethanol,60-12-8,C8H10O,122.17,heart,rose,"rose, honey, soft floral",C1=CC=C(C=C1)CCO
+Cinnamaldehyde,104-55-2,C9H8O,132.16,heart,spice,"cinnamon, warm, sweet spice",C1=CC=C(C=C1)/C=C/C=O
+trans-Anethole,4180-23-8,C10H12O,148.2,heart,anise,"anise, licorice, sweet",C/C=C/c1ccc(OC)cc1
+Piperonal (heliotropin),120-57-0,C8H6O3,150.13,heart,powdery,"heliotrope, almond, vanilla, floral",C1OC2=CC=C(C=C2O1)C=O
+Benzyl acetate,140-11-4,C9H10O2,150.18,heart,white floral,"jasmine, sweet, fruity",CC(=O)OCC1=CC=CC=C1
+Methyl anthranilate,134-20-3,C8H9NO2,151.16,heart,floral,"orange blossom, grape, fruity",COC(=O)c1ccccc1N
+Geraniol,106-24-1,C10H18O,154.25,heart,rose,"rose, floral, sweet, geranium",CC(=CCCC(=CCO)C)C
+Nerol,106-25-2,C10H18O,154.25,heart,rose,"fresh rose, sweet, magnolia",CC(=CCC/C(=C\CO)/C)C
+alpha-Terpineol,98-55-5,C10H18O,154.25,heart,floral,"lilac, pine, sweet floral",CC1=CCC(CC1)C(C)(C)O
+Rose oxide,16409-43-1,C10H18O,154.25,heart,rose,"green rose, metallic, fresh",
+Citronellol,106-22-9,C10H20O,156.27,heart,rose,"rose, citrus, fresh floral",CC(CCC=C(C)C)CCO
+Eugenol,97-53-0,C10H12O2,164.2,heart,spice,"clove, warm, spicy, sweet",C=CCc1ccc(O)c(OC)c1
+beta-Damascenone,23696-85-7,C13H18O,190.29,heart,rose,"rose, apple, honey, powerful",
+Calone,28940-11-6,C11H12O3,192.21,heart,marine,"watermelon, sea breeze, ozonic",
+beta-Ionone,14901-07-6,C13H20O,192.3,heart,violet,"violet, woody, floral",CC1=C(C(CCC1)(C)C)/C=C/C(=O)C
+Linalyl acetate,115-95-7,C12H20O2,196.29,heart,floral,"bergamot, lavender, fruity floral",CC(=CCCC(C)(C=C)OC(=O)C)C
+Geranyl acetate,105-87-3,C12H20O2,196.29,heart,rose,"rose, fruity, floral",CC(=CCCC(=CCOC(=O)C)C)C
+alpha-Isomethyl ionone,127-51-5,C14H22O,206.33,heart,orris/violet,"violet, orris, powdery woody",
+Hedione (methyl dihydrojasmonate),24851-98-7,C13H22O3,226.32,heart,jasmine,"jasmine, radiant, magnolia, airy",
+Skatole,83-34-1,C9H9N,131.18,base,animalic,"fecal (trace), animalic, floral in dilution",Cc1c[nH]c2ccccc12
+Coumarin,91-64-5,C9H6O2,146.14,base,tonka,"hay, almond, tonka, warm sweet",O=c1ccc2ccccc2o1
+Vanillin,121-33-5,C8H8O3,152.15,base,gourmand,"vanilla, sweet, creamy, balsamic",COc1cc(C=O)ccc1O
+Ethyl vanillin,121-32-4,C9H10O3,166.18,base,gourmand,"vanilla, intense, sweet",CCOc1cc(C=O)ccc1O
+Cashmeran,33704-61-9,C14H22O,206.33,base,musk,"musky, woody, spicy, pine",
+Sandalore,65113-99-7,C14H26O,210.36,base,sandalwood,"sandalwood, creamy, woody, musky",
+Benzyl benzoate,120-51-4,C14H12O2,212.25,base,balsamic,"balsamic, faint sweet, fixative",O=C(OCc1ccccc1)c1ccccc1
+Cedrol,77-53-2,C15H26O,222.37,base,woody,"cedarwood, dry, soft woody",
+Patchoulol,5986-55-0,C15H26O,222.37,base,woody/earthy,"patchouli, earthy, woody, camphor",
+Javanol,198404-98-7,C15H26O,222.37,base,sandalwood,"sandalwood, rich, creamy, musky",
+Benzyl salicylate,118-58-1,C14H12O3,228.25,base,balsamic,"soft floral, balsamic, powdery",O=C(OCc1ccccc1)c1ccccc1O
+Iso E Super,54464-57-2,C16H26O,234.38,base,woody amber,"cedar, velvety, ambergris, smooth",
+Ambroxide (Ambroxan),6790-58-5,C16H28O,236.4,base,amber,"ambergris, woody, warm, dry",
+Muscone,541-91-3,C16H30O,238.41,base,musk,"musk, warm, animalic, powdery",
+Civetone,542-46-1,C17H30O,250.43,base,animalic,"civet, animalic, warm musk",
+Ambrettolide,7779-50-2,C16H28O2,252.4,base,musk,"musk, soft, sweet, natural",
+Galaxolide (HHCB),1222-05-5,C18H26O,258.4,base,musk,"clean musk, sweet, floral, soft",
+Tonalide (AHTN),1506-02-1,C18H26O,258.4,base,musk,"clean musk, sweet, woody",
+Ethylene brassylate,105-95-3,C15H26O4,270.37,base,musk,"musk, sweet, soft, powdery",

@@ -1,0 +1,502 @@
+[
+{
+"name": "Ethyl acetate",
+"cas": "141-78-6",
+"formula": "C4H8O2",
+"mw": 88.11,
+"note": "top",
+"family": "fruity/solvent",
+"descriptors": "fruity, ethereal, glue-like",
+"smiles": "CCOC(=O)C"
+},
+{
+"name": "cis-3-Hexen-1-ol",
+"cas": "928-96-1",
+"formula": "C6H12O",
+"mw": 100.16,
+"note": "top",
+"family": "green",
+"descriptors": "cut grass, leafy, fresh green",
+"smiles": "CC/C=C\\CCO"
+},
+{
+"name": "Benzaldehyde",
+"cas": "100-52-7",
+"formula": "C7H6O",
+"mw": 106.12,
+"note": "top",
+"family": "almond",
+"descriptors": "bitter almond, cherry, marzipan",
+"smiles": "C1=CC=C(C=C1)C=O"
+},
+{
+"name": "Limonene",
+"cas": "138-86-3",
+"formula": "C10H16",
+"mw": 136.24,
+"note": "top",
+"family": "citrus",
+"descriptors": "orange peel, fresh, sweet",
+"smiles": "CC(=C)C1CCC(=CC1)C"
+},
+{
+"name": "alpha-Pinene",
+"cas": "80-56-8",
+"formula": "C10H16",
+"mw": 136.24,
+"note": "top",
+"family": "terpenic",
+"descriptors": "pine, resinous, fresh",
+"smiles": "CC1=CCC2CC1C2(C)C"
+},
+{
+"name": "Citral",
+"cas": "5392-40-5",
+"formula": "C10H16O",
+"mw": 152.24,
+"note": "top",
+"family": "citrus",
+"descriptors": "lemon, intense, zesty",
+"smiles": "CC(=CCCC(=CC=O)C)C"
+},
+{
+"name": "Eucalyptol (1,8-cineole)",
+"cas": "470-82-6",
+"formula": "C10H18O",
+"mw": 154.25,
+"note": "top",
+"family": "fresh/camphor",
+"descriptors": "eucalyptus, minty, cooling",
+"smiles": "CC12CCC(CC1)C(C)(C)O2"
+},
+{
+"name": "Linalool",
+"cas": "78-70-6",
+"formula": "C10H18O",
+"mw": 154.25,
+"note": "top",
+"family": "floral",
+"descriptors": "fresh, floral, lavender, citrus",
+"smiles": "CC(=CCCC(C)(C=C)O)C"
+},
+{
+"name": "Allyl hexanoate",
+"cas": "123-68-2",
+"formula": "C9H16O2",
+"mw": 156.22,
+"note": "top",
+"family": "fruity",
+"descriptors": "pineapple, fruity, juicy",
+"smiles": "CCCCCC(=O)OCC=C"
+},
+{
+"name": "Dihydromyrcenol",
+"cas": "18479-58-8",
+"formula": "C10H20O",
+"mw": 156.27,
+"note": "top",
+"family": "fresh",
+"descriptors": "lime, citrus, fresh, soapy",
+"smiles": "CC(CCCC(C)(C=C)O)C"
+},
+{
+"name": "Menthol",
+"cas": "89-78-1",
+"formula": "C10H20O",
+"mw": 156.27,
+"note": "top",
+"family": "mint",
+"descriptors": "peppermint, cooling, fresh",
+"smiles": ""
+},
+{
+"name": "Indole",
+"cas": "120-72-9",
+"formula": "C8H7N",
+"mw": 117.15,
+"note": "heart",
+"family": "animalic/floral",
+"descriptors": "jasmine, mothball, animalic",
+"smiles": "c1ccc2[nH]ccc2c1"
+},
+{
+"name": "2-Phenylethanol",
+"cas": "60-12-8",
+"formula": "C8H10O",
+"mw": 122.17,
+"note": "heart",
+"family": "rose",
+"descriptors": "rose, honey, soft floral",
+"smiles": "C1=CC=C(C=C1)CCO"
+},
+{
+"name": "Cinnamaldehyde",
+"cas": "104-55-2",
+"formula": "C9H8O",
+"mw": 132.16,
+"note": "heart",
+"family": "spice",
+"descriptors": "cinnamon, warm, sweet spice",
+"smiles": "C1=CC=C(C=C1)/C=C/C=O"
+},
+{
+"name": "trans-Anethole",
+"cas": "4180-23-8",
+"formula": "C10H12O",
+"mw": 148.2,
+"note": "heart",
+"family": "anise",
+"descriptors": "anise, licorice, sweet",
+"smiles": "C/C=C/c1ccc(OC)cc1"
+},
+{
+"name": "Piperonal (heliotropin)",
+"cas": "120-57-0",
+"formula": "C8H6O3",
+"mw": 150.13,
+"note": "heart",
+"family": "powdery",
+"descriptors": "heliotrope, almond, vanilla, floral",
+"smiles": "C1OC2=CC=C(C=C2O1)C=O"
+},
+{
+"name": "Benzyl acetate",
+"cas": "140-11-4",
+"formula": "C9H10O2",
+"mw": 150.18,
+"note": "heart",
+"family": "white floral",
+"descriptors": "jasmine, sweet, fruity",
+"smiles": "CC(=O)OCC1=CC=CC=C1"
+},
+{
+"name": "Methyl anthranilate",
+"cas": "134-20-3",
+"formula": "C8H9NO2",
+"mw": 151.16,
+"note": "heart",
+"family": "floral",
+"descriptors": "orange blossom, grape, fruity",
+"smiles": "COC(=O)c1ccccc1N"
+},
+{
+"name": "Geraniol",
+"cas": "106-24-1",
+"formula": "C10H18O",
+"mw": 154.25,
+"note": "heart",
+"family": "rose",
+"descriptors": "rose, floral, sweet, geranium",
+"smiles": "CC(=CCCC(=CCO)C)C"
+},
+{
+"name": "Nerol",
+"cas": "106-25-2",
+"formula": "C10H18O",
+"mw": 154.25,
+"note": "heart",
+"family": "rose",
+"descriptors": "fresh rose, sweet, magnolia",
+"smiles": "CC(=CCC/C(=C\\CO)/C)C"
+},
+{
+"name": "alpha-Terpineol",
+"cas": "98-55-5",
+"formula": "C10H18O",
+"mw": 154.25,
+"note": "heart",
+"family": "floral",
+"descriptors": "lilac, pine, sweet floral",
+"smiles": "CC1=CCC(CC1)C(C)(C)O"
+},
+{
+"name": "Rose oxide",
+"cas": "16409-43-1",
+"formula": "C10H18O",
+"mw": 154.25,
+"note": "heart",
+"family": "rose",
+"descriptors": "green rose, metallic, fresh",
+"smiles": ""
+},
+{
+"name": "Citronellol",
+"cas": "106-22-9",
+"formula": "C10H20O",
+"mw": 156.27,
+"note": "heart",
+"family": "rose",
+"descriptors": "rose, citrus, fresh floral",
+"smiles": "CC(CCC=C(C)C)CCO"
+},
+{
+"name": "Eugenol",
+"cas": "97-53-0",
+"formula": "C10H12O2",
+"mw": 164.2,
+"note": "heart",
+"family": "spice",
+"descriptors": "clove, warm, spicy, sweet",
+"smiles": "C=CCc1ccc(O)c(OC)c1"
+},
+{
+"name": "beta-Damascenone",
+"cas": "23696-85-7",
+"formula": "C13H18O",
+"mw": 190.29,
+"note": "heart",
+"family": "rose",
+"descriptors": "rose, apple, honey, powerful",
+"smiles": ""
+},
+{
+"name": "Calone",
+"cas": "28940-11-6",
+"formula": "C11H12O3",
+"mw": 192.21,
+"note": "heart",
+"family": "marine",
+"descriptors": "watermelon, sea breeze, ozonic",
+"smiles": ""
+},
+{
+"name": "beta-Ionone",
+"cas": "14901-07-6",
+"formula": "C13H20O",
+"mw": 192.3,
+"note": "heart",
+"family": "violet",
+"descriptors": "violet, woody, floral",
+"smiles": "CC1=C(C(CCC1)(C)C)/C=C/C(=O)C"
+},
+{
+"name": "Linalyl acetate",
+"cas": "115-95-7",
+"formula": "C12H20O2",
+"mw": 196.29,
+"note": "heart",
+"family": "floral",
+"descriptors": "bergamot, lavender, fruity floral",
+"smiles": "CC(=CCCC(C)(C=C)OC(=O)C)C"
+},
+{
+"name": "Geranyl acetate",
+"cas": "105-87-3",
+"formula": "C12H20O2",
+"mw": 196.29,
+"note": "heart",
+"family": "rose",
+"descriptors": "rose, fruity, floral",
+"smiles": "CC(=CCCC(=CCOC(=O)C)C)C"
+},
+{
+"name": "alpha-Isomethyl ionone",
+"cas": "127-51-5",
+"formula": "C14H22O",
+"mw": 206.33,
+"note": "heart",
+"family": "orris/violet",
+"descriptors": "violet, orris, powdery woody",
+"smiles": ""
+},
+{
+"name": "Hedione (methyl dihydrojasmonate)",
+"cas": "24851-98-7",
+"formula": "C13H22O3",
+"mw": 226.32,
+"note": "heart",
+"family": "jasmine",
+"descriptors": "jasmine, radiant, magnolia, airy",
+"smiles": ""
+},
+{
+"name": "Skatole",
+"cas": "83-34-1",
+"formula": "C9H9N",
+"mw": 131.18,
+"note": "base",
+"family": "animalic",
+"descriptors": "fecal (trace), animalic, floral in dilution",
+"smiles": "Cc1c[nH]c2ccccc12"
+},
+{
+"name": "Coumarin",
+"cas": "91-64-5",
+"formula": "C9H6O2",
+"mw": 146.14,
+"note": "base",
+"family": "tonka",
+"descriptors": "hay, almond, tonka, warm sweet",
+"smiles": "O=c1ccc2ccccc2o1"
+},
+{
+"name": "Vanillin",
+"cas": "121-33-5",
+"formula": "C8H8O3",
+"mw": 152.15,
+"note": "base",
+"family": "gourmand",
+"descriptors": "vanilla, sweet, creamy, balsamic",
+"smiles": "COc1cc(C=O)ccc1O"
+},
+{
+"name": "Ethyl vanillin",
+"cas": "121-32-4",
+"formula": "C9H10O3",
+"mw": 166.18,
+"note": "base",
+"family": "gourmand",
+"descriptors": "vanilla, intense, sweet",
+"smiles": "CCOc1cc(C=O)ccc1O"
+},
+{
+"name": "Cashmeran",
+"cas": "33704-61-9",
+"formula": "C14H22O",
+"mw": 206.33,
+"note": "base",
+"family": "musk",
+"descriptors": "musky, woody, spicy, pine",
+"smiles": ""
+},
+{
+"name": "Sandalore",
+"cas": "65113-99-7",
+"formula": "C14H26O",
+"mw": 210.36,
+"note": "base",
+"family": "sandalwood",
+"descriptors": "sandalwood, creamy, woody, musky",
+"smiles": ""
+},
+{
+"name": "Benzyl benzoate",
+"cas": "120-51-4",
+"formula": "C14H12O2",
+"mw": 212.25,
+"note": "base",
+"family": "balsamic",
+"descriptors": "balsamic, faint sweet, fixative",
+"smiles": "O=C(OCc1ccccc1)c1ccccc1"
+},
+{
+"name": "Cedrol",
+"cas": "77-53-2",
+"formula": "C15H26O",
+"mw": 222.37,
+"note": "base",
+"family": "woody",
+"descriptors": "cedarwood, dry, soft woody",
+"smiles": ""
+},
+{
+"name": "Patchoulol",
+"cas": "5986-55-0",
+"formula": "C15H26O",
+"mw": 222.37,
+"note": "base",
+"family": "woody/earthy",
+"descriptors": "patchouli, earthy, woody, camphor",
+"smiles": ""
+},
+{
+"name": "Javanol",
+"cas": "198404-98-7",
+"formula": "C15H26O",
+"mw": 222.37,
+"note": "base",
+"family": "sandalwood",
+"descriptors": "sandalwood, rich, creamy, musky",
+"smiles": ""
+},
+{
+"name": "Benzyl salicylate",
+"cas": "118-58-1",
+"formula": "C14H12O3",
+"mw": 228.25,
+"note": "base",
+"family": "balsamic",
+"descriptors": "soft floral, balsamic, powdery",
+"smiles": "O=C(OCc1ccccc1)c1ccccc1O"
+},
+{
+"name": "Iso E Super",
+"cas": "54464-57-2",
+"formula": "C16H26O",
+"mw": 234.38,
+"note": "base",
+"family": "woody amber",
+"descriptors": "cedar, velvety, ambergris, smooth",
+"smiles": ""
+},
+{
+"name": "Ambroxide (Ambroxan)",
+"cas": "6790-58-5",
+"formula": "C16H28O",
+"mw": 236.4,
+"note": "base",
+"family": "amber",
+"descriptors": "ambergris, woody, warm, dry",
+"smiles": ""
+},
+{
+"name": "Muscone",
+"cas": "541-91-3",
+"formula": "C16H30O",
+"mw": 238.41,
+"note": "base",
+"family": "musk",
+"descriptors": "musk, warm, animalic, powdery",
+"smiles": ""
+},
+{
+"name": "Civetone",
+"cas": "542-46-1",
+"formula": "C17H30O",
+"mw": 250.43,
+"note": "base",
+"family": "animalic",
+"descriptors": "civet, animalic, warm musk",
+"smiles": ""
+},
+{
+"name": "Ambrettolide",
+"cas": "7779-50-2",
+"formula": "C16H28O2",
+"mw": 252.4,
+"note": "base",
+"family": "musk",
+"descriptors": "musk, soft, sweet, natural",
+"smiles": ""
+},
+{
+"name": "Galaxolide (HHCB)",
+"cas": "1222-05-5",
+"formula": "C18H26O",
+"mw": 258.4,
+"note": "base",
+"family": "musk",
+"descriptors": "clean musk, sweet, floral, soft",
+"smiles": ""
+},
+{
+"name": "Tonalide (AHTN)",
+"cas": "1506-02-1",
+"formula": "C18H26O",
+"mw": 258.4,
+"note": "base",
+"family": "musk",
+"descriptors": "clean musk, sweet, woody",
+"smiles": ""
+},
+{
+"name": "Ethylene brassylate",
+"cas": "105-95-3",
+"formula": "C15H26O4",
+"mw": 270.37,
+"note": "base",
+"family": "musk",
+"descriptors": "musk, sweet, soft, powdery",
+"smiles": ""
+}
+]
