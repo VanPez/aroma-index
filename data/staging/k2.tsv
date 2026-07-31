@@ -1,0 +1,96 @@
+7770	Propyl butyrate	CCCC(=O)OCCC	0
+7792	3,7-Dimethyl-1-octanol	CC(C)CCCC(C)CCO	0
+7795	Isoamyl butyrate	CCCC(=O)OCCC(C)C	0
+7797	Ethyl Heptanoate	CCCCCCC(=O)OCC	0
+7799	Ethyl octanoate	CCCCCCCC(=O)OCC	0
+7803	Propyl propionate	CCCOC(=O)CC	0
+7820	Dimethyl Succinate	COC(=O)CCC(=O)OC	1
+7824	Methyl hexanoate	CCCCCC(=O)OC	0
+7826	Methyl heptanoate	CCCCCCC(=O)OC	0
+7894	Isoamylamine	CC(C)CCN	0
+7915	Isopropyl Acetate	CC(C)OC(=O)C	1
+7916	Isopropenyl acetate	CC(=C)OC(=O)C	0
+7921	Gamma-Valerolactone	CC1CCC(=O)O1	0
+7937	2,6-Lutidine	CC1=NC(=CC=C1)C	1
+7967	Cyclohexanone	C1CCC(=O)CC1	1
+7969	Thiophenol	C1=CC=C(C=C1)S	1
+7983	Butyl butyrate	CCCCOC(=O)CCC	0
+7991	Pentanoic Acid	CCCCC(=O)O	1
+7997	Propyl Acetate	CCCOC(=O)C	1
+8007	Butylamine	CCCCN	1
+8025	Ethyl formate	CCOC=O	1
+8038	Isobutyl Acetate	CC(C)COC(=O)C	1
+8042	Isopropyl Myristate	CCCCCCCCCCCCCC(=O)OC(C)C	1
+8048	Ethyl caprate	CCCCCCCCCC(=O)OCC	0
+8049	Diethyl Sebacate	CCOC(=O)CCCCCCCCC(=O)OCC	0
+8051	2-Heptanone	CCCCCC(=O)C	1
+8063	Pentanal	CCCCC=O	1
+8077	Diethyl disulfide	CCSSCC	0
+8082	Piperidine	C1CCNCC1	1
+8091	Methyl Octanoate	CCCCCCCC(=O)OC	1
+8093	2-Octanone	CCCCCCC(=O)C	1
+8094	Heptanoic Acid	CCCCCCC(=O)O	1
+8103	1-Hexanol	CCCCCCO	1
+8122	Ethyl stearate	CCCCCCCCCCCCCCCCCC(=O)OCC	0
+8125	1-Octene	CCCCCCC=C	0
+8129	Heptanol	CCCCCCCO	1
+8137	Methyl 2-nonynoate	CCCCCCC#CC(=O)OC	0
+8159	Heptyl acetate	CCCCCCCOC(=O)C	0
+8163	2-Undecanone	CCCCCCCCCC(=O)C	1
+8174	1-Decanol	CCCCCCCCCCO	1
+8175	Decanal	CCCCCCCCCC=O	1
+8180	Undecanoic Acid	CCCCCCCCCCC(=O)O	0
+8184	1-Undecanol	CCCCCCCCCCCO	1
+8186	Undecanal	CCCCCCCCCCC=O	0
+8193	1-Dodecanol	CCCCCCCCCCCCO	1
+8205	Dodecyl acetate	CCCCCCCCCCCCOC(=O)C	0
+8294	Linalyl Acetate	CC(=CCCC(C)(C=C)OC(=O)C)C	1
+8363	Benzyl Salicylate	C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2O	1
+8375	2'-Hydroxyacetophenone	CC(=O)C1=CC=CC=C1O	0
+8419	Veratraldehyde	COC1=C(C=C(C=C1)C=O)OC	0
+8438	Piperonal	C1OC2=C(O1)C=C(C=C2)C=O	1
+8452	Cyclopentanone	C1CCC(=O)C1	1
+8456	Butylated Hydroxyanisole	CC(C)(C)C1=C(C=CC(=C1)OC)O	1
+8467	Ethylvanillin	CCOC1=C(C=CC(=C1)C=O)O	1
+8468	Vanillic Acid	COC1=C(C=CC(=C1)C(=O)O)O	0
+8615	Phenethyl anthranilate	C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2N	0
+8635	Methyl Anthranilate	COC(=O)C1=CC=CC=C1N	1
+8658	2-Methoxybenzaldehyde	COC1=CC=CC=C1C=O	0
+8712	2-Thiocresol	CC1=CC=CC=C1S	0
+8723	2-Methyl-1-butanol	CCC(C)CO	0
+8785	Benzyl acetate	CC(=O)OCC1=CC=CC=C1	1
+8797	4-Methylphenyl acetate	CC1=CC=C(C=C1)OC(=O)C	0
+8815	Estragole	COC1=CC=C(C=C1)CC=C	1
+8857	Ethyl Acetate	CCOC(=O)C	1
+8878	Allyl Heptanoate	CCCCCCC(=O)OCC=C	0
+8892	Hexanoic Acid	CCCCCC(=O)O	1
+8908	Hexyl acetate	CCCCCCOC(=O)C	1
+8914	1-Nonanol	CCCCCCCCCO	1
+8918	Nonyl Acetate	CCCCCCCCCOC(=O)C	0
+9012	Dibenzyl Disulfide	C1=CC=C(C=C1)CSSCC2=CC=CC=C2	0
+9016	1,4-Dimethoxybenzene	COC1=CC=C(C=C1)OC	1
+9024	Dimethyl benzyl carbinyl acetate	CC(=O)OC(C)(C)CC1=CC=CC=C1	0
+9025	1,3-Dimethoxybenzene	COC1=CC(=CC=C1)OC	0
+9256	Thiazole	C1=CSC=N1	0
+9261	Pyrazine	C1=CN=CC=N1	0
+9589	3-Acetylpyridine	CC(=O)C1=CN=CC=C1	0
+9609	Ethyl sulfide	CCSCC	1
+9862	6-Methyl-5-hepten-2-one	CC(=CCCC(=O)C)C	1
+10364	Carvacrol	CC1=C(C=C(C=C1)C(C)C)O	1
+10430	Isovaleric Acid	CC(C)CC(=O)O	1
+10448	3-(Methylthio)-1-propanol	CSCCCO	0
+10797	2-Methylfuran	CC1=CC=CO1	0
+10882	Ethyl valerate	CCCCC(=O)OCC	0
+10886	Pentyl Hexanoate	CCCCCC(=O)OCCCCC	0
+10890	Amyl butyrate	CCCCCOC(=O)CCC	0
+10895	Isobutyl propionate	CCC(=O)OCC(C)C	0
+10925	Isoamyl mercaptan	CC(C)CCS	0
+11086	2'-Aminoacetophenone	CC(=O)C1=CC=CC=C1N	0
+11124	Methyl propionate	CCC(=O)OC	1
+11419	2-Methylcyclohexanone	CC1CCCCC1=O	1
+11525	4-Methylcyclohexanone	CC1CCC(=O)CC1	0
+11527	3-Octanol	CCCCCC(CC)O	0
+11529	Butyl propionate	CCCCOC(=O)CC	0
+11567	3-Methylcyclohexanone	CC1CCCC(=O)C1	0
+11614	Butyl Formate	CCCCOC=O	0
+11617	Diallyl Sulfide	C=CCSCC=C	1

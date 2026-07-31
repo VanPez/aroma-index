@@ -1,0 +1,96 @@
+126	4-Hydroxybenzaldehyde	C1=CC(=CC=C1C=O)O	0
+176	Acetic Acid	CC(=O)O	1
+196	Adipic Acid	C(CCC(=O)O)CC(=O)O	1
+240	Benzaldehyde	C1=CC=C(C=C1)C=O	1
+243	Benzoic Acid	C1=CC=C(C=C1)C(=O)O	1
+244	Benzyl Alcohol	C1=CC=C(C=C1)CO	1
+261	Butanal	CCCC=O	1
+263	1-Butanol	CCCCO	1
+264	Butyric Acid	CCCC(=O)O	1
+325	Cuminol	CC(C)C1=CC=C(C=C1)CO	0
+326	Cuminaldehyde	CC(C)C1=CC=C(C=C1)C=O	0
+379	Octanoic Acid	CCCCCCCC(=O)O	1
+460	Guaiacol	COC1=CC=CC=C1O	1
+650	Butanedione	CC(=O)C(=O)C	1
+660	Dihydrocoumarin	C1CC(=O)OC2=CC=CC=C21	1
+679	Dimethyl Sulfoxide	CS(=O)C	1
+753	Glycerol	C(C(CO)O)O	1
+957	1-Octanol	CCCCCCCCO	1
+1001	Phenethylamine	C1=CC=C(C=C1)CCN	1
+1030	Propylene Glycol	CC(CO)O	1
+1031	1-Propanol	CCCO	1
+1032	Propionic Acid	CCC(=O)O	1
+1049	Pyridine	C1=CC=NC=C1	1
+1060	Pyruvic Acid	CC(=O)C(=O)O	0
+1068	Dimethyl Sulfide	CSC	1
+1110	Succinic Acid	C(CC(=O)O)C(=O)O	1
+1136	4-Methyl-5-(2-hydroxyethyl)thiazole	CC1=C(SC=N1)CCO	0
+1183	Vanillin	COC1=C(C=CC(=C1)C=O)O	1
+2345	Benzyl Benzoate	C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2	1
+2346	Benzyl Isothiocyanate	C1=CC=C(C=C1)CN=C=S	0
+2537	Camphor	CC1(C2CCC1(C(=O)C2)C)C	1
+2682	Cetyl Alcohol	CCCCCCCCCCCCCCCCO	1
+2758	1,8-Cineole	CC1(C2CCC(O1)(CC2)C)C	1
+2879	P-Cresol	CC1=CC=C(C=C1)O	1
+2969	Decanoic Acid	CCCCCCCCCC(=O)O	1
+3102	Benzophenone	C1=CC=C(C=C1)C(=O)C2=CC=CC=C2	1
+3314	Eugenol	COC1=C(C=CC(=C1)CC=C)O	1
+3776	Isopropanol	CC(C)O	1
+3893	Lauric Acid	CCCCCCCCCCCC(=O)O	1
+4133	Methyl Salicylate	COC(=O)C1=CC=CC=C1O	1
+5610	Tyramine	C1=CC(=CC=C1CCN)O	0
+6054	2-Phenylethanol	C1=CC=C(C=C1)CCO	1
+6184	Hexanal	CCCCCC=O	1
+6276	1-Pentanol	CCCCCO	1
+6448	Acetic acid 1,7,7-trimethyl-bicyclo(2.2.1)hept-2-yl ester	CC(=O)OC1CC2CCC1(C2(C)C)C	0
+6501	Ethyl 3-methyl-3-phenylglycidate	CCOC(=O)C1C(O1)(C)C2=CC=CC=C2	1
+6544	Isophorone	CC1=CC(=O)CC(C1)(C)C	1
+6549	Linalool	CC(=CCCC(C)(C=C)O)C	1
+6560	Isobutanol	CC(C)CO	1
+6561	Isobutyraldehyde	CC(C)C=O	1
+6569	Methyl Ethyl Ketone	CCC(=O)C	1
+6584	Methyl Acetate	CC(=O)OC	1
+6590	Isobutyric Acid	CC(C)C(=O)O	1
+6658	Methyl Methacrylate	CC(=C)C(=O)OC	1
+6826	Methyl N-methylanthranilate	CNC1=CC=CC=C1C(=O)OC	1
+6943	2-Isopropylphenol	CC(C)C1=CC=CC=C1O	0
+6989	Thymol	CC1=CC(=C(C=C1)C(C)C)O	1
+6998	Salicylaldehyde	C1=CC=C(C(=C1)C=O)O	1
+7059	6-Methylquinoline	CC1=CC2=C(C=C1)N=CC=C2	0
+7092	6-Methylcoumarin	CC1=CC2=C(C=C1)OC(=O)C=C2	1
+7095	Biphenyl	C1=CC=C(C=C1)C2=CC=CC=C2	1
+7119	2-Methoxynaphthalene	COC1=CC2=CC=CC=C2C=C1	0
+7122	2-Acetylnaphthalene	CC(=O)C1=CC2=CC=CC=C2C=C1	0
+7136	Eugenyl Acetate	CC(=O)OC1=C(C=C(C=C1)CC=C)OC	0
+7137	Isoeugenol, acetate	CC=CC1=CC(=C(C=C1)OC(=O)C)OC	0
+7144	2-Methoxy-4-Methylphenol	CC1=CC(=C(C=C1)O)OC	0
+7147	1-Phenyl-1-propanol	CCC(C1=CC=CC=C1)O	0
+7150	Methyl Benzoate	COC(=O)C1=CC=CC=C1	1
+7151	Methyl Nicotinate	COC(=O)C1=CN=CC=C1	0
+7165	Ethyl benzoate	CCOC(=O)C1=CC=CC=C1	0
+7194	Phenethyl Benzoate	C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2	0
+7302	Gamma-Butyrolactone	C1CC(=O)OC1	1
+7335	Carvyl acetate	CC1=CCC(CC1OC(=O)C)C(=C)C	0
+7341	2-Methylvaleric acid	CCCC(C)C(=O)O	0
+7360	Tetrahydrofurfuryl alcohol	C1CC(OC1)CO	1
+7361	Furfuryl Alcohol	C1=COC(=C1)CO	1
+7409	1-Phenylethanol	CC(C1=CC=CC=C1)O	1
+7410	Acetophenone	CC(=O)C1=CC=CC=C1	1
+7463	P-Cymene	CC1=CC=C(C=C1)C(C)C	1
+7476	4'-Methoxyacetophenone	CC(=O)C1=CC=C(C=C1)OC	1
+7519	Anisole	COC1=CC=CC=C1	1
+7559	Methyl phenylacetate	COC(=O)CC1=CC=CC=C1	1
+7583	Diphenyl Ether	C1=CC=C(C=C1)OC2=CC=CC=C2	1
+7593	1,3-Diphenyl-2-propanone	C1=CC=C(C=C1)CC(=O)CC2=CC=CC=C2	0
+7601	Phenethyl phenylacetate	C1=CC=C(C=C1)CCOC(=O)CC2=CC=CC=C2	0
+7632	2-Methyl-4-phenyl-2-butanol	CC(C)(CCC1=CC=CC=C1)O	0
+7654	2-Phenylethyl Acetate	CC(=O)OCCC1=CC=CC=C1	0
+7657	Dibenzyl ether	C1=CC=C(C=C1)COCC2=CC=CC=C2	1
+7695	4-Methoxybenzyl acetate	CC(=O)OCC1=CC=C(C=C1)OC	0
+7720	2-Ethylhexanol	CCCCC(CC)CO	1
+7731	4-Methylanisole	CC1=CC=C(C=C1)OC	1
+7749	Ethyl Propionate	CCC(=O)OCC	1
+7761	Diethyl Malonate	CCOC(=O)CC(=O)OCC	1
+7762	Ethyl butyrate	CCCC(=O)OCC	1
+7765	Acetal	CCOC(C)OCC	1
+7768	Caprolactam	C1CCC(=O)NCC1	1
