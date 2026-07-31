@@ -6,6 +6,23 @@ TIER={"top":("TOP","#0f8f7f","rgba(15,143,127,.10)","most volatile — first imp
       "heart":("HEART","#b0446e","rgba(176,68,110,.10)","the core — floral & spice, ~1h"),
       "base":("BASE","#9a6a14","rgba(154,106,20,.10)","least volatile — the drydown, hours")}
 def esc(s): return html.escape(s or "")
+
+def _median(v):
+    v=sorted(v); n=len(v)
+    return None if not n else (v[n//2] if n%2 else (v[n//2-1]+v[n//2])/2)
+
+def _fmt_vp(v):
+    if v is None: return "—"
+    if v>=1000: return f"{v/1000:.1f} kPa"
+    if v>=1:    return f"{v:.0f} Pa"
+    return f"{v*1000:.0f} mPa"
+
+# The headline "median X → Y → Z" must come from the data, not be typed in.
+# It was hardcoded and went stale the moment the vapour-pressure estimator was
+# recalibrated — the fourth derived value in this project to drift that way.
+vpmed = " → ".join(_fmt_vp(_median([r['vp_pa'] for r in rows
+                                    if r['note']==t and r.get('vp_pa') is not None]))
+                   for t in ("top","heart","base"))
 def cell_mw(r): return f"{r['mw']:.2f}" if r['mw'] is not None else '<span class="verify">—</span>'
 def cell_bp(r):
     b=r.get("bp_c")
@@ -113,7 +130,7 @@ __RESOLVER_CSS__
     <div class="stat"><div class="k">Molecules (v2)</div><div class="v">{N}</div></div>
     <div class="stat"><div class="k">Note tiers</div><div class="v">top · heart · base</div></div>
     <div class="stat"><div class="k">Avg MW rises with tier</div><div class="v">{stats['top']['mw_mean']:.0f} → {stats['heart']['mw_mean']:.0f} → {stats['base']['mw_mean']:.0f}</div></div></div>
-  <div class="note"><b>The volatility principle, visible in the data:</b> vapor pressure (the <b>VP · 25°C</b> column) falls steeply from top to base notes — median roughly 200 Pa → 18 Pa → 4 Pa — while boiling point and molecular weight climb. Vapor pressure is the true physical driver of the perfumer's pyramid; MW is a convenient proxy for it.</div>
+  <div class="note"><b>The volatility principle, visible in the data:</b> vapor pressure (the <b>VP · 25°C</b> column) falls steeply from top to base notes — median {vpmed} — while boiling point and molecular weight climb. Vapor pressure is the true physical driver of the perfumer's pyramid; MW is a convenient proxy for it.</div>
 __RESOLVER_SECTION__
   <div class="search"><span class="field"><span class="ico">⌕</span><input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search molecule, family, or odour — e.g. rose, woody, citrus, C10H16…"></span><span class="count" id="count"></span></div>
   {sec}
