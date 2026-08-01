@@ -31,6 +31,17 @@ os.makedirs("mint/metadata", exist_ok=True)
 records=[]            # canonical on-chain fields (source of truth)
 erc=[]                # ERC-721 tokenURI render (reference)
 for i,r in enumerate(sorted(mintable,key=lambda x:(x["note"]!="top",x["note"]!="heart",x["mw"] or 0)),start=1):
+    # ON-TOKEN SCHEMA — deliberately excludes the interpretive layer.
+    #
+    # note / family / descriptors are NOT minted. They are maintainer judgement or
+    # AI-generated curation with no traceable provenance (see reports/descriptor-crosscheck.md:
+    # 37 of 95 have no independent source and never will). Tokens are immutable; an
+    # unverifiable claim baked into one is permanent. They stay on the site, where they
+    # are labelled and correctable.
+    #
+    # volatility_band IS minted: it is a declared convention computed from MW alone
+    # (data/VOLATILITY_BAND.md), reproducible by anyone, and asserts nothing about
+    # perception. It is NOT a note tier and must not be presented as one.
     rec={
       "id": i,
       "inchikey": r["inchikey"],
@@ -40,18 +51,18 @@ for i,r in enumerate(sorted(mintable,key=lambda x:(x["note"]!="top",x["note"]!="
       "cas": r.get("cas"),
       "formula": r.get("formula"),
       "mw": r.get("mw"),
-      "note": r.get("note"),
-      "family": r.get("family"),
+      "volatility_band": r.get("volatility_band"),
       "bp_c": r.get("bp_c"),
       "vp_pa_25c": round(r["vp_pa"],4) if r.get("vp_pa") is not None else None,
-      "descriptors": desc_list(r["descriptors"]),
     }
     rec=prune(rec)
     records.append(rec)
     meta={
       "name": r["name"],
-      "description": f"{r['name']} — aroma molecule ({r.get('family')}). Note tier: {r.get('note')}. "
+      "description": f"{r['name']} — aroma molecule. Volatility band: {r.get('volatility_band')} "
+                     f"(declared convention from molecular weight, not a perceptual note tier). "
                      f"Structure is stored as SMILES; the 3D conformer is regenerated in-browser. "
+                     f"Identifiers and physical properties from PubChem (public domain). "
                      f"Public-good record in the GenesisL1 Aroma Molecule Index.",
       "external_url": INDEX_URL,
       "attributes": [
@@ -59,13 +70,11 @@ for i,r in enumerate(sorted(mintable,key=lambda x:(x["note"]!="top",x["note"]!="
         {"trait_type":"SMILES","value":r["smiles"]},
         {"trait_type":"Formula","value":r.get("formula")},
         {"trait_type":"Molecular weight","value":r.get("mw")},
-        {"trait_type":"Note tier","value":r.get("note")},
-        {"trait_type":"Odor family","value":r.get("family")},
+        {"trait_type":"Volatility band","value":r.get("volatility_band")},
         {"trait_type":"Boiling point (°C)","value":r.get("bp_c")},
         {"trait_type":"Vapor pressure (Pa, 25°C)","value":round(r["vp_pa"],2) if r.get("vp_pa") is not None else None},
         {"trait_type":"PubChem CID","value":r.get("cid")},
         {"trait_type":"CAS","value":r.get("cas")},
-        {"trait_type":"Odor descriptors","value":", ".join(desc_list(r["descriptors"]))},
       ],
     }
     meta["attributes"]=prune_attrs(meta["attributes"])
