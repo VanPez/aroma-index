@@ -23,7 +23,8 @@
   "bp_c": 310.5,
   "bp_est": false,
   "vp_pa": 0.26657,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 244,
@@ -51,7 +52,8 @@
   "bp_c": 205.0,
   "bp_est": false,
   "vp_pa": 12.532,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 325,
@@ -77,7 +79,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 326,
@@ -103,7 +106,8 @@
   "bp_c": 235.5,
   "bp_est": false,
   "vp_pa": 8.7934,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 460,
@@ -131,7 +135,8 @@
   "bp_c": 205.0,
   "bp_est": false,
   "vp_pa": 13.732,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 957,
@@ -159,7 +164,8 @@
   "bp_c": 195.0,
   "bp_est": false,
   "vp_pa": 10.586,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 2346,
@@ -185,7 +191,8 @@
   "bp_c": 242.5,
   "bp_est": false,
   "vp_pa": 6.3636,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 2879,
@@ -213,7 +220,8 @@
   "bp_c": 201.8,
   "bp_est": false,
   "vp_pa": 14.665,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 3102,
@@ -241,7 +249,8 @@
   "bp_c": 305.9,
   "bp_est": false,
   "vp_pa": 0.2573,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 6184,
@@ -269,7 +278,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 6448,
@@ -295,7 +305,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 6501,
@@ -323,7 +334,8 @@
   "bp_c": 273.6,
   "bp_est": false,
   "vp_pa": 1.5012,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 6544,
@@ -351,7 +363,8 @@
   "bp_c": 215.2,
   "bp_est": false,
   "vp_pa": 58.395,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 6826,
@@ -379,7 +392,8 @@
   "bp_c": 256.0,
   "bp_est": false,
   "vp_pa": 3.4045,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 6943,
@@ -405,7 +419,8 @@
   "bp_c": 214.0,
   "bp_est": false,
   "vp_pa": 23.649,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 6989,
@@ -433,7 +448,8 @@
   "bp_c": 233.0,
   "bp_est": false,
   "vp_pa": 0.2933,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 6998,
@@ -461,7 +477,8 @@
   "bp_c": 196.7,
   "bp_est": false,
   "vp_pa": 79.06,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 7092,
@@ -489,7 +506,8 @@
   "bp_c": 302.8,
   "bp_est": false,
   "vp_pa": 0.38282,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 7119,
@@ -515,7 +533,8 @@
   "bp_c": 274.0,
   "bp_est": false,
   "vp_pa": 1.0972,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 7122,
@@ -541,7 +560,8 @@
   "bp_c": 300.5,
   "bp_est": false,
   "vp_pa": 0.42647,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 7136,
@@ -567,7 +587,8 @@
   "bp_c": 282.0,
   "bp_est": false,
   "vp_pa": 1.0143,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 7137,
@@ -593,7 +614,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 7144,
@@ -619,7 +641,8 @@
   "bp_c": 221.5,
   "bp_est": false,
   "vp_pa": 16.758,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 7147,
@@ -645,7 +668,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 7150,
@@ -673,7 +697,8 @@
   "bp_c": 198.3,
   "bp_est": false,
   "vp_pa": 50.662,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 7165,
@@ -699,7 +724,8 @@
   "bp_c": 75.5,
   "bp_est": false,
   "vp_pa": 34.664,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 7194,
@@ -725,7 +751,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 7302,
@@ -753,7 +780,8 @@
   "bp_c": 204.4,
   "bp_est": false,
   "vp_pa": 59.995,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 7335,
@@ -779,7 +807,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 7409,
@@ -807,7 +836,8 @@
   "bp_c": 203.9,
   "bp_est": false,
   "vp_pa": 6.6661,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 7410,
@@ -835,7 +865,8 @@
   "bp_c": 201.7,
   "bp_est": false,
   "vp_pa": 52.929,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 7476,
@@ -863,7 +894,8 @@
   "bp_c": 254.0,
   "bp_est": false,
   "vp_pa": 0.8586,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 7519,
@@ -891,7 +923,8 @@
   "bp_c": 155.5,
   "bp_est": false,
   "vp_pa": 471.96,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 7559,
@@ -919,7 +952,8 @@
   "bp_c": 215.0,
   "bp_est": false,
   "vp_pa": 21.331,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 7583,
@@ -947,7 +981,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 7593,
@@ -973,7 +1008,8 @@
   "bp_c": 330.5,
   "bp_est": false,
   "vp_pa": 0.10381,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 7601,
@@ -999,7 +1035,8 @@
   "bp_c": 324.5,
   "bp_est": false,
   "vp_pa": 0.13782,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 7632,
@@ -1025,7 +1062,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 7654,
@@ -1051,7 +1089,8 @@
   "bp_c": 238.5,
   "bp_est": false,
   "vp_pa": 7.6559,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 7657,
@@ -1079,7 +1118,8 @@
   "vp_pa": 0.1373,
   "vp_src": "exp",
   "bp_c": null,
-  "bp_est": false
+  "bp_est": false,
+  "volatility_band": "medium"
  },
  {
   "cid": 7695,
@@ -1105,7 +1145,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 7792,
@@ -1131,7 +1172,8 @@
   "bp_c": 213.0,
   "bp_est": false,
   "vp_pa": 24.758,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 7795,
@@ -1157,7 +1199,8 @@
   "bp_c": 179.0,
   "bp_est": false,
   "vp_pa": 116.74,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 7921,
@@ -1183,7 +1226,8 @@
   "bp_c": 207.5,
   "bp_est": false,
   "vp_pa": 31.854,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 8048,
@@ -1209,7 +1253,8 @@
   "bp_c": 243.0,
   "bp_est": false,
   "vp_pa": 6.2181,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 8137,
@@ -1235,7 +1280,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 8159,
@@ -1261,7 +1307,8 @@
   "bp_c": 192.5,
   "bp_est": false,
   "vp_pa": 63.194,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 8163,
@@ -1289,7 +1336,8 @@
   "bp_c": 231.5,
   "bp_est": false,
   "vp_pa": 5.3329,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 8174,
@@ -1317,7 +1365,8 @@
   "bp_c": 230.0,
   "bp_est": false,
   "vp_pa": 1.1346,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 8184,
@@ -1345,7 +1394,8 @@
   "bp_c": 245.0,
   "bp_est": false,
   "vp_pa": 0.396,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 8186,
@@ -1371,7 +1421,8 @@
   "vp_pa": 7.9993,
   "vp_src": "exp",
   "bp_c": null,
-  "bp_est": false
+  "bp_est": false,
+  "volatility_band": "medium"
  },
  {
   "cid": 8193,
@@ -1399,7 +1450,8 @@
   "bp_c": 258.9,
   "bp_est": false,
   "vp_pa": 0.1131,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 8375,
@@ -1425,7 +1477,8 @@
   "bp_c": 213.0,
   "bp_est": false,
   "vp_pa": 0.9972,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 8419,
@@ -1451,7 +1504,8 @@
   "bp_c": 281.1,
   "bp_est": false,
   "vp_pa": 1.0579,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 8615,
@@ -1477,7 +1531,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 8658,
@@ -1503,7 +1558,8 @@
   "bp_c": 238.0,
   "bp_est": false,
   "vp_pa": 15.999,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 8797,
@@ -1529,7 +1585,8 @@
   "bp_c": 210.0,
   "bp_est": false,
   "vp_pa": 21.331,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 8815,
@@ -1557,7 +1614,8 @@
   "bp_c": 216.1,
   "bp_est": false,
   "vp_pa": 6.6661,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 8878,
@@ -1583,7 +1641,8 @@
   "bp_c": 211.0,
   "bp_est": false,
   "vp_pa": 27.135,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 8908,
@@ -1611,7 +1670,8 @@
   "bp_c": 169.0,
   "bp_est": false,
   "vp_pa": 175.99,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 8914,
@@ -1639,7 +1699,8 @@
   "bp_c": 212.8,
   "bp_est": false,
   "vp_pa": 3.0264,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 8918,
@@ -1665,7 +1726,8 @@
   "bp_c": 210.0,
   "bp_est": false,
   "vp_pa": 28.408,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 9016,
@@ -1693,7 +1755,8 @@
   "bp_c": 212.6,
   "bp_est": false,
   "vp_pa": 10.666,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 9024,
@@ -1719,7 +1782,8 @@
   "bp_c": 250.0,
   "bp_est": false,
   "vp_pa": 4.4969,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 9025,
@@ -1745,7 +1809,8 @@
   "vp_pa": 69.327,
   "vp_src": "exp",
   "bp_c": null,
-  "bp_est": false
+  "bp_est": false,
+  "volatility_band": "light"
  },
  {
   "cid": 9862,
@@ -1773,7 +1838,8 @@
   "bp_c": 173.0,
   "bp_est": false,
   "vp_pa": 99.992,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 10364,
@@ -1801,7 +1867,8 @@
   "bp_c": 237.5,
   "bp_est": false,
   "vp_pa": 8.0178,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 10886,
@@ -1827,7 +1894,8 @@
   "bp_c": 224.5,
   "bp_est": false,
   "vp_pa": 14.599,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 10890,
@@ -1853,7 +1921,8 @@
   "bp_c": 186.0,
   "bp_est": false,
   "vp_pa": 84.948,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 11086,
@@ -1879,7 +1948,8 @@
   "bp_c": 251.0,
   "bp_est": false,
   "vp_pa": 1.3186,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 12327,
@@ -1905,7 +1975,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 12580,
@@ -1931,7 +2002,8 @@
   "bp_c": 232.5,
   "bp_est": false,
   "vp_pa": 10.099,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 12741,
@@ -1957,7 +2029,8 @@
   "bp_c": 210.0,
   "bp_est": false,
   "vp_pa": 28.408,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 13187,
@@ -1983,7 +2056,8 @@
   "bp_c": 192.0,
   "bp_est": false,
   "vp_pa": 82.66,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 13204,
@@ -2009,7 +2083,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 13561,
@@ -2035,7 +2110,8 @@
   "bp_c": 228.0,
   "bp_est": false,
   "vp_pa": 12.426,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 14104,
@@ -2061,7 +2137,8 @@
   "bp_c": 215.0,
   "bp_est": false,
   "vp_pa": 22.588,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 14228,
@@ -2087,7 +2164,8 @@
   "bp_c": 277.0,
   "bp_est": false,
   "vp_pa": 1.2811,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 15717,
@@ -2113,7 +2191,8 @@
   "bp_c": 239.5,
   "bp_est": false,
   "vp_pa": 7.3102,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 16255,
@@ -2139,7 +2218,8 @@
   "bp_c": 267.5,
   "bp_est": false,
   "vp_pa": 1.9947,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 16324,
@@ -2165,7 +2245,8 @@
   "bp_c": 142.5,
   "bp_est": false,
   "vp_pa": 604.8,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 16537,
@@ -2191,7 +2272,8 @@
   "bp_c": 219.0,
   "bp_est": false,
   "vp_pa": 18.799,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 16741,
@@ -2217,7 +2299,8 @@
   "vp_pa": 1.3332,
   "vp_src": "exp",
   "bp_c": null,
-  "bp_est": false
+  "bp_est": false,
+  "volatility_band": "medium"
  },
  {
   "cid": 17121,
@@ -2243,7 +2326,8 @@
   "bp_c": 189.5,
   "bp_est": false,
   "vp_pa": 72.445,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 17525,
@@ -2269,7 +2353,8 @@
   "bp_c": 205.0,
   "bp_est": false,
   "vp_pa": 35.714,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 17617,
@@ -2295,7 +2380,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 18827,
@@ -2321,7 +2407,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 21648,
@@ -2349,7 +2436,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 22310,
@@ -2375,7 +2463,8 @@
   "bp_c": 193.5,
   "bp_est": false,
   "vp_pa": 60.379,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 22873,
@@ -2401,7 +2490,8 @@
   "bp_c": 245.5,
   "bp_est": false,
   "vp_pa": 5.5389,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 23235,
@@ -2427,7 +2517,8 @@
   "bp_c": 272.2,
   "bp_est": false,
   "vp_pa": 1.6025,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 24020,
@@ -2453,7 +2544,8 @@
   "bp_c": 132.5,
   "bp_est": false,
   "vp_pa": 945.47,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 24116,
@@ -2479,7 +2571,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 24513,
@@ -2505,7 +2598,8 @@
   "bp_c": 218.0,
   "bp_est": false,
   "vp_pa": 19.682,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 24834,
@@ -2531,7 +2625,8 @@
   "bp_c": 249.5,
   "bp_est": false,
   "vp_pa": 4.6023,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 31209,
@@ -2559,7 +2654,8 @@
   "bp_c": 284.0,
   "bp_est": false,
   "vp_pa": 0.92378,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 31210,
@@ -2585,7 +2681,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 31219,
@@ -2611,7 +2708,8 @@
   "bp_c": 221.0,
   "bp_est": false,
   "vp_pa": 17.148,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 31225,
@@ -2639,7 +2737,8 @@
   "bp_c": 244.5,
   "bp_est": false,
   "vp_pa": 6.6661,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 31234,
@@ -2667,7 +2766,8 @@
   "bp_c": 241.0,
   "bp_est": false,
   "vp_pa": 3.1197,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 60998,
@@ -2693,7 +2793,8 @@
   "bp_c": 247.0,
   "bp_est": false,
   "vp_pa": 5.1673,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 60999,
@@ -2719,7 +2820,8 @@
   "bp_c": 319.0,
   "bp_est": false,
   "vp_pa": 0.17864,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 61005,
@@ -2745,7 +2847,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 61024,
@@ -2771,7 +2874,8 @@
   "bp_c": 237.0,
   "bp_est": false,
   "vp_pa": 8.2051,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 61048,
@@ -2797,7 +2901,8 @@
   "bp_c": 242.0,
   "bp_est": false,
   "vp_pa": 6.5124,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 61052,
@@ -2823,7 +2928,8 @@
   "bp_c": 279.5,
   "bp_est": false,
   "vp_pa": 1.1399,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 61130,
@@ -2849,7 +2955,8 @@
   "bp_c": 220.0,
   "bp_est": false,
   "vp_pa": 17.955,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 61151,
@@ -2875,7 +2982,8 @@
   "bp_c": 254.5,
   "bp_est": false,
   "vp_pa": 3.65,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 61155,
@@ -2901,7 +3009,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 61177,
@@ -2927,7 +3036,8 @@
   "bp_c": 155.5,
   "bp_est": false,
   "vp_pa": 337.48,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 61185,
@@ -2953,7 +3063,8 @@
   "bp_c": 260.0,
   "bp_est": false,
   "vp_pa": 2.8274,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 61199,
@@ -2979,7 +3090,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 61204,
@@ -3005,7 +3117,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 61229,
@@ -3031,7 +3144,8 @@
   "bp_c": 287.5,
   "bp_est": false,
   "vp_pa": 0.78429,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 61293,
@@ -3057,7 +3171,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 61325,
@@ -3083,7 +3198,8 @@
   "bp_c": 221.5,
   "bp_est": false,
   "vp_pa": 16.758,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 61331,
@@ -3109,7 +3225,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 61408,
@@ -3135,7 +3252,8 @@
   "bp_c": 166.0,
   "bp_est": false,
   "vp_pa": 210.25,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 61523,
@@ -3161,7 +3279,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 61771,
@@ -3187,7 +3306,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 62332,
@@ -3213,7 +3333,8 @@
   "bp_c": 370.0,
   "bp_est": false,
   "vp_pa": 0.015928,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 62374,
@@ -3239,7 +3360,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 62375,
@@ -3265,7 +3387,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 62465,
@@ -3291,7 +3414,8 @@
   "bp_c": 235.5,
   "bp_est": false,
   "vp_pa": 8.7934,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 62572,
@@ -3317,7 +3441,8 @@
   "bp_c": 170.0,
   "bp_est": false,
   "vp_pa": 175.48,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 62580,
@@ -3343,7 +3468,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 62835,
@@ -3369,7 +3495,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 62900,
@@ -3395,7 +3522,8 @@
   "bp_c": 93.5,
   "bp_est": false,
   "vp_pa": 5305.2,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 62902,
@@ -3421,7 +3549,8 @@
   "bp_c": 153.0,
   "bp_est": false,
   "vp_pa": 377.64,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 69963,
@@ -3447,7 +3576,8 @@
   "bp_c": 154.5,
   "bp_est": false,
   "vp_pa": 353.01,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 88454,
@@ -3473,7 +3603,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 106997,
@@ -3499,7 +3630,8 @@
   "bp_c": 232.0,
   "bp_est": false,
   "vp_pa": 10.334,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 159055,
@@ -3525,7 +3657,8 @@
   "bp_c": 203.9,
   "bp_est": false,
   "vp_pa": 37.557,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 165675,
@@ -3551,7 +3684,8 @@
   "bp_c": 216.1,
   "bp_est": false,
   "vp_pa": 106.66,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 170833,
@@ -3577,7 +3711,8 @@
   "bp_c": 217.0,
   "bp_est": false,
   "vp_pa": 20.607,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 228769,
@@ -3603,7 +3738,8 @@
   "bp_c": 250.0,
   "bp_est": false,
   "vp_pa": 4.4969,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 439570,
@@ -3629,7 +3765,8 @@
   "bp_c": 228.5,
   "bp_est": false,
   "vp_pa": 12.143,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 440917,
@@ -3657,7 +3794,8 @@
   "bp_c": 175.8,
   "bp_est": false,
   "vp_pa": 263.98,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "cid": 444539,
@@ -3683,7 +3821,8 @@
   "bp_c": 299.0,
   "bp_est": false,
   "vp_pa": 0.45758,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 520296,
@@ -3709,7 +3848,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 521238,
@@ -3735,7 +3875,8 @@
   "bp_c": 187.0,
   "bp_est": false,
   "vp_pa": 81.172,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 565690,
@@ -3761,7 +3902,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 595928,
@@ -3787,7 +3929,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 637758,
@@ -3813,7 +3956,8 @@
   "bp_c": 271.5,
   "bp_est": false,
   "vp_pa": 0.436,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "cid": 638024,
@@ -3839,7 +3983,8 @@
   "bp_c": 498.5,
   "bp_est": false,
   "vp_pa": 1.7332e-05,
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "heavy"
  },
  {
   "cid": 641423,
@@ -3865,7 +4010,8 @@
   "bp_c": 286.0,
   "bp_est": false,
   "vp_pa": 0.8413,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 778574,
@@ -3891,7 +4037,8 @@
   "bp_c": 287.0,
   "bp_est": false,
   "vp_pa": 0.80285,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 1549025,
@@ -3917,7 +4064,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 1549778,
@@ -3943,7 +4091,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 1550470,
@@ -3969,7 +4118,8 @@
   "bp_c": 195.5,
   "bp_est": false,
   "vp_pa": 55.117,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 2733294,
@@ -3995,7 +4145,8 @@
   "bp_c": 165.5,
   "bp_est": false,
   "vp_pa": 215.05,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 5273467,
@@ -4021,7 +4172,8 @@
   "bp_c": 310.0,
   "bp_est": false,
   "vp_pa": 0.27291,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 5315892,
@@ -4049,7 +4201,8 @@
   "bp_c": 250.0,
   "bp_est": false,
   "vp_pa": 4.4969,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 5318599,
@@ -4075,7 +4228,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 5352539,
@@ -4101,7 +4255,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 5352837,
@@ -4127,7 +4282,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 5355850,
@@ -4153,7 +4309,8 @@
   "bp_c": 289.0,
   "bp_est": false,
   "vp_pa": 0.73112,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 5362588,
@@ -4179,7 +4336,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 5362798,
@@ -4205,7 +4363,8 @@
   "bp_c": 235.0,
   "bp_est": false,
   "vp_pa": 8.9987,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 5362814,
@@ -4231,7 +4390,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 5363233,
@@ -4257,7 +4417,8 @@
   "bp_c": 125.5,
   "bp_est": false,
   "vp_pa": 1291.3,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 5363388,
@@ -4283,7 +4444,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 5363491,
@@ -4309,7 +4471,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 5364231,
@@ -4335,7 +4498,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 5364729,
@@ -4361,7 +4525,8 @@
   "bp_c": 153.0,
   "bp_est": false,
   "vp_pa": 377.64,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "cid": 5365027,
@@ -4387,7 +4552,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "cid": 5365049,
@@ -4413,7 +4579,8 @@
   "bp_c": 181.0,
   "bp_est": false,
   "vp_pa": 106.61,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "cid": 5367698,
@@ -4439,7 +4606,8 @@
   "bp_c": 298.0,
   "bp_est": false,
   "vp_pa": 0.47955,
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "cid": 5367706,
@@ -4465,7 +4633,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "cid": 5368076,
@@ -4491,7 +4660,8 @@
   "bp_c": null,
   "bp_est": false,
   "vp_pa": null,
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "cid": 261,
@@ -4519,7 +4689,8 @@
   "bp_est": false,
   "vp_pa": 14799.0,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 650,
@@ -4547,7 +4718,8 @@
   "bp_est": false,
   "vp_pa": 7572.7,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 6276,
@@ -4575,7 +4747,8 @@
   "bp_est": false,
   "vp_pa": 293.31,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 6561,
@@ -4603,7 +4776,8 @@
   "bp_est": false,
   "vp_pa": 23065.0,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 6584,
@@ -4631,7 +4805,8 @@
   "bp_est": false,
   "vp_pa": 31331.0,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7720,
@@ -4659,7 +4834,8 @@
   "bp_est": false,
   "vp_pa": 18.132,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7749,
@@ -4687,7 +4863,8 @@
   "bp_est": false,
   "vp_pa": 4772.9,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7762,
@@ -4715,7 +4892,8 @@
   "bp_est": false,
   "vp_pa": 1706.5,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7770,
@@ -4741,7 +4919,8 @@
   "bp_est": false,
   "vp_pa": 793.27,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7797,
@@ -4767,7 +4946,8 @@
   "bp_est": false,
   "vp_pa": 75.818,
   "vp_src": "est",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "medium"
  },
  {
   "cid": 7799,
@@ -4793,7 +4973,8 @@
   "bp_est": false,
   "vp_pa": 32.591,
   "vp_src": "est",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "medium"
  },
  {
   "cid": 7803,
@@ -4819,7 +5000,8 @@
   "bp_est": false,
   "vp_pa": 1443.0,
   "vp_src": "est",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7824,
@@ -4845,7 +5027,8 @@
   "bp_est": false,
   "vp_pa": 495.96,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7826,
@@ -4871,7 +5054,8 @@
   "bp_est": false,
   "vp_pa": 207.98,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7915,
@@ -4899,7 +5083,8 @@
   "bp_est": false,
   "vp_pa": 8048.6,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7967,
@@ -4927,7 +5112,8 @@
   "bp_est": false,
   "vp_pa": 693.27,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7983,
@@ -4953,7 +5139,8 @@
   "bp_est": false,
   "vp_pa": 241.31,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 7997,
@@ -4981,7 +5168,8 @@
   "bp_est": false,
   "vp_pa": 4786.3,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 8025,
@@ -5009,7 +5197,8 @@
   "bp_est": false,
   "vp_pa": 32664.0,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 8038,
@@ -5037,7 +5226,8 @@
   "bp_est": false,
   "vp_pa": 2373.1,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 8051,
@@ -5065,7 +5255,8 @@
   "bp_est": false,
   "vp_pa": 513.29,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 8063,
@@ -5093,7 +5284,8 @@
   "bp_est": false,
   "vp_pa": 6666.1,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 8091,
@@ -5121,7 +5313,8 @@
   "bp_est": false,
   "vp_pa": 62.052,
   "vp_src": "est",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "medium"
  },
  {
   "cid": 8093,
@@ -5149,7 +5342,8 @@
   "bp_est": false,
   "vp_pa": 179.98,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 8103,
@@ -5177,7 +5371,8 @@
   "bp_est": false,
   "vp_pa": 123.72,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 8129,
@@ -5205,7 +5400,8 @@
   "bp_est": false,
   "vp_pa": 28.837,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 8452,
@@ -5233,7 +5429,8 @@
   "bp_est": false,
   "vp_pa": 1519.9,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 8723,
@@ -5259,7 +5456,8 @@
   "bp_est": false,
   "vp_pa": 417.3,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 10882,
@@ -5285,7 +5483,8 @@
   "bp_est": false,
   "vp_pa": 552.99,
   "vp_src": "est",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 10895,
@@ -5311,7 +5510,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_src": null,
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 11124,
@@ -5339,7 +5539,8 @@
   "bp_est": false,
   "vp_pa": 11199.0,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 11419,
@@ -5367,7 +5568,8 @@
   "bp_est": false,
   "vp_pa": 299.97,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 11525,
@@ -5393,7 +5595,8 @@
   "bp_est": false,
   "vp_pa": 199.98,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 11527,
@@ -5419,7 +5622,8 @@
   "bp_est": false,
   "vp_pa": 146.43,
   "vp_src": "est",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 11529,
@@ -5445,7 +5649,8 @@
   "bp_est": false,
   "vp_pa": 589.28,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 11567,
@@ -5471,7 +5676,8 @@
   "bp_est": false,
   "vp_pa": 199.98,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 12020,
@@ -5497,7 +5703,8 @@
   "bp_est": false,
   "vp_pa": 1290.6,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 12178,
@@ -5523,7 +5730,8 @@
   "bp_est": false,
   "vp_pa": 641.28,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 12180,
@@ -5551,7 +5759,8 @@
   "bp_est": false,
   "vp_pa": 4306.3,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 12206,
@@ -5577,7 +5786,8 @@
   "bp_est": false,
   "vp_pa": 1235.1,
   "vp_src": "est",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 15606,
@@ -5603,7 +5813,8 @@
   "bp_est": false,
   "vp_pa": 27.998,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "medium"
  },
  {
   "cid": 21057,
@@ -5629,7 +5840,8 @@
   "bp_est": false,
   "vp_pa": 369.24,
   "vp_src": "est",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 22386,
@@ -5655,7 +5867,8 @@
   "bp_est": false,
   "vp_pa": 814.6,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 31246,
@@ -5683,7 +5896,8 @@
   "bp_est": false,
   "vp_pa": 693.27,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 31260,
@@ -5711,7 +5925,8 @@
   "bp_est": false,
   "vp_pa": 315.97,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 31265,
@@ -5737,7 +5952,8 @@
   "bp_est": false,
   "vp_pa": 207.98,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 31272,
@@ -5765,7 +5981,8 @@
   "bp_est": false,
   "vp_pa": 1533.2,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  },
  {
   "cid": 246728,
@@ -5793,6 +6010,7 @@
   "bp_est": false,
   "vp_pa": 266.64,
   "vp_src": "exp",
-  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)"
+  "_removed_because": "out of scope \u2014 flavour chemistry rather than perfumery (Ivan's call)",
+  "volatility_band": "light"
  }
 ]

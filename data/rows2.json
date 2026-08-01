@@ -14,7 +14,8 @@
   "bp_est": false,
   "vp_pa": 12425.6104,
   "vp_disp": "12.43 kPa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "cis-3-Hexen-1-ol",
@@ -31,7 +32,8 @@
   "bp_est": false,
   "vp_pa": 322.64,
   "vp_disp": "322.6 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "Benzaldehyde",
@@ -48,7 +50,8 @@
   "bp_est": false,
   "vp_pa": 169.31894,
   "vp_disp": "169.3 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "Octanal (Aldehyde C-8)",
@@ -65,7 +68,8 @@
   "bp_est": false,
   "vp_pa": 79.9932,
   "vp_disp": "80.0 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "Isoamyl acetate",
@@ -82,7 +86,8 @@
   "bp_est": false,
   "vp_pa": 746.6032,
   "vp_disp": "746.6 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "p-Cymene",
@@ -99,7 +104,8 @@
   "bp_est": false,
   "vp_pa": 199.983,
   "vp_disp": "200.0 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "Limonene",
@@ -116,7 +122,8 @@
   "bp_est": false,
   "vp_pa": 206.6491,
   "vp_disp": "206.6 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "alpha-Pinene",
@@ -133,7 +140,8 @@
   "bp_est": false,
   "vp_pa": 633.2795,
   "vp_disp": "633.3 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "Ligustral",
@@ -150,7 +158,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "light"
  },
  {
   "name": "Melonal",
@@ -167,7 +176,8 @@
   "bp_est": true,
   "vp_pa": 54.866,
   "vp_disp": "54.9 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "Camphor",
@@ -184,7 +194,8 @@
   "bp_est": false,
   "vp_pa": 86.6593,
   "vp_disp": "86.7 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Citral",
@@ -201,7 +212,8 @@
   "bp_est": false,
   "vp_pa": 12.143,
   "vp_disp": "12.1 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Citronellal",
@@ -218,7 +230,8 @@
   "bp_est": false,
   "vp_pa": 34.117,
   "vp_disp": "34.1 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Eucalyptol (1,8-cineole)",
@@ -235,7 +248,8 @@
   "bp_est": false,
   "vp_pa": 253.3118,
   "vp_disp": "253.3 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Linalool",
@@ -252,7 +266,8 @@
   "bp_est": false,
   "vp_pa": 21.198198,
   "vp_disp": "21.2 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Allyl hexanoate",
@@ -269,7 +284,8 @@
   "bp_est": false,
   "vp_pa": 88.899,
   "vp_disp": "88.9 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Decanal (Aldehyde C-10)",
@@ -286,7 +302,8 @@
   "bp_est": false,
   "vp_pa": 29.739,
   "vp_disp": "29.7 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Dihydromyrcenol",
@@ -303,7 +320,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "name": "Menthol",
@@ -320,7 +338,8 @@
   "bp_est": false,
   "vp_pa": 8.492611,
   "vp_disp": "8.5 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Indole",
@@ -337,7 +356,8 @@
   "bp_est": false,
   "vp_pa": 3.8233,
   "vp_disp": "3.8 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "2-Phenylethanol",
@@ -354,7 +374,8 @@
   "bp_est": false,
   "vp_pa": 17.955,
   "vp_disp": "18.0 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "p-Cresyl methyl ether",
@@ -371,7 +392,8 @@
   "bp_est": false,
   "vp_pa": 136.81,
   "vp_disp": "136.8 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "Cinnamaldehyde",
@@ -388,7 +410,8 @@
   "bp_est": false,
   "vp_pa": 3.853006,
   "vp_disp": "3.9 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "p-Anisaldehyde",
@@ -405,7 +428,8 @@
   "bp_est": false,
   "vp_pa": 4.386294,
   "vp_disp": "4.4 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "trans-Anethole",
@@ -422,7 +446,8 @@
   "bp_est": false,
   "vp_pa": 9.2087,
   "vp_disp": "9.2 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "Piperonal (heliotropin)",
@@ -439,7 +464,8 @@
   "bp_est": false,
   "vp_pa": 1.33322,
   "vp_disp": "1.3 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Benzyl acetate",
@@ -456,7 +482,8 @@
   "bp_est": false,
   "vp_pa": 23.597994,
   "vp_disp": "23.6 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Methyl anthranilate",
@@ -473,7 +500,8 @@
   "bp_est": false,
   "vp_pa": 3.613026,
   "vp_disp": "3.6 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Methyl salicylate",
@@ -490,7 +518,8 @@
   "bp_est": false,
   "vp_pa": 15.642,
   "vp_disp": "15.6 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Geraniol",
@@ -507,7 +536,8 @@
   "bp_est": false,
   "vp_pa": 11.332,
   "vp_disp": "11.3 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Nerol",
@@ -524,7 +554,8 @@
   "bp_est": false,
   "vp_pa": 266.644,
   "vp_disp": "266.6 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Rose oxide",
@@ -541,7 +572,8 @@
   "bp_est": false,
   "vp_pa": 101.88,
   "vp_disp": "101.9 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "alpha-Terpineol",
@@ -558,7 +590,8 @@
   "bp_est": false,
   "vp_pa": 5.639521,
   "vp_disp": "5.6 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Citronellol",
@@ -575,7 +608,8 @@
   "bp_est": false,
   "vp_pa": 2.66644,
   "vp_disp": "2.7 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Eugenol",
@@ -592,7 +626,8 @@
   "bp_est": false,
   "vp_pa": 2.946416,
   "vp_disp": "2.9 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Isoeugenol",
@@ -609,7 +644,8 @@
   "bp_est": false,
   "vp_pa": 2.139,
   "vp_disp": "2.1 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "cis-Jasmone",
@@ -626,7 +662,8 @@
   "bp_est": false,
   "vp_pa": 0.88158,
   "vp_disp": "881.6 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Dihydrojasmone",
@@ -643,7 +680,8 @@
   "bp_est": true,
   "vp_pa": 0.044061,
   "vp_disp": "44.1 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Undecavertol",
@@ -660,7 +698,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "name": "Hydroxycitronellal",
@@ -677,7 +716,8 @@
   "bp_est": false,
   "vp_pa": 6.8206,
   "vp_disp": "6.8 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Calone",
@@ -694,7 +734,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "name": "Bourgeonal",
@@ -711,7 +752,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "name": "Cyclamen aldehyde",
@@ -728,7 +770,8 @@
   "bp_est": false,
   "vp_pa": 1.7755,
   "vp_disp": "1.8 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "beta-Damascenone",
@@ -745,7 +788,8 @@
   "bp_est": false,
   "vp_pa": 1.4064,
   "vp_disp": "1.4 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Helional",
@@ -762,7 +806,8 @@
   "bp_est": false,
   "vp_pa": 864.78,
   "vp_disp": "864.8 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "alpha-Ionone",
@@ -779,7 +824,8 @@
   "bp_est": false,
   "vp_pa": 2.533118,
   "vp_disp": "2.5 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "beta-Damascone",
@@ -796,7 +842,8 @@
   "bp_est": false,
   "vp_pa": 15769.0,
   "vp_disp": "15.77 kPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "beta-Ionone",
@@ -813,7 +860,8 @@
   "bp_est": false,
   "vp_pa": 7.199388,
   "vp_disp": "7.2 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "Geranyl acetate",
@@ -830,7 +878,8 @@
   "bp_est": false,
   "vp_pa": 6.3636,
   "vp_disp": "6.4 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Linalyl acetate",
@@ -847,7 +896,8 @@
   "bp_est": false,
   "vp_pa": 14.798742,
   "vp_disp": "14.8 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "alpha-Isomethyl ionone",
@@ -864,7 +914,8 @@
   "bp_est": false,
   "vp_pa": 7.8348,
   "vp_disp": "7.8 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Farnesol",
@@ -881,7 +932,8 @@
   "bp_est": false,
   "vp_pa": 2.4593,
   "vp_disp": "2.5 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Nerolidol",
@@ -898,7 +950,8 @@
   "bp_est": false,
   "vp_pa": 1.3423,
   "vp_disp": "1.3 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Hedione (methyl dihydrojasmonate)",
@@ -915,7 +968,8 @@
   "bp_est": true,
   "vp_pa": 0.0037437,
   "vp_disp": "3.7 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Lindenol",
@@ -949,7 +1003,8 @@
   "bp_est": false,
   "vp_pa": 21.575,
   "vp_disp": "21.6 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Maltol",
@@ -966,7 +1021,8 @@
   "bp_est": false,
   "vp_pa": 0.043463,
   "vp_disp": "43.5 mPa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "Furaneol",
@@ -983,7 +1039,8 @@
   "bp_est": false,
   "vp_pa": 1.066576,
   "vp_disp": "1.1 Pa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "light"
  },
  {
   "name": "Skatole",
@@ -1000,7 +1057,8 @@
   "bp_est": false,
   "vp_pa": 2.1893,
   "vp_disp": "2.2 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "Ethyl maltol",
@@ -1017,7 +1075,8 @@
   "bp_est": false,
   "vp_pa": 0.71421,
   "vp_disp": "714.2 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "Coumarin",
@@ -1034,7 +1093,8 @@
   "bp_est": false,
   "vp_pa": 0.45758,
   "vp_disp": "457.6 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "Dihydrocoumarin",
@@ -1051,7 +1111,8 @@
   "bp_est": false,
   "vp_pa": 1.6175,
   "vp_disp": "1.6 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "light"
  },
  {
   "name": "Vanillin",
@@ -1068,7 +1129,8 @@
   "bp_est": false,
   "vp_pa": 0.015732,
   "vp_disp": "15.7 mPa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "gamma-Nonalactone",
@@ -1085,7 +1147,8 @@
   "bp_est": false,
   "vp_pa": 808.77,
   "vp_disp": "808.8 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Ethyl vanillin",
@@ -1102,7 +1165,8 @@
   "bp_est": false,
   "vp_pa": 0.001387,
   "vp_disp": "1.4 mPa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "medium"
  },
  {
   "name": "delta-Decalactone",
@@ -1119,7 +1183,8 @@
   "bp_est": false,
   "vp_pa": 1.0628,
   "vp_disp": "1.1 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "gamma-Decalactone",
@@ -1136,7 +1201,8 @@
   "bp_est": false,
   "vp_pa": 1.0628,
   "vp_disp": "1.1 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "gamma-Undecalactone",
@@ -1153,7 +1219,8 @@
   "bp_est": false,
   "vp_pa": 0.50258,
   "vp_disp": "502.6 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "medium"
  },
  {
   "name": "Evernyl (Veramoss)",
@@ -1170,7 +1237,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "medium"
  },
  {
   "name": "Cashmeran",
@@ -1187,7 +1255,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Amyl salicylate",
@@ -1204,7 +1273,8 @@
   "bp_est": false,
   "vp_pa": 1.2515,
   "vp_disp": "1.3 Pa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Ebanol",
@@ -1221,7 +1291,8 @@
   "bp_est": false,
   "vp_pa": 0.86121,
   "vp_disp": "861.2 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Sandalore",
@@ -1238,7 +1309,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Benzyl benzoate",
@@ -1255,7 +1327,8 @@
   "bp_est": false,
   "vp_pa": 0.029864,
   "vp_disp": "29.9 mPa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "heavy"
  },
  {
   "name": "Rotundone",
@@ -1272,7 +1345,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Khusimol",
@@ -1289,7 +1363,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Hexyl salicylate",
@@ -1306,7 +1381,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Agarospirol",
@@ -1323,7 +1399,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Cedrol",
@@ -1340,7 +1417,8 @@
   "bp_est": false,
   "vp_pa": 0.8413,
   "vp_disp": "841.3 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Javanol",
@@ -1357,7 +1435,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Patchoulol",
@@ -1374,7 +1453,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Benzyl salicylate",
@@ -1391,7 +1471,8 @@
   "bp_est": false,
   "vp_pa": 0.010399,
   "vp_disp": "10.4 mPa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "heavy"
  },
  {
   "name": "Iso E Super",
@@ -1408,7 +1489,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Ambroxide (Ambroxan)",
@@ -1425,7 +1507,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Cedramber",
@@ -1442,7 +1525,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Habanolide",
@@ -1459,7 +1543,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Muscone",
@@ -1476,7 +1561,8 @@
   "bp_est": false,
   "vp_pa": 0.13782,
   "vp_disp": "137.8 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Exaltolide (pentadecanolide)",
@@ -1493,7 +1579,8 @@
   "bp_est": true,
   "vp_pa": 0.023873,
   "vp_disp": "23.9 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Vertofix (methyl cedryl ketone)",
@@ -1510,7 +1597,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Civetone",
@@ -1527,7 +1615,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Ambrettolide",
@@ -1544,7 +1633,8 @@
   "bp_est": true,
   "vp_pa": 0.038214,
   "vp_disp": "38.2 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Galaxolide (HHCB)",
@@ -1561,7 +1651,8 @@
   "bp_est": true,
   "vp_pa": 0.07266,
   "vp_disp": "72.7 mPa",
-  "vp_src": "exp"
+  "vp_src": "exp",
+  "volatility_band": "heavy"
  },
  {
   "name": "Tonalide (AHTN)",
@@ -1578,7 +1669,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Cedryl acetate",
@@ -1595,7 +1687,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Ethylene brassylate",
@@ -1612,7 +1705,8 @@
   "bp_est": true,
   "vp_pa": 0.0057058,
   "vp_disp": "5.7 mPa",
-  "vp_src": "est"
+  "vp_src": "est",
+  "volatility_band": "heavy"
  },
  {
   "name": "Amber Xtreme",
@@ -1646,7 +1740,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Norlimbanol",
@@ -1663,7 +1758,8 @@
   "bp_est": false,
   "vp_pa": null,
   "vp_disp": "",
-  "vp_src": null
+  "vp_src": null,
+  "volatility_band": "heavy"
  },
  {
   "name": "Santaliff",
