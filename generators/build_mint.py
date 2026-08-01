@@ -42,6 +42,11 @@ for i,r in enumerate(sorted(mintable,key=lambda x:(x["note"]!="top",x["note"]!="
     # volatility_band IS minted: it is a declared convention computed from MW alone
     # (data/VOLATILITY_BAND.md), reproducible by anyone, and asserts nothing about
     # perception. It is NOT a note tier and must not be presented as one.
+    #
+    # The exclusion above is about PROVENANCE, not licensing. Odour descriptors extracted
+    # verbatim from public-domain US patents carry a document ID, char offset and checkable
+    # span, and ARE mintable — as odor_terms + odor_evidence, never by reviving this field.
+    # See ../openscent/reports/phase0-1-pipeline.md §2a. Not available yet; do not wait for it.
     rec={
       "id": i,
       "inchikey": r["inchikey"],
