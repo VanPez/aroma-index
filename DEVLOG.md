@@ -6,6 +6,34 @@ Times are UTC. Commit hashes in parentheses. Newest first.
 
 ---
 
+## 2026-08-01 — `volatility_band` added; interpretive layer removed from the mint
+
+Two connected changes, and one thing caught that would otherwise have gone on-chain.
+
+**The mint still contained `note`, `family` and `descriptors`.** A decision was taken on 07-31 to mint only verifiable fields, then the conversation moved to the tier question and never came back — so the AI-generated descriptors, including for the 37 molecules nothing corroborates, were still staged. Found by Ivan asking "we don't include description or note in the mint, do we?" **We did.** A reminder that a decision isn't done until the code changes.
+
+**`volatility_band` — a declared convention, Ivan's idea and his name for it.** Documented in `data/VOLATILITY_BAND.md`:
+
+```
+light  MW < 150     medium  MW < 200     heavy  otherwise
+```
+
+- Round numbers deliberately. Best-fit thresholds on the curated 99 are 146.14 / 206.33 → 67%; the round convention gives 66%. **The extra 1% isn't worth pretending the numbers were derived.**
+- Applied to **96/99 curated** (3 captives have no MW) and **218/218 sourced**. Any molecule added in future gets one free.
+- It is **not** a note tier. It agrees with the curated `note` on 67%, and the gap cannot be closed, because the information is not in molecular weight: linalool and geraniol are both C10H18O at 154.25 (top vs heart); menthol and citronellol are both C10H20O at 156.27 (top vs heart). The heart notes in both pairs carry a **primary** –OH, exposed and free to hydrogen-bond, so they cling and linger; the top notes carry it on a tertiary or ring carbon where it is crowded and bonds weakly. Real physics — but physics that lives in the shape, not the mass. **The ~33% disagreement is precisely what the curation contributes.**
+
+**New on-token schema** (`build_mint.py`, with the reasoning written into the code so it isn't quietly reverted):
+
+```
+id · inchikey · smiles · name · cid · cas · formula · mw · volatility_band · bp_c · vp_pa_25c
+```
+
+Dropped: `note`, `family`, `descriptors`, and the description prose that embedded family and tier. Every remaining field is from PubChem, computed from the structure, or a published convention — nothing on the token asserts anything about perception. The ERC-721 description now says so outright: *"Volatility band: light (declared convention from molecular weight, not a perceptual note tier)"*, so it can't be misread without the docs.
+
+- Records **277 → 221 B**. Verified 95 records, 0 problems, no interpretive field anywhere, token IDs unmoved.
+- The site keeps everything — all 99 still carry note, family and descriptors, where they are labelled and correctable.
+- **Fingerprint → `c9acea8a001cf4f70064f0682673ae632b01924a0d402dd65a6a83539983b6a5`** (third change). Recompute at mint time; do not trust any written value.
+
 ## 2026-07-31 — BP/VP for the sourced set; vapour-pressure estimator found biased 7.6× and recalibrated
 
 Added boiling point and vapour pressure to the 218 sourced molecules from PubChem's `Experimental Properties`, then discovered a defect in the **existing** data while validating.

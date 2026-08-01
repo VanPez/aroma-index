@@ -39,7 +39,7 @@ aroma-index/
     build_mint.py        builds the mint/ pilot data from rows2.json
     res_css.txt/res_js.txt/res_section.txt  resolver snippets injected by mkhtml2.py
   mint/                mint-ready pilot (see mint/SCHEMA.md) — NOT in git until the mint; see .gitignore
-    mint-records.json    canonical on-chain fields, 95 molecules
+    mint-records.json    canonical on-chain fields, 95 molecules (no note/family/descriptors — see below)
     metadata/0001..0095.json   ERC-721 tokenURI metadata per token
     structures/0001..0095.smi  SMILES structure file per token
     erc721-metadata.json, _stats.json, SCHEMA.md
@@ -78,8 +78,9 @@ folder and the repo are the same tree, with no copy step.
 ## Current status (2026-07-31)
 
 - Site is live at v3; resolver folded into the index page.
-- **Pilot mint staged + audited** (`mint/`): 95 molecules with public structures (4 trade-name captives excluded — no public structure). ~277 B/record. No licence needed — own curation over public-domain PubChem structures.
-- **Pre-mint audit passed (2026-07-31):** all 95 InChIKeys and formulae recompute from their SMILES; no null/empty value in any record, metadata file or attribute; `formula`/`mw` complete 95/95. Pilot fingerprint `2c160f09b51d22844dfed34d7e07aac3019bc59e3dd1623f53fc6e8dfd5cfc42` (sha256 over the 95 `.smi` + metadata pairs in ID order). NB token IDs were renumbered in the audit, and the fingerprint changed again when the vapour-pressure estimator was recalibrated — see DEVLOG. **Recompute it before minting rather than trusting this line.**
+- **Pilot mint staged + audited** (`mint/`): 95 molecules with public structures (4 trade-name captives excluded — no public structure). ~221 B/record. No licence needed — public-domain PubChem structures and computed fields only.
+- **On-token schema** — `id · inchikey · smiles · name · cid · cas · formula · mw · volatility_band · bp_c · vp_pa_25c`. `note`, `family` and `descriptors` are deliberately **not** minted: they are maintainer judgement or AI-generated curation with no traceable provenance, and tokens are immutable. They remain on the site, labelled and correctable. `volatility_band` is a declared MW convention (`data/VOLATILITY_BAND.md`), **not** a note tier.
+- **Pre-mint audit passed (2026-07-31):** all 95 InChIKeys and formulae recompute from their SMILES; no null/empty value in any record, metadata file or attribute; `formula`/`mw` complete 95/95. Pilot fingerprint `c9acea8a001cf4f70064f0682673ae632b01924a0d402dd65a6a83539983b6a5` (sha256 over the 95 `.smi` + metadata pairs in ID order). NB the fingerprint has changed three times (token renumbering, VP recalibration, mint-schema change) — see DEVLOG. **Recompute it before minting rather than trusting this line.**
 - MolNFTs are **standard tradeable ERC-721s** (confirmed by Mike). Path: deploy own MolNFT contract → mint script (with dry-run) → mint. Deploy/sign/mint is Ivan's (with Mike's help); keys stay on Ivan's side.
 - **Waiting on:** Mike's reference MolNFT contract (to base the collection on); Rick Gerkin / Pyrfume re a licence for the Leffingwell scale-up (tradeable tokens + CC-BY-NC clash — expansion needs a commercial-friendly or permissive source).
 - Next: pilot-mint the 95, learn real gas + process, then decide on scale.
