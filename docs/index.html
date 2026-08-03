@@ -3,10 +3,13 @@
  :root{--paper:#f5f7f9;--card:#fff;--ink:#07111d;--mut:#687383;--faint:#718196;--line:#dce4ee;--line-strong:rgba(29,52,78,.3);
    --blue:#245cff;--blue-deep:#1647d9;--blue-pale:#eef3ff;--amber:#9a6a14;--amber-pale:#fdf6e9;
    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-   --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;--shadow:0 18px 50px rgba(28,60,98,.067)}
+   --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;--shadow:0 18px 50px rgba(28,60,98,.067);
+   /* Page width. 1280 was the family default for text pages; this is a wide data table,
+      so it follows the l1-liquidity precedent instead. Change in ONE place. */
+   --page:2200px}
  *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
  .topbar{position:sticky;top:0;z-index:5;min-height:72px;border-bottom:1px solid rgba(7,17,29,.1);background:rgba(255,255,255,.94);backdrop-filter:blur(6px)}
- .topbar-in{max-width:1280px;margin:0 auto;padding:10px 28px;min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+ .topbar-in{max-width:var(--page);margin:0 auto;padding:10px 28px;min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
  .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
  .glyph{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:#fff;border:1px solid var(--line-strong);overflow:hidden}
  .glyph img{width:23px;height:23px} .wordmark b{font-size:16px;font-weight:700;letter-spacing:-.01em;display:block}
@@ -15,11 +18,11 @@
  .nav a:hover{background:rgba(7,17,29,.05);color:var(--ink)} .nav a.active{background:var(--blue);color:#fff}
  .badge{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border:1px solid var(--line-strong);color:var(--mut);background:#fff}
  .badge.proto{color:var(--amber);border-color:rgba(154,106,20,.45);background:var(--amber-pale)}
- .wrap{max-width:1280px;margin:0 auto;padding:0 28px 64px} .hero{margin:26px 0}
+ .wrap{max-width:var(--page);margin:0 auto;padding:0 28px 64px} .hero{margin:26px 0}
  .lab{display:flex;align-items:center;gap:10px;color:var(--mut);font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.14em}
  .dash{width:18px;height:2px;background:var(--blue)} h1{font-size:34px;letter-spacing:-.02em;margin:10px 0 6px;font-weight:700}
  .sub{color:var(--mut);font-size:15px;max-width:82ch}
- .stats{display:grid;grid-template-columns:repeat(3,1fr);margin:22px 0;background:#fff;border:1px solid var(--line-strong);box-shadow:var(--shadow)}
+ .stats{display:grid;grid-template-columns:repeat(4,1fr);margin:22px 0;background:#fff;border:1px solid var(--line-strong);box-shadow:var(--shadow)}
  .stat{padding:15px 18px}.stat+.stat{border-left:1px solid var(--line)}
  .stat .k{color:var(--mut);font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em}
  .stat .v{font-family:var(--mono);font-size:20px;font-weight:500;margin-top:5px}
@@ -34,7 +37,11 @@
  .tier-head{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);flex-wrap:wrap;background:var(--tbg)}
  .pill{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.08em;color:var(--tc);border:1px solid var(--tc);padding:3px 10px;border-radius:999px}
  .tier-meta{color:var(--mut);font-family:var(--mono);font-size:11px} .scroll{overflow-x:auto}
- table{width:100%;border-collapse:collapse;min-width:960px} th,td{text-align:left;padding:9px 18px;font-size:13.5px;vertical-align:top}
+ table{width:100%;border-collapse:collapse;min-width:960px;table-layout:fixed}
+ /* One geometry for all three tier tables. Percentages sum to 100. */
+ col.c-mol{width:19%} col.c-cas{width:9%} col.c-for{width:9%} col.c-mw{width:6%}
+ col.c-bp{width:6%} col.c-vp{width:9%} col.c-fam{width:12%} col.c-desc{width:30%}
+ th{white-space:nowrap} th,td{text-align:left;padding:9px 18px;font-size:13.5px;vertical-align:top}
  th{color:var(--mut);font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.09em;font-weight:500;border-bottom:1px solid var(--line)}
  th:nth-child(4),th:nth-child(5){text-align:right} tbody tr{border-top:1px solid var(--line)} tbody tr:first-child{border-top:0} tbody tr:hover{background:#f5f8fc}
  td.vp{white-space:nowrap;font-size:12.5px} .vpest{color:var(--faint);font-style:italic}
@@ -53,6 +60,7 @@
  .v3d-meta .pc:hover{background:var(--blue-pale)}
  .verify{font-family:var(--mono);font-size:10px;color:var(--amber);background:var(--amber-pale);border:1px solid rgba(154,106,20,.35);padding:1px 6px}
  .foot{color:var(--mut);font-size:12.5px;margin-top:26px;line-height:1.8;border-top:1px solid var(--line);padding-top:16px} .foot a{color:var(--blue);text-decoration:none}
+ @media(max-width:1000px){.stats{grid-template-columns:repeat(2,1fr)}}
  @media(max-width:640px){.stats{grid-template-columns:1fr}.stat+.stat{border-left:0;border-top:1px solid var(--line)}.topbar-in,.wrap{padding-left:16px;padding-right:16px}h1{font-size:26px}.search{position:static;flex-wrap:wrap}}
  .resolver{background:#fff;border:1px solid var(--line-strong);box-shadow:var(--shadow);margin:0 0 24px;overflow:hidden;border-top:3px solid var(--blue)}
  .resolver-head{padding:15px 18px;border-bottom:1px solid var(--line);background:var(--blue-pale);display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap}
@@ -87,13 +95,14 @@
   <span class="badge proto">◐ v3 prototype · 99 molecules · MolNFT resolver</span></div></header>
 <div class="wrap"><div class="hero">
   <div class="lab"><span class="dash"></span> DeSci · MOLNFT domain concept</div>
-  <h1>The common aroma molecules, by volatility</h1>
-  <div class="sub">A curated, open index of widely-used fragrance chemicals — grouped into <b>top</b>, <b>heart</b> and <b>base</b> notes by how fast they evaporate. Smaller/lighter molecules flash off first (top); the largest linger for hours (base). Naturals are represented by their signature molecule (e.g. black pepper → rotundone, vetiver → khusimol). Proposed as a public-good extension of GenesisL1's <b>MOLNFT</b> molecular corpus. Each row shows boiling point and vapor pressure at 25°C — the physical measures of volatility behind the note tiers (they fall as you go down the list). <b>Click any molecule</b> for its interactive 3D structure and public-domain identifiers (PubChem CID · InChIKey · SMILES). The optional <b>MolNFT resolver</b> below can prepare mock IPFS/on-chain links or read an existing token directly from a GenesisL1 EVM JSON-RPC endpoint.</div></div>
+  <h1>The common aroma molecules, by perfumery note</h1>
+  <div class="sub">A curated, open index of widely-used fragrance chemicals, grouped into the perfumer's <b>top</b>, <b>heart</b> and <b>base</b> notes. Those tiers are a <b>hand-curated judgement</b>, not a calculation — see the caveat below. Naturals are represented by their signature molecule (e.g. black pepper → rotundone, vetiver → khusimol). Proposed as a public-good extension of GenesisL1's <b>MOLNFT</b> molecular corpus. Each row shows boiling point and vapor pressure at 25°C, the measured physical quantities. <b>Click any molecule</b> for its interactive 3D structure and public-domain identifiers (PubChem CID · InChIKey · SMILES). The optional <b>MolNFT resolver</b> below can prepare mock IPFS/on-chain links or read an existing token directly from a GenesisL1 EVM JSON-RPC endpoint.</div></div>
   <div class="stats">
     <div class="stat"><div class="k">Molecules (v2)</div><div class="v">99</div></div>
-    <div class="stat"><div class="k">Note tiers</div><div class="v">top · heart · base</div></div>
-    <div class="stat"><div class="k">Avg MW rises with tier</div><div class="v">138 → 169 → 210</div></div></div>
-  <div class="note"><b>The volatility principle, visible in the data:</b> vapor pressure (the <b>VP · 25°C</b> column) falls steeply from top to base notes — median 89 Pa → 6 Pa → 480 mPa — while boiling point and molecular weight climb. Vapor pressure is the true physical driver of the perfumer's pyramid; MW is a convenient proxy for it.</div>
+    <div class="stat"><div class="k">Note tiers · curated</div><div class="v">top · heart · base</div></div>
+    <div class="stat"><div class="k">Avg MW rises with tier</div><div class="v">138 → 169 → 210</div></div>
+    <div class="stat"><div class="k">Computed band agrees</div><div class="v">67%</div></div></div>
+  <div class="note"><b>The gradient is real; the tier is still a judgement.</b> Vapor pressure (the <b>VP · 25°C</b> column) does fall steeply from top to base — median 89 Pa → 6 Pa → 480 mPa — while boiling point and molecular weight climb. But that trend holds <i>in aggregate</i> and does not determine any individual assignment. A purely computed <code>volatility_band</code> (light &lt;150 · medium &lt;200 · heavy, by MW) reproduces the curated tier for only <b>67%</b> of these molecules, and the gap cannot be closed: linalool and geraniol have the same formula and the same mass yet sit in different tiers, because a primary alcohol hydrogen-bonds and lingers where a tertiary one does not. <b>The ~33% where they disagree is what the curation contributes.</b> Method in <a href="https://github.com/VanPez/aroma-index/blob/main/data/VOLATILITY_BAND.md" target="_blank" rel="noopener">VOLATILITY_BAND.md</a>.</div>
   <section class="resolver" id="molnftResolver">
     <div class="resolver-head">
       <div><h2>MolNFT / IPFS structure resolver</h2><p>Read-only prototype. Mock mode produces link shapes only; live mode uses <code>eth_call</code> against a GenesisL1-compatible EVM RPC. No wallet or private key is requested.</p></div>
@@ -141,7 +150,7 @@
   <div class="tier" style="--tc:#0f8f7f;--tbg:rgba(15,143,127,.10)"><div class="tier-head">
     <span class="pill">TOP NOTES</span>
     <span class="tier-meta">19 molecules · MW 88–156 (avg 138) · most volatile — first impression, minutes</span></div>
-    <div class="scroll"><table><thead><tr><th>Molecule</th><th>CAS</th><th>Formula</th><th>MW</th><th title="normal boiling point, °C (PubChem; ~ = estimated)">BP °C</th><th title="vapor pressure at 25°C (experimental where available, else estimated from BP)">VP · 25°C</th><th>Family</th><th>Odor descriptors · source</th></tr></thead>
+    <div class="scroll"><table><colgroup><col class="c-mol"><col class="c-cas"><col class="c-for"><col class="c-mw"><col class="c-bp"><col class="c-vp"><col class="c-fam"><col class="c-desc"></colgroup><thead><tr><th>Molecule</th><th>CAS</th><th>Formula</th><th>MW</th><th title="normal boiling point, °C (PubChem; ~ = estimated)">BP °C</th><th title="vapor pressure at 25°C (experimental where available, else estimated from BP)">VP · 25°C</th><th>Family</th><th>Odor descriptors · source</th></tr></thead>
     <tbody><tr data-s="ethyl acetate 141-78-6 c4h8o2 fruity/solvent fruity, ethereal, glue-like"><td class="nm has3d" data-cid="8857" data-name="Ethyl acetate" data-ikey="XEKOWRVHYACXOJ-UHFFFAOYSA-N" data-smiles="CCOC(=O)C" title="Show 3D structure"><span class="cav">◈</span>Ethyl acetate</td><td class="mono">141-78-6</td>
       <td class="mono">C4H8O2</td><td class="mono num">88.11</td>
       <td class="mono num">77</td><td class="mono vp"><span title="experimental · PubChem">12.43 kPa</span></td>
@@ -220,7 +229,7 @@
       <td>mint</td><td class="desc">peppermint, cooling, fresh</td></tr></tbody></table></div></div><div class="tier" style="--tc:#b0446e;--tbg:rgba(176,68,110,.10)"><div class="tier-head">
     <span class="pill">HEART NOTES</span>
     <span class="tier-meta">37 molecules · MW 117–226 (avg 169) · the core — floral & spice, ~1h</span></div>
-    <div class="scroll"><table><thead><tr><th>Molecule</th><th>CAS</th><th>Formula</th><th>MW</th><th title="normal boiling point, °C (PubChem; ~ = estimated)">BP °C</th><th title="vapor pressure at 25°C (experimental where available, else estimated from BP)">VP · 25°C</th><th>Family</th><th>Odor descriptors · source</th></tr></thead>
+    <div class="scroll"><table><colgroup><col class="c-mol"><col class="c-cas"><col class="c-for"><col class="c-mw"><col class="c-bp"><col class="c-vp"><col class="c-fam"><col class="c-desc"></colgroup><thead><tr><th>Molecule</th><th>CAS</th><th>Formula</th><th>MW</th><th title="normal boiling point, °C (PubChem; ~ = estimated)">BP °C</th><th title="vapor pressure at 25°C (experimental where available, else estimated from BP)">VP · 25°C</th><th>Family</th><th>Odor descriptors · source</th></tr></thead>
     <tbody><tr data-s="indole 120-72-9 c8h7n animalic/floral jasmine, mothball, animalic"><td class="nm has3d" data-cid="798" data-name="Indole" data-ikey="SIKJAQJRHWYJAI-UHFFFAOYSA-N" data-smiles="C1=CC=C2C(=C1)C=CN2" title="Show 3D structure"><span class="cav">◈</span>Indole</td><td class="mono">120-72-9</td>
       <td class="mono">C8H7N</td><td class="mono num">117.15</td>
       <td class="mono num">254</td><td class="mono vp"><span class="vpest" title="estimated from boiling point (Clausius–Clapeyron)">3.8 Pa</span></td>
@@ -371,7 +380,7 @@
       <td>muguet</td><td class="desc">lily of the valley, fresh muguet, watery (verify)</td></tr></tbody></table></div></div><div class="tier" style="--tc:#9a6a14;--tbg:rgba(154,106,20,.10)"><div class="tier-head">
     <span class="pill">BASE NOTES</span>
     <span class="tier-meta">43 molecules · MW 126–305 (avg 210) · least volatile — the drydown, hours</span></div>
-    <div class="scroll"><table><thead><tr><th>Molecule</th><th>CAS</th><th>Formula</th><th>MW</th><th title="normal boiling point, °C (PubChem; ~ = estimated)">BP °C</th><th title="vapor pressure at 25°C (experimental where available, else estimated from BP)">VP · 25°C</th><th>Family</th><th>Odor descriptors · source</th></tr></thead>
+    <div class="scroll"><table><colgroup><col class="c-mol"><col class="c-cas"><col class="c-for"><col class="c-mw"><col class="c-bp"><col class="c-vp"><col class="c-fam"><col class="c-desc"></colgroup><thead><tr><th>Molecule</th><th>CAS</th><th>Formula</th><th>MW</th><th title="normal boiling point, °C (PubChem; ~ = estimated)">BP °C</th><th title="vapor pressure at 25°C (experimental where available, else estimated from BP)">VP · 25°C</th><th>Family</th><th>Odor descriptors · source</th></tr></thead>
     <tbody><tr data-s="maltol 118-71-8 c6h6o3 gourmand caramel, malty, cotton candy"><td class="nm has3d" data-cid="8369" data-name="Maltol" data-ikey="XPCTZQVDEJYUGT-UHFFFAOYSA-N" data-smiles="CC1=C(C(=O)C=CO1)O" title="Show 3D structure"><span class="cav">◈</span>Maltol</td><td class="mono">118-71-8</td>
       <td class="mono">C6H6O3</td><td class="mono num">126.11</td>
       <td class="mono num">93</td><td class="mono vp"><span title="experimental · PubChem">43.5 mPa</span></td>
